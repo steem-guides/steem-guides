@@ -1136,10 +1136,31 @@ Steem 有个让人无比郁闷的毛病：想一目了然地看一个人的所�
 
 除了“三个一”，我用同样的框架，把“华语好声音”的参赛情况也做了个页面，访问地址相同，点击顶部“华语好声音”标签即可。
 
-<<<<<<< HEAD
+
 ## 其他工具
-=======
-## Steem上有用的网站分享---SteemWorld.com [作者：\@ericet]
+
+### 工具汇总站
+
+除了前面三个章节介绍的 \@oflyhigh \@justyy \@dapeng 这几位国人开发的软件外，还有很多外国人开发的有用、有趣、功能强大的辅助工具，数都数不尽。这些工具，一方面可以帮助你在 steem 上玩出更多花样，另一方面也启发我们，以 steem 为基础能开发哪些产品。
+
+这些工具哪里找？我推荐几个去处：
+
+- [steemprojects.com](https://steemprojects.com)。这是 steemit 官方推荐的资源汇总站， 对各种 Steem 应用、网站和工具进行了分类整理和介绍。 
+
+- [steemtools.com](http://steemtools.com)。这是steemit 官方以前推荐的汇总站，后来被 steemprojects 取代。
+
+- [steem 布尔根兰学院](https://steemitburgenlandacademy.wordpress.com/useful-guides-anleitungen/notifications-verstaendigungen/)。这是一群奥地利 steem 用户创办的网站，他们根据自己的使用经验推荐了一些工具。
+
+此外，\@tumutanzi 曾[撰文](https://steemit.com/cn/@tumutanzi/69vabx-steemit)推荐过一些小工具，只是由于时过境迁，其中有些如今有了较大变化，有的已经被更新更好的工具所取代了。
+
+这些工具，有些功能大同小异。我们只需找到几款自己喜欢的，足够日常使用即可。
+
+在此，我简单介绍几款我自己收藏夹里的强大而便捷的工具。虽然这些工具都是英文界面，但只要稍微熟悉之后，即使不懂英文，也不影响正常使用。
+
+
+
+
+### steemworld.com ^[作者：\@ericet, 原文链接：https://steemit.com/@ericet/steem-steemworld]
 Steemit最全面数据的网站：SteemWorld
 
 这个集多种工具以一身的网站，强烈建议收藏！
@@ -1311,28 +1332,6 @@ Account Votes: 账户点赞数据
 
 
 
-
-## 想玩转Steemit? 试试这些有意思的网站和工具[作者：\@tumutanzi；编辑：\@maiyude;]
->>>>>>> fdbaec35a68d0acec8c6bab8e525216c791e49c5
-
-### 工具汇总站
-
-除了前面三个章节介绍的 \@oflyhigh \@justyy \@dapeng 这几位国人开发的软件外，还有很多外国人开发的有用、有趣、功能强大的辅助工具，数都数不尽。这些工具，一方面可以帮助你在 steem 上玩出更多花样，另一方面也启发我们，以 steem 为基础能开发哪些产品。
-
-这些工具哪里找？我推荐几个去处：
-
-- [steemprojects.com](https://steemprojects.com)。这是 steemit 官方推荐的资源汇总站， 对各种 Steem 应用、网站和工具进行了分类整理和介绍。	
-
-- [steemtools.com](http://steemtools.com)。这是steemit 官方以前推荐的汇总站，后来被 steemprojects 取代。
-
-- [steem 布尔根兰学院](https://steemitburgenlandacademy.wordpress.com/useful-guides-anleitungen/notifications-verstaendigungen/)。这是一群奥地利 steem 用户创办的网站，他们根据自己的使用经验推荐了一些工具。
-
-此外，\@tumutanzi 曾[撰文](https://steemit.com/cn/@tumutanzi/69vabx-steemit)推荐过一些小工具，只是由于时过境迁，其中有些如今有了较大变化，有的已经被更新更好的工具所取代了。
-
-这些工具，有些功能大同小异。我们只需找到几款自己喜欢的，足够日常使用即可。
-
-在此，我简单介绍几款我自己收藏夹里的强大而便捷的工具。虽然这些工具都是英文界面，但只要稍微熟悉之后，即使不懂英文，也不影响正常使用。
-
 ### steemd.com
 
 steemd 是个神奇的网站。我们可以把它理解成 steemit 的 X 光透视仪：steemit 网站的大部分网页，只要把地址里的 steemit 换成 steemd，你就会看到这个网页的内部结构，有多少块骨头都数得出来。
@@ -1343,11 +1342,7 @@ steemd 是个神奇的网站。我们可以把它理解成 steemit 的 X 光透�
 
 ![](images/08_19.jpg)
 
-<<<<<<< HEAD
 第二个，是为账号拍的片。就拿我的个人主页来说吧， <https://steemit.com/@dapeng>。把其中的 it 换成 d，即 <https://steemd.com/@dapeng>，那么就给我自己拍了个片。
-=======
-https://steemyy.com/who-has-not-voted-yet/ @justyy 开发的邪恶工具：查看哪些粉丝没有点赞你的文章——我到目前还没用过。
->>>>>>> fdbaec35a68d0acec8c6bab8e525216c791e49c5
 
 ![](images/08_20.jpg)
 
@@ -1401,4 +1396,5 @@ https://mentions.steemdata.com/find?q=steemr
 所以，不要以为你把帖子的内容清空就看不见了。区块链上，覆水难收！
 
 ![](images/08_23.jpg)
+
 
