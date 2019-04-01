@@ -3,6 +3,8 @@ bookdown::gitbook:
   config:
     toc:
       collapse: none
+      download: [pdf, epub]
+      edit: https://github.com/steem-guides/steemh/edit/master/%s
 #      before: |
 #        <li><a href="./">Steem 指南</a></li>
 #      after: |
