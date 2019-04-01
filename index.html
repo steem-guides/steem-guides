@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>第12章 机器人 | Steem Handbook</title>
-  <meta name="description" content="第12章 机器人 | Steem Handbook" />
+  <title>Steem Handbook</title>
+  <meta name="description" content="Steem Handbook" />
   <meta name="generator" content="bookdown  and GitBook 2.6.7" />
 
-  <meta property="og:title" content="第12章 机器人 | Steem Handbook" />
+  <meta property="og:title" content="Steem Handbook" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://bookdown.org/steem-guides/steemh" />
   <meta property="og:image" content="https://bookdown.org/steem-guides/steemhimages/cover.jpg" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="steem-guides/steem-guides" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="第12章 机器人 | Steem Handbook" />
+  <meta name="twitter:title" content="Steem Handbook" />
   
   
   <meta name="twitter:image" content="https://bookdown.org/steem-guides/steemhimages/cover.jpg" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="sjclp.html">
-<link rel="next" href="eckfp.html">
+
+<link rel="next" href="secpre.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -382,94 +382,47 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="jqrp" class="section level1">
-<h1><span class="header-section-number">第12章</span> 机器人</h1>
-<div id="jqrzyxp" class="section level2">
-<h2><span class="header-section-number">12.1</span> 机器人之印象篇 <a href="#fn81" class="footnote-ref" id="fnref81"><sup>81</sup></a></h2>
-<div id="jqrgn" class="section level3">
-<h3><span class="header-section-number">12.1.1</span> 机器人概念</h3>
-<p>从广义上讲，凡是能够代替人类自动执行指定操作从而完成特定功能的，都可以被称为机器人。机器人可以是机械手、iRobot 等实体，也可以是无形的计算机程序。我们将 Steem 上的机器人定义为：“<strong>能够操控 Steem 帐户执行点赞、留言、发帖、操控内部市场等一个或多个功能的计算机程序</strong>”。不难理解， Steem 机器人往往都是与某个特定 Steem 帐户挂钩的。这就是为什么我们经常会听到“某某帐户是机器人”这一说法。事实上，更准确地表达是“某某帐户的行为是由某一个计算机程序来控制的”。这些计算机程序对读者来说是无形的，它依托 Steem 帐户进行物化。除非特殊说明，我们将沿用这一习惯，<strong>将机器人物化为与计算机程序挂钩的 Steem 帐户</strong>。</p>
+<div id="header">
+<h1 class="title">Steem Handbook</h1>
+<p class="author"><em>Steem 中文社区集体创作</em></p>
+<p class="date"><em>2019-04-01</em></p>
 </div>
-<div id="jqrfl" class="section level3">
-<h3><span class="header-section-number">12.1.2</span> 机器人分类</h3>
-<ol style="list-style-type: decimal">
-<li><p>职能机器人</p>
-<p>职能机器人，顾名思义，是指<strong>用来完成指定职能的机器人</strong>。Steem 职能机器人包括但不限于以下几类。</p>
-<ul>
-<li>欢迎机器人</li>
-</ul>
-<p><strong>欢迎机器人是一类通过到处留言，刷存在感的机器人</strong>。这类机器人通常只留言，不点赞。最早的欢迎机器人当属 @wang。无奈 @wang 生不逢时，目前声望值以被踩为负数，暂时告别了大家。</p>
-<ul>
-<li>点赞机器人</li>
-</ul>
-<p><strong>点赞机器人是一类专门执行点赞操作的机器人</strong>。这类机器人都会制定自己的点赞算法，主动给用户点赞。当然，由于每个机器人点赞规则不同，因而点赞力度和范围也不尽相同。与欢迎机器人相同的是，点赞机器人一般也会留言，刷存在感；不同的是，点赞机器人的主要目的是通过点赞，获取<strong>点赞收益</strong>。</p>
-<ul>
-<li>卖赞机器人</li>
-</ul>
-<p><strong>卖赞机器人是一类通过收取一定报酬给用户进行点赞的机器人</strong>。事实上，卖赞机器人是一种特殊的点赞机器人，但是一般不会主动点赞。报酬通常是以 SBD 或 Steem 的形式存在。有的卖赞机器人也会接受用用户的<strong>点赞权限</strong>或者<strong>点赞数量</strong>来交换一定的赞。这类机器人一方面通过直接收取报酬来赢利，另一方面通过点赞获取点赞收益。著名的卖赞机器人有 @randowhale, @upme, 和 @minnowbooster 等。</p>
-<ul>
-<li>借贷机器人</li>
-</ul>
-<p><strong>借贷机器人是一类通过收取一定报酬将自身 SP 代理给用户使用的机器人</strong>。借贷机器人往往自身拥有可观 SP，以有偿使用的方式<strong>代理</strong>给用户使用。与卖赞机器人类似，通常也是以收取 SBD 或 Steem 为报酬进行借贷，只是与卖赞机器人相比，借贷机器人收益的报酬要高很多。主流的借贷机器人有 @blocktrades, @minnowbooster 等。</p>
-<ul>
-<li>发帖机器人</li>
-</ul>
-<p><strong>发帖机器人是一类代替用户进行自动发帖子的机器人</strong>。根据发帖内容是否预置，还可以细分为<strong>定时发帖机器人</strong>和<strong>写作机器人</strong>。前者需要用户提前将帖子写好，由机器人在指定时间发送。而后者要更复杂一些，因为帖子的内容完全由机器人完成。换言之，写作机器人才是真正意义上的发帖机器人，用户完全不必参与。 cn 区就有不少发帖机器人，例如：@pzhao, @chinadaily, @dailychina, @arabel 等。这些都是写作机器人，它们分别从不同的角度为我们提供了 Steemit 的一些统计信息。另一写作机器人 @shentrading 则为我们提供了数字货币交易的信息。</p>
-<ul>
-<li>执法机器人</li>
-</ul>
-<p><strong>执法机器人是一类以踩帖的方式对 Steem 上发布的内容进行监管的机器人</strong>。它们是活跃在 Steem 上的“警察”，对一些违反其规则的帐户以“踩”的形式进行处罚，并对其他帐户起到了警示的作用。知名的执法机器人有 @cheetah， @steemcleaners， @adm 等。</p>
-<ul>
-<li>交易机器人</li>
-</ul>
-<p><strong>交易机器人是一类代替用户操作内部市场的机器人</strong>。除了写作平台，内部市场也有机器人的身影。 cn 区技术前辈 @oflyhigh 就曾经使用过机器人来自动操作内部市场对 Steem 进行买卖。这类机器人若想赢利，算法要比其他职能机器人复杂，因而并不多见。</p>
-<ul>
-<li>优质内容发掘机器人</li>
-</ul>
-<p><strong>优质内容发掘机器人是一类通过幕后团队发现优质内容，并对其点赞的机器人</strong>。本质上讲，优质内容发掘机器人也是一种点赞机器人，只不过幕后有团队发掘优质内容，而不是纯粹为赚取点赞收益而简单粗暴地不区别内容地进行点赞。最著名的优质内容发掘机器人当属 @curie。</p></li>
-<li><p>应用程序式机器人</p>
-<p>应用程序式机器人，其实是一种综合性的功能机器人。这类机器人除了与一个特定 Steem 帐户挂钩，还建有自己的网络应用平台，向用户提供多项服务，例如：自动点赞、自动发帖、尾随点赞、自动留言等。与上述机器人不同，这类机器人是通过获取用户的 <strong>posting key</strong> 来<strong>操作用户帐户</strong> 以代替用户执行点赞等操作。较早出现的有 @steemvoter，功能比较完善的有 @steemauto。</p></li>
-<li><p>全自动和半自动机器人</p>
-<p>通过上述描述我们可以看出，任何 Steemit 帐户都有可能成为机器人，可以通过自己编程，也可以通过使用别人提供的机器人服务。如果某一 Steemit 帐户完全由计算机程序操作，则称为“<strong>全自动机器人</strong>”；否则，则称为“<strong>半自动机器人</strong>”。例如， @cnbuddy 是一个全自动机器人，因为它的点赞操作完全由外部计算机程序执行，没有掺进人情成份；而 @justyy 则是一个半自动机器人，因为一方面 YY 银行通过计算机程序自动给股东点赞与发利息，另一方面银行行长也会手动给优质作品点赞。</p></li>
-<li><p>第三方应用平台点赞机器人</p>
-<p>除了 Steemit，不断涌现出新的基于 Steem 的第三方应用平台，包括 Utopian.io, DTube, DLive, DSound, Zappl等。为鼓励用户使用他们的平台，他们分别推出了自己的点赞机器人，给通过这些平台发布的优质内容进行点赞。目前进行得如火如荼的当属 Utopian.io了。它已经已经在意大利注册了公司，规模在不断壮大，规则在不断完善，堪称第三方应用平台的楷模。</p></li>
-</ol>
-</div>
-<div id="bjxj" class="section level3">
-<h3><span class="header-section-number">12.1.3</span> 本节小结</h3>
-<p>曾几何时，机器人并不受 Steem 平台欢迎，甚至遭到各种抵制。随着机器人性质的转变，有很多机器人越来越受官方及用户喜欢。并且，很多应用平台也推出了自己的机器人。机器人到底好不好，用句老生常谈的话：“存在即合理。”<strong>机器人本身没有任何问题，关键在于我们如何使用它</strong>。真人用户也可能提供垃圾内容，机器人也可以贡献优质内容。希望用户和机器人在 Steem 的平台上可以发挥各自所长，为打造 Steem 美好的明天共同努力！</p>
-</div>
-</div>
-<div id="jqrzyyp" class="section level2">
-<h2><span class="header-section-number">12.2</span> 机器人之应用篇</h2>
-<div id="dxjqrsyzn" class="section level3">
-<h3><span class="header-section-number">12.2.1</span> 典型机器人使用指南</h3>
-</div>
-<div id="cnbot_cnbuddy" class="section level3">
-<h3><span class="header-section-number">12.2.2</span> 机器人之 cn 区专属机器人 cnbuddy 介绍</h3>
-</div>
-</div>
-<div id="jqrzkfp" class="section level2">
-<h2><span class="header-section-number">12.3</span> 机器人之开发篇</h2>
-<div id="python_api" class="section level3">
-<h3><span class="header-section-number">12.3.1</span> Python Steem API 介绍</h3>
-</div>
-<div id="JavaScript_api" class="section level3">
-<h3><span class="header-section-number">12.3.2</span> JavaScript Steem API 介绍</h3>
-</div>
-<div id="upvotebot" class="section level3">
-<h3><span class="header-section-number">12.3.3</span> 点赞机器人开发案例</h3>
-</div>
-<div id="postbot" class="section level3">
-<h3><span class="header-section-number">12.3.4</span> 发贴机器人开发案例</h3>
-
-</div>
-</div>
+<div id="index" class="section level1 unnumbered">
+<h1>前言 <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></h1>
+<p><strong>渊源</strong></p>
+<p>就像很多个婴儿的出生一样，《Steem 指南：基础与开发》的诞生貌似来自一时冲动，其实是酝酿已久的厚积薄发。</p>
+<p>刚来 Steem 的时候，作为新手，我看着旁边的人哗哗赚钱，而自己却一窍不通，于是急切地想了解关于 Steem 的一切。多次搜索之后，目标锁定在了 @jubi 整理的<a href="https://steemit.com/cn/@jubi/cn-steemit-wang">中文教程贴汇总</a> 和 @carinewhy 整理的<a href="https://steemit.com/cn-tutorial/@carinewhy/steemit">中文steemit教學帖合集列表</a>。当然，也许还有发布更早的，也许还有别人也整理过。当时对我而言，这两篇是帮助最大的。为了方便查阅，我在上面两个列表里删繁就简、去粗取精，有了一份属于自己的列表。</p>
+<p>当时是 2017 年 7 月，中文区空前繁荣，写得更好、信息更新的新帖子层出不穷。于是，我在列表里加入了很多新内容，并重新分类，公布在每天的<a href="https://steemit.com/cn/@dapeng/steem-cn-project-hope-2017-09-27">“希望工程”日报</a>里，以便帮助新人答疑解惑。</p>
+<p>没过多久，这个列表被临时大鲸鱼 @tumutanzi 收到了<a href="https://steemit.com/cn/@tumutanzi/5ndvpm-steemit">新人直通帖</a>。后来，又被 @jubi 整理到了 <a href="http://steemit.wang/">steemit 中文导航站</a> 以及我的 steemr 小工具上。</p>
+<p>然而，与此同时，CN 区却发生了几件密码被盗事件。最近的一次是 2018 年 2 月初。于是大家纷纷讨论账号的密码安全问题。而我当时的感觉是，这不是什么新问题，以前肯定有很多贴子讨论过。一看列表，果然。</p>
+<p>一方面有那么多的帖子在讲“Steem 怎么用”，另一方面却总是出现问题，这是为什么？</p>
+<p>我觉得，是缺少一套相对完整的、详细的、准确的教程或指南。以前整理的那些列表不够系统，各个帖子是不同作者单打独斗完成的，顾此失彼、相互矛盾是常有的事儿。这就导致这个列表的宣传力度不够。出了问题，很少有人去这个列表里找答案——即便去找，也不容易找到答案。</p>
+<p>于是，编写一本系统的指南，这个想法就在我脑子里萌生了。</p>
+<p>后面的事情，三言两语就可以说完：2018 年 2 月初，我们迅速搭建了协作平台和发布平台，编写了写作大纲，召集了志愿者，组建了编辑部，制订了写作规范（这一切写入了<a href="https://github.com/pzhaonet/steem-guides/blob/master/shared/outline.md">《Steem 指南》实施纲要</a>）。大家热火朝天地干了起来。</p>
+<p><strong>结构</strong></p>
+<p>《指南》一书分三部分：初级篇，中级篇，高级篇。</p>
+<p><strong>初级篇的关键词是“写作”</strong>，面向的是即将注册和刚刚注册的新用户。</p>
+<p>从浏览 steemit 网站开始，初级篇前两章告诉读者如何注册、登录和发布第一篇帖子，进而介绍一些基本常识，包括 Steem 上的货币、权力、声望、收益、带宽、关注、点赞、拉黑、踩灰、类目、标签、机器人等概念，以及互动、提款、保密等重要操作。第四到第五章，详细讲解了文章的写作方法和工具。</p>
+<p>截至 2018 年 4 月初，“初级篇”基本完工，占 160 页， 6 万字。</p>
+<p><strong>中级篇的关键词是“社交”</strong>，面向的是对 Steem 有进一步需求的用户。</p>
+<p>想尽快融入 Steem 社区的，可以从这里了解如何参加各种活动，如何注意社交里的言行，以及如何使用各种辅助工具和周边网站。</p>
+<p><strong>高级篇的关键词是“开发”</strong>，面向的是不满足于“发帖赚钱”的用户。</p>
+<p>利用 Steem，你可以做见证人，可以研究 Steem 的数据库宝藏，可以开发机器人来代替人工，可以以 Steem 为基础搭建各种网站平台和应用。这些方法和实例在高级篇里有详细介绍。</p>
+<p>除此之外，《指南》一书还包括“专题”和“附录”，来收录一些不易分类却很有价值的文章。</p>
+<p><strong>关于书名</strong></p>
+<p>本书最初起名“Steem 指南”，后来根据朋友们的提议，改为“Steem 基础与开发指南”。再后来，因为想把附录的部分章节单独整理成一本“Steem 指北：人物与八卦”，为了与之对应，本书改名为“Steem 指南：基础与开发”。</p>
+<p>本书的英文名称最初是 <strong>Steem Guides</strong>，书的协作平台在 GitHub 上也是以这个命名的。很多朋友认为 guide 在这里应该用单数（所以本书的 logo 里用的是 <strong>Steem Guide</strong>）。我用复数的原因，就是因为当时我正在看一个名为 <a href="https://guides.github.com/">GitHub Guides</a>的网站。后来，编辑部讨论，认为叫 <strong>Steem Handbook</strong> 更好，这基本上就是确定的英文名。</p>
+<p><strong>阅读建议</strong></p>
+<p>新用户可以先阅读第一章，对 Steem 有个基本概念后，就可以放下本书，去 steemit.com 发帖了。发帖时遇到任何问题或疑惑，再来本书找答案。然后边实践边阅读，这样收获最大，效率最高。</p>
+<p>老用户可以扫一眼目录，摘取需要的章节阅读。书稿的在线网页版左侧有文档结构图，点击直达相关章节；顶部有搜索框，可以用来搜索需要的关键词。</p>
+<p>本书所有章节都来源于发布在 steem 上的帖子。帖子的原始出处见章节标题的脚注（点击标题后面的上标数字即可）。在原始帖子里，你可以看到别人的留言，也可以留言跟作者互动。</p>
+<p>如果在阅读中发现任何问题，包括内容的缺失、错别字、信息过时等，欢迎以任何形式跟我们联系。我们推荐方法是直接向我们的 github 项目提交PR，详见<a href="http://steemh.org/how-to-get-involved.html">书稿附录</a>。</p>
+<p>本书的编写和维护需要长久的贡献，大门永远向任何志愿者敞开。欢迎加入我们，一起把这本书做得更有价值。</p>
 </div>
 <div class="footnotes">
 <hr />
-<ol start="81">
-<li id="fn81"><p>作者：@wangwenjing；编辑：@dapeng<a href="jqrp.html#fnref81" class="footnote-back">↩</a></p></li>
+<ol start="1">
+<li id="fn1"><p>作者：@dapeng，原文链接：<a href="https://steemit.com/cn/@dapeng/steem-handbook-preface" class="uri">https://steemit.com/cn/@dapeng/steem-handbook-preface</a><a href="index.html#fnref1" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
             </section>
@@ -477,8 +430,8 @@
           </div>
         </div>
       </div>
-<a href="sjclp.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="eckfp.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+
+<a href="secpre.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
