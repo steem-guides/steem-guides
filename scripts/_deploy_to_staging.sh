@@ -4,10 +4,7 @@ set -e
 
 [ -z "${GITHUB_PAT}" ] && exit 0
 [ "${TRAVIS_BRANCH}" != "master" ] && exit 0
-
-echo ${TRAVIS_PULL_REQUEST}
-
-[ "${TRAVIS_PULL_REQUEST}" = false] && exit 0
+[ "${TRAVIS_PULL_REQUEST}" = false ] && exit 0
 
 git config --global user.email "steem.guides@gmail.com"
 git config --global user.name "Steem Guides Team"
