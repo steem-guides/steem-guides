@@ -9,8 +9,8 @@ cache: packages
 script:
   - bash scripts/_build.sh
 
-#after_success:
-#  - bash scripts/_deploy_to_staging.sh
+after_success:
+  - bash scripts/_deploy_to_staging.sh
 
 branches:
   only:
