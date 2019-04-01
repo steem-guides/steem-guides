@@ -5,6 +5,10 @@ _r/
 _storage/
 _book/
 
+# Temporary Files
+*.log
+steemh.tex
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
