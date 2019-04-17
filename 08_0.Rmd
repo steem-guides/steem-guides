@@ -1398,7 +1398,7 @@ https://mentions.steemdata.com/find?q=steemr
 ![](images/08_23.jpg)
 
 
-### Steem Keychain ^[作者：\@ericet，原文链接：https://steemit.com/cn/@ericet/steemkeychain-7n2z3fu72e，创作时间：2019年4月16日] {#tool-steem-keychain}
+### Steem Keychain ^[作者：\@ericet，创作时间：2019年4月16日，原文链接：https://steemit.com/cn/@ericet/steemkeychain-7n2z3fu72e] {#tool-steem-keychain}
 
 本节为Steem Keychain的简介和操作指南
 
