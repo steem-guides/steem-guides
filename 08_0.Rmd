@@ -1402,7 +1402,7 @@ https://mentions.steemdata.com/find?q=steemr
 
 本节为Steem Keychain的简介和操作指南
 
-#### Steem上的登录方式有3种：
+**Steem上的登录方式有3种：**
 
 *   直接输入密码登录，比如登录steemit.com
 *   通过第三方应用steemconnect授权登录,比如登录busy.org,partiko,tasteem,dclick 等DApps
@@ -1418,7 +1418,7 @@ https://mentions.steemdata.com/find?q=steemr
 
 Steem Keychain是基于Chrome/Brave/Safari的插件，他会把你的帐号密码加密，只在你需要的时候给你需要的数据。
 
-#### 目前支持Steem Keychain登入的DApps有：
+**目前支持Steem Keychain登入的DApps有：** 
 
 *   steemmonsters
 *   steempeak.com
@@ -1434,19 +1434,19 @@ Steem Keychain是基于Chrome/Brave/Safari的插件，他会把你的帐号密�
 *   Token BB
 *   等等
 
-#### Steem Keychain未来计划：
+**Steem Keychain未来计划：**
 
 *   支持 Safari, Opera, 和 Microsoft Edge 浏览器
 *   支持通过Steem Ninja和blacktrades创建新号
 *   支持通过插件Claim accounts和创建新号
 
-#### 为什么要Steem Keychain？
+**为什么要Steem Keychain？**
 
 *   首先他安全，不会把你的密码交给第三方托管
 *   其次就是steemconnect将要收费了，使用steemconnect的api发帖/回复的将收取2.5%
 *   功能强大，可以转账，代理SP，投票给见证人，power up/down, 查看/转账Steem-engine上的代币等等，他就是一个百宝箱。
 
-#### 怎么安装Steem Keychain？
+**怎么安装Steem Keychain？**
 
 *   安装keychain插件。目前支持Steem Keychain插件的浏览器有：
 
@@ -1461,7 +1461,7 @@ Steem Keychain是基于Chrome/Brave/Safari的插件，他会把你的帐号密�
 
 *   添加好帐号和发帖密钥（用于登录dapp)后，就可以用Steem Keychain登入DApps了。
 
-#### 怎么用Steem Keychain登录Dapp?
+**怎么用Steem Keychain登录Dapp?**
 
 *   前往支持Steem Keychain的网站，比如：www.steempeak.com
 *   点击右上角的 ”Login“
@@ -1469,7 +1469,7 @@ Steem Keychain是基于Chrome/Brave/Safari的插件，他会把你的帐号密�
 
 *   会提示是否授权登录，点击确定就登录成功
 
-#### Steem Keychain的其他功能（需要添加发帖密钥）
+**Steem Keychain的其他功能（需要添加发帖密钥）**
 
 *   Steem Keychain除了登入功能，还可以直接通过插件转账：
 
