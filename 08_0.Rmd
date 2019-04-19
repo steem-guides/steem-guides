@@ -1160,7 +1160,7 @@ Steem 有个让人无比郁闷的毛病：想一目了然地看一个人的所�
 
 
 
-### steemworld.com ^[作者：\@ericet, 原文链接：https://steemit.com/@ericet/steem-steemworld]
+### steemworld.com ^[作者：\@ericet, 原文链接：https://steemit.com/@ericet/steem-steemworld] {#tool-steemworld}
 Steemit最全面数据的网站：SteemWorld
 
 这个集多种工具以一身的网站，强烈建议收藏！
@@ -1332,7 +1332,7 @@ Account Votes: 账户点赞数据
 
 
 
-### steemd.com
+### steemd.com ^[作者：\@dapeng] {#tool-steemd}
 
 steemd 是个神奇的网站。我们可以把它理解成 steemit 的 X 光透视仪：steemit 网站的大部分网页，只要把地址里的 steemit 换成 steemd，你就会看到这个网页的内部结构，有多少块骨头都数得出来。
 
@@ -1363,7 +1363,7 @@ steemd 是个神奇的网站。我们可以把它理解成 steemit 的 X 光透�
 
 谢谢 steemd 的作者 \@roadscape！
 
-### steemdata.com ^[steemdata 已于2018年5月1日关闭服务。]
+### steemdata.com ^[steemdata 已于2018年5月1日关闭服务。] {#tool-steem-data}
 
 steemdata 本身是个数据库，我们将在本书的高级篇里详细介绍这个数据库的用法。由于免费，很多应用都是以这个数据库为基础的。其作者 \@furion 就开发出了有用有趣的工具。
 
@@ -1398,3 +1398,115 @@ https://mentions.steemdata.com/find?q=steemr
 ![](images/08_23.jpg)
 
 
+### Steem Keychain ^[作者：\@ericet，创作时间：2019年4月16日，原文链接：https://steemit.com/cn/@ericet/steemkeychain-7n2z3fu72e] {#tool-steem-keychain}
+
+本节为Steem Keychain的简介和操作指南
+
+**Steem上的登录方式有3种：**
+
+*   直接输入密码登录，比如登录steemit.com
+*   通过第三方应用steemconnect授权登录,比如登录busy.org,partiko,tasteem,dclick 等DApps
+*   通过浏览器插件Steem Keychain登录
+
+直接输入密码登录的方式简单粗暴，但是这种登录方式的缺点是，如果你不小心登录一个钓鱼网站，页面和steemit一模一样，你的密码就会被记录下来。 
+
+通过第三方应用steemconnect授权登录解决了第一种登录的问题。steemconnect在这里的作用是作为可靠的第三方，保证用户的帐号密码不会直接交给DApps。 
+
+但是也有缺点，就是如果steemconnect被黑了，大家通过steemconnect授权登入的帐号密码将会被盗走。而且在未来，steemconnect将收取一点费用。 
+
+所以第三种登录方式出现了，这就是Steem Keychain 如果你知道ETH的MetaMask 或者EOS的Scatter，理解Steem Keychain也就容易多了。 
+
+Steem Keychain是基于Chrome/Brave/Safari的插件，他会把你的帐号密码加密，只在你需要的时候给你需要的数据。
+
+**目前支持Steem Keychain登入的DApps有：** 
+
+*   steemmonsters
+*   steempeak.com
+*   dtube
+*   magic-dice
+*   epicdice
+*   steemworld.org
+*   steem-engine.com
+*   Steeve
+*   drugwars
+*   smartsteem
+*   minnowbooster
+*   Token BB
+*   等等
+
+**Steem Keychain未来计划：**
+
+*   支持 Safari, Opera, 和 Microsoft Edge 浏览器
+*   支持通过Steem Ninja和blacktrades创建新号
+*   支持通过插件Claim accounts和创建新号
+
+**为什么要Steem Keychain？**
+
+*   首先他安全，不会把你的密码交给第三方托管
+*   其次就是steemconnect将要收费了，使用steemconnect的api发帖/回复的将收取2.5%
+*   功能强大，可以转账，代理SP，投票给见证人，power up/down, 查看/转账Steem-engine上的代币等等，他就是一个百宝箱。
+
+**怎么安装Steem Keychain？**
+
+*   安装keychain插件。目前支持Steem Keychain插件的浏览器有：
+
+1.  Chrome： 插件链接：https://chrome.google.com/webstore/detail/steem-keychain/lkcjlnjfpbikmcmbachjpdbijejflpcm ，点击就可以安装
+2.  Brave： 复制上面chrome版本插件的链接到Brave上就可以安装。
+3.  Firefox： 插件链接 https://addons.mozilla.org/en-US/firefox/addon/steem-keychain/
+
+*   安装成功后，点击Steem Keychain插件，会要求你输入密码。（不是你Steem帐号的密码，而是你要解锁Steem Keychain的密码）
+*   设置好密码后，会出现下面这样的页面。输入你的Steem帐号，和私密密码（可以是发帖密钥或者活动密钥，为了安全，不要用万能密钥）
+
+![](https://steemitimages.com/0x0/http://ericet.vornix.blog/wp-content/uploads/2019/02/keychain2.jpg)  
+
+*   添加好帐号和发帖密钥（用于登录dapp)后，就可以用Steem Keychain登入DApps了。
+
+**怎么用Steem Keychain登录Dapp?**
+
+*   前往支持Steem Keychain的网站，比如：www.steempeak.com
+*   点击右上角的 ”Login“
+*   按照提示输入用户名，然后点击 “Login” ![](https://tecirechen.000webhostapp.com/wp-content/uploads/2019/04/1-2.png)  
+
+*   会提示是否授权登录，点击确定就登录成功
+
+**Steem Keychain的其他功能（需要添加发帖密钥）**
+
+*   Steem Keychain除了登入功能，还可以直接通过插件转账：
+
+![](https://steemitimages.com/0x0/http://ericet.vornix.blog/wp-content/uploads/2019/02/keychain4.jpg)  
+
+*   查看转账记录：
+
+![](https://steemitimages.com/0x0/http://ericet.vornix.blog/wp-content/uploads/2019/02/keychain5.jpg)  
+
+*   SP代理：
+
+![](https://steemitimages.com/0x0/http://ericet.vornix.blog/wp-content/uploads/2019/02/keychain6.jpg)  
+
+*   Power Up：
+
+![](https://steemitimages.com/0x0/http://ericet.vornix.blog/wp-content/uploads/2019/02/keychain7.jpg)  
+
+*   给见证人投票：
+
+![](https://steemitimages.com/0x0/http://ericet.vornix.blog/wp-content/uploads/2019/02/keychain8.jpg)  
+
+*   直接通过Steem Keychain领取奖励 ![](https://tecirechen.000webhostapp.com/wp-content/uploads/2019/04/2-1.png)  
+
+*   查看自己在Steem-engine上的代币
+
+![](https://tecirechen.000webhostapp.com/wp-content/uploads/2019/04/3.png)  
+
+*   直接通过keychain查看代币进账转账记录
+
+![](https://tecirechen.000webhostapp.com/wp-content/uploads/2019/04/4-1.png)  
+
+*   转发代币
+
+![](https://tecirechen.000webhostapp.com/wp-content/uploads/2019/04/5-1.png)  
+
+还有很多小功能～ 简直就是瑞士军刀！集登入和钱包以一身
+
+如果你经常玩转steem-engine, keychain是必不可少的一个工具
+
+但是Steem keychain也有自身的缺点，比如，不支持手机，所以要在手机上使用keychain可能要一阵子了
