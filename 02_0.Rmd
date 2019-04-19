@@ -1057,5 +1057,45 @@ Enjoy it!
 
 3、几个朋友共享梯子倒还好，但不推荐以此为生。之前在推特上看到，某梯子商家被判刑了。我认识的几个卖梯子的“个体户”现在不是停止服务，就是低调的一塌糊涂。  
 
+## 如何参与dapeng《Steemit 教程》Github多人写作 ^[作者：\@evathinking，编辑：\@robertyan，原文链接：https://steemit.com/github/@evathinking/github]
 
+第一步：注册github用户，不写了
+
+第二步：导入写书的项目
+ 
+   （这一步不要问我怎么建仓库，注册完第一步，你就可以建立仓库，然后把git地址告诉别人，别人就可以pull下来，和本教程一样）
+
+![1.png](https://steemitimages.com/DQmR1m3MjYa65AknFfZUPRMi7FNsTzE8Tkx6PQ6FcgjY9GZ/1.png)
+
+填写dapeng的git项目地址
+
+![2.png](https://steemitimages.com/DQmStFjW7PJHdz1MdHGmcT1C55yTxHeakxMdJx8CbGtFUbL/2.png)
+
+导入好后就是这样
+
+![3.png](https://steemitimages.com/DQmfGckUJw5xJM9pTcHPYSBq9SzCyWAmVPrrJwei7WGV3v5/3.png)
+
+第三步：编辑你的内容
+
+![4.png](https://steemitimages.com/DQmZrLGQt39MKQMT98TdNFEpa9FEs76E59NqSHDhqENxKeW/4.png)
+
+编辑的样子：
+
+![5.png](https://steemitimages.com/DQmXasdPhUDAW9L2yWDc6LfcgWYwGY8PTmyodwmgVdedCUH/5.png)
+
+也可以添加文档
+
+![8.png](https://steemitimages.com/DQma2TLo4zBkFsWaP8JRz8sdJaYXc4XzU8kqvqK1YwJYdfi/8.png)
+
+第四步：提交
+
+这个页面拖到最下面，写好变更原因后提交
+
+![6.png](https://steemitimages.com/DQmZ8BU3He7CEA9DbqncSBJbMe2iHquvQfkPFNfqAFYAECu/6.png)
+
+第五步：查看提交，进入到写书项目发起人的仓库，就可以看到提交的内容了，是不是很简单
+
+![7.png](https://steemitimages.com/DQmSU4fNFPQMC2HWF6P3KFczr3WYEjPjHg63xSGgiUu215t/7.png)
+
+请随时查看页面顶部，是在哪一个人的仓库下面
 
