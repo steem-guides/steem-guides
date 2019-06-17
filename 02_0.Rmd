@@ -121,9 +121,10 @@ _参考了\@willburn的提问及\@maiyude的回答（链接：_[_https://steemit
 
 我们可以代理给\@cnbuddy, \@team-cn, \@justyy。
 
-解释了代理SP的用处及好处。下一节，我们继续来看如何代理SP。
+解释了代理SP的用处及好处。接下来，我们来看如何代理SP。
 
-### 如何代理SP ^[作者：\@maiyude；校对：\@meixia；更新：\@miniu；原文链接：https://steemit.com/cn/@maiyude/sp-steem-power；内容更新：https://steemit.com/cn/@miniu/steem231sp-cnbywwmtop] {#how-to-delegate-SP}
+
+### 如何代理SP？ ^[作者：\@maiyude；校对：\@meixia；更新：\@miniu；原文链接：https://steemit.com/cn/@maiyude/sp-steem-power；内容更新：https://steemit.com/cn/@miniu/steem231sp-cnbywwmtop] {#how-to-delegate-SP}
 
 如何操作才能代理SP给别人呢？
 
@@ -226,7 +227,7 @@ _图四_
 ![](images/03-power_up08.png)
 
 
-### 如何租借SP ^[作者：\@minloulou：原文链接：https://busy.org/@minloulou/sp3sp2-ogzvhsoiey] {#lease-sp}
+### 如何租借SP？ ^[作者：\@minloulou：原文链接：https://busy.org/@minloulou/sp3sp2-ogzvhsoiey] {#lease-sp}
 
 對於剛剛來到的新人, 經常會有不夠RCs(能量)的煩惱. RCs是日常活動的體力值, 在HF20的更新後, 如果你的SP低於50的話, 每日只能有限制地活動, 十分沒趣. 但是如果要找人代理的話也不一定可以找到足夠的數量. 所以新人在收到你的第一個STEEM/SBD後, 建議你去以下2個地方租用SP以維持在STEEM上的活動~
 
