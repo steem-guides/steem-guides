@@ -104,7 +104,7 @@ _图一_
 
 其次是代理给\@cnbuddy，代理给\@cnbuddy之后，可以获得机器人给予的相当于你代理SP的好几倍的点赞。这会比你自己的点赞更加有效率并且不消耗你的Voting Power，这可以有效的提高你的收益和增快你的升级速度。如果你是一个勤于写文章的人，代理SP给\@cnbuddy是一个非常好的选项。
 
-### 在这里，我们举一个例子来算算看代理50 SP给\@cnbuddy能收到多大的赞：
+在这里，我们举一个例子来算算看代理50 SP给\@cnbuddy能收到多大的赞：
 
 _参考了\@willburn的提问及\@maiyude的回答（链接：_[_https://steemit.com/cn/@maiyude/sp-steem-power_](https://steemit.com/cn/@maiyude/sp-steem-power)_）_
 
@@ -123,7 +123,7 @@ _参考了\@willburn的提问及\@maiyude的回答（链接：_[_https://steemit
 
 解释了代理SP的用处及好处，接下来，要分享关于：
 
-### 如何操作才能代理SP给别人
+**如何操作才能代理SP给别人**
 
 我们这里就以代理SP给点赞机器人\@cnbuddy为例说明。 要想代理SP给别人，需要使用\@justyy开发的小工具，(**[点击这里可以跳转](https://steemyy.com/delegate-form/)**)
 
