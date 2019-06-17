@@ -15,7 +15,7 @@ include_image <- function(img_url, img_dir = 'images') {
   file_name <- basename(img_url)
   img_local <- file.path(img_dir, file_name)
   ifelse(!dir.exists(img_dir), dir.create(img_dir), FALSE)
-  
+
   while(file.exists(img_local)) {
     print (img_local)
     name = paste(file_path_sans_ext(img_local), "1", sep="_")
@@ -30,7 +30,7 @@ include_image <- function(img_url, img_dir = 'images') {
     magick::image_write(magick::image_convert(giffile, format = 'png'), img_new)
     img_local <- img_new
   }
-  
+
   img_local
 }
 
@@ -50,11 +50,12 @@ update_image_urls <- function(img_dir = 'images') {
     # to skip the case that the image url is in a MD code block
     if (f != "04_0.Rmd" && f != "steemh.Rmd" ) {
       # read ![.*](image url) or <img ... src="image url" ... />
-      img_url_regex <- "(https?:\\/\\/.*\\.(?:png|jpe?g|gif|svg))"
+      img_url_regex = "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)\\.(jpg|jpeg|png|gif|svg)"
+      # img_url_regex <- "(https?:\\/\\/.*\\.(?:png|jpe?g|gif|svg))"
       img_block_regex <- paste("!\\[.*\\]\\(", img_url_regex, "\\)", sep="")
       img_tags_regex <- paste("<img[^>]+src=\"", img_url_regex, "\"", sep="")
       img_regex <- paste(img_block_regex, img_tags_regex, sep="|")
-      
+
       md <- readLines(f)
       img_statements <- str_extract_all(md, regex(img_regex, ignore_case = TRUE))
       img_urls <- str_extract_all(img_statements, regex(img_url_regex, ignore_case = TRUE))
@@ -74,7 +75,7 @@ update_image_urls <- function(img_dir = 'images') {
           has_modified = TRUE
         }
       }
-      
+
       # write back the modified RMarkdown text
       if (has_modified) {
         writeLines(md, f)
