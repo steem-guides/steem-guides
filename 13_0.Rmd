@@ -1,7 +1,7 @@
 # 二次开发 {#eckfp}
 ## 基于 steem 搭建社交网站 {#jw_steem_djsjwz}
 ## 基于 steem 搭建数据统计网站 {#jw_steem_djsjtjwz}
-## 基于 steem 搭建个人博客 ^[作者：\@dapeng，原文链接：https://steemit.com/steemdev/@dapeng/build-a-mirror-backup-site-for-your-own-steem-posts-in-30-minutes-or-30-steem]
+## 基于 steem 搭建个人博客 ^[作者：\@dapeng，原文链接：https://steemit.com/steemdev/@dapeng/build-a-mirror-backup-site-for-your-own-steem-posts-in-30-minutes-or-30-steem] {#jw_steem_djgrbk}
 
 昨天，我为自己在 steem 上发布的帖子制作了两个镜像网站（[镜像1](https://dapeng.netlify.com/)，[镜像2](https://steemit.netlify.com/)）。每天定时跟 steem 同步更新，作为备份用。
 
@@ -66,7 +66,7 @@ Netlify 提供免费的二级域名。当然，你也可以买个域名来绑定
 
 
 
-## 延伸阅读：打开脑洞，我们还能做什么 
+## 延伸阅读：打开脑洞，我们还能做什么 {#jw_steem_hnzsm}
 
 ### steemstock——一个伟大的保护版权的区块链图片销售网站 ^[作者：\@maiyude]
 
