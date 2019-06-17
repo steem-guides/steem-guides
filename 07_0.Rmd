@@ -282,7 +282,7 @@ Wikipedia的英文版定义如下
 
 ## 健康心态 {#jkxt}
 
-### 如何克服steemit成瘾现象 ^[作者：\@vickylin]
+### 如何克服steemit成瘾现象 ^[作者：\@vickylin] {#addiction}
 
 写这篇文章的时候，我对着跳动的光标，发呆了很久。是的，我今天要讲steemit成瘾这个问题。
 
