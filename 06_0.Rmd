@@ -1,6 +1,6 @@
-# (PART) 中级篇 {#zjp .unnumbered} 
+# (PART) 中级篇 {#zjp .unnumbered}
 
-# 融入社区 ^[作者：\@wilhb81]
+# 融入社区 {#rrsq}
 Steemit是一个充满无限可能性的平台。小智是这篇文章的主角，也是他推荐其好友 - 小雅参与Steemit的。
 
 虽然小雅基本已经脱离新手期，但是Steemit是个多元化的社区，她得想办法尽快融入这个社区，与伙伴们打成一片。
@@ -15,7 +15,7 @@ Steem上的社交 （这里将会列出在Steem上如何有效与来自世界各
 - 3.Steem跟其他社交网站有何不同 （将Steem和其他现有的社交平台做比较，解释他的与众不同之处）
 希望小雅能够体会到，小智的用心良苦，把这个《如何完美融入steemit社区》的教程，从头到尾给细读一遍。
 
-## steemit是一个用思想来社交的平台^[作者：\@tvb;编辑:\@maiyude;]
+## steemit是一个用思想来社交的平台 ^[作者：\@tvb; 编辑：\@maiyude;] {#idea-social}
 
 steemit是文学平台？想法平台？社交平台？
 steemit是一个用思想来社交的平台——你以为是你的面孔或身体在社交吗？
@@ -167,7 +167,7 @@ steemit是社交平台吗？
 只有我们深刻的思考，写在我们的文章里。同时也深刻的去体会其他的作者。才能让我们获得更大的成功和满足感。
 只有思想，才能让steemit更放异彩，在区块链中获得更广阔的发展空间。
 
-## steem 上的社交 ^[作者：\@wilhb81]
+## steem 上的社交 ^[作者：\@wilhb81] {#social}
 本章的主人公 - 小智是Steem中期的成员。他在2017年3月8日加入Steem的大家庭（嗯，那天也是三八妇女节，对小智来讲印象也比较深刻）
 
 中期的Steem平台，已经比早期来的更为完善与有系统化，但是有很多方面，还是需要靠自己去摸索。
@@ -231,7 +231,7 @@ Payout自然吸引，不過，平常心更重要，不要只為賺Steem而寫一
 （注释：文中“steem”是指steem区块链，steemit则是指steemit社区）
 
 
-## steem 上的活动 ^[作者：\@wilburm 原文链接：https://steemit.com/steem-guides/@wilburm/367we2-steem]
+## steem 上的活动 ^[作者：\@wilburm 原文链接：https://steemit.com/steem-guides/@wilburm/367we2-steem] {#activities}
 
 相信不少人加入 Steemit 的原因，都是被“写写文字就能赚钱”这个噱头给吸引，就像中文官网欢迎页面上所宣传的那样——你的思想是有价值的，快来加入一个给文章付钱的社区。除此之外，Steemit 网站基于 Steem 区块链的去中心化属性，可能也是另一个值得叫嚣的“卖点”。在当下很多人大谈特谈所谓“去中心化”，以及未来区块链科技大势所趋的前提下，Steemit 似乎给了人们一个错觉——普通人在这里也能靠码字赚钱，像很多内容平台上的大 V 一样。
 
@@ -439,7 +439,7 @@ Payout自然吸引，不過，平常心更重要，不要只為賺Steem而寫一
 
 将近五个月写下来，无病呻吟的文字倒是积了一堆，可都没什么营养。一直到过年那段时间，报名参加大鹏哥 、@dapeng 发起的《Steem 指南》一书的编写，才算是第一次写多少会对新人有些用处的文字。强迫症一直拖延了一个多月才开始敲起键盘，到今天硬着头皮算是草草完工。由于能力有限，简陋在所难免，多少算得上个人对中文区一点贡献。期待各位前来补充，一起查漏补缺。
 
-## “月旦评”投稿禁忌 ^[作者：\@dapeng，原文链接：https://steemit.com/cn/@dapeng/or-one-month-as-a-monthly-review-s-reviewer]
+## “月旦评”投稿禁忌 ^[作者：\@dapeng，原文链接：https://steemit.com/cn/@dapeng/or-one-month-as-a-monthly-review-s-reviewer] {#cn-reader}
 
 
 **禁忌之一：空档期投稿。**
@@ -502,7 +502,7 @@ Payout自然吸引，不過，平常心更重要，不要只為賺Steem而寫一
 
 因为 steem 的本质，是个社交平台。我们要交往的，是你这个人啊。
 
-## 延伸阅读：steem 跟其他社交网站有何不同 ^[作者：\@maiyude]
+## 延伸阅读：steem 跟其他社交网站有何不同 ^[作者：\@maiyude] {#comparison-social}
 
 说起steem 跟其他社交网站有何不同，我们需要先了解一个概念，什么是steem？
 
@@ -534,7 +534,7 @@ steem有多大有多全呢？现在我们最常使用的steemit，是建立在st
 
 再来看看币乎，steem区块链上的一个应用steemit社区中的一个标签就可以实现币乎的所有功能。对比之下，币乎的格局确实是小。
 
-## 延伸阅读：“月旦评”给 steem 的启发和教训 ^[作者：\@dapeng，原文链接：https://steemit.com/cn/@dapeng/steem-or]
+## 延伸阅读：“月旦评”给 steem 的启发和教训 ^[作者：\@dapeng，原文链接：https://steemit.com/cn/@dapeng/steem-or] {#cn-reader-lesson}
 
 1
 

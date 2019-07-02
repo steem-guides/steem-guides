@@ -5,6 +5,11 @@ _r/
 _storage/
 _book/
 
+# Temporary Files
+*.log
+steemh.tex
+steemh.Rmd
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -52,3 +57,4 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+.Rproj.user
