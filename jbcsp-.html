@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>第2章 基本常识 | Steem Handbook</title>
   <meta name="description" content="第2章 基本常识 | Steem Handbook" />
-  <meta name="generator" content="bookdown 0.11.1 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.11.2 and GitBook 2.6.7" />
 
   <meta property="og:title" content="第2章 基本常识 | Steem Handbook" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Steem 中文社区集体创作" />
 
 
-<meta name="date" content="2019-06-17" />
+<meta name="date" content="2019-07-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -104,7 +104,8 @@
 <li class="chapter" data-level="2.2.3" data-path="jbcsp-.html"><a href="jbcsp-.html#spsteem-power"><i class="fa fa-check"></i><b>2.2.3</b> SP(Steem Power)</a></li>
 <li class="chapter" data-level="2.2.4" data-path="jbcsp-.html"><a href="jbcsp-.html#sbdsteem-dollars"><i class="fa fa-check"></i><b>2.2.4</b> SBD(Steem Dollars)</a></li>
 <li class="chapter" data-level="2.2.5" data-path="jbcsp-.html"><a href="jbcsp-.html#section-2.2.5"><i class="fa fa-check"></i><b>2.2.5</b> 怎么获得这些货币</a></li>
-<li class="chapter" data-level="2.2.6" data-path="jbcsp-.html"><a href="jbcsp-.html#section-2.2.6"><i class="fa fa-check"></i><b>2.2.6</b> 总结</a></li>
+<li class="chapter" data-level="2.2.6" data-path="jbcsp-.html"><a href="jbcsp-.html#how-to-calculate-reward"><i class="fa fa-check"></i><b>2.2.6</b> 帖子收益的计算方式 </a></li>
+<li class="chapter" data-level="2.2.7" data-path="jbcsp-.html"><a href="jbcsp-.html#section-2.2.7"><i class="fa fa-check"></i><b>2.2.7</b> 总结</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="jbcsp-.html"><a href="jbcsp-.html#about-sp"><i class="fa fa-check"></i><b>2.3</b> 关于SP（steem power）</a><ul>
 <li class="chapter" data-level="2.3.1" data-path="jbcsp-.html"><a href="jbcsp-.html#what-is-sp"><i class="fa fa-check"></i><b>2.3.1</b> 什么是SP代理？ </a></li>
@@ -411,7 +412,7 @@
 <ul>
 <li>3.其它接入Steem链的网站</li>
 </ul>
-<p>除了Steemit.com外，我们还可以通过Busy、eSteem、ChainBB、Utopian.io、Steepshot、Zappl、DTube、Dsound、Dlive、Dmania等各类网站输出或输入Steem链上的内容。就好像以前我们使用的光盘，我们不仅能在DVD上播放光盘的内容，还可以在EVD甚至有光驱的电脑上播放这个光盘。最重要的内容就存在这小小的光盘上。那么我们要问这么神奇的Steem链，究竟是什么呢？</p>
+<p>除了Steemit.com外，我们还可以通过Busy、eSteem、Steempeak、Utopian.io、Steepshot、Zappl、DTube、Dsound、Partiko等各类网站输出或输入Steem链上的内容。就好像以前我们使用的光盘，我们不仅能在DVD上播放光盘的内容，还可以在EVD甚至有光驱的电脑上播放这个光盘。最重要的内容就存在这小小的光盘上。那么我们要问这么神奇的Steem链，究竟是什么呢？</p>
 <ul>
 <li>4.Steem链的本质</li>
 </ul>
@@ -446,15 +447,53 @@
 <h3><span class="header-section-number">2.2.5</span> 怎么获得这些货币</h3>
 <p>作者在发文章之后，按照Steemit的规则，7日后文章将被锁定而且无法修改(区块链永久不可篡改性)，同时进行该帖的结算，并根据作者发帖时的设定进行Steem和SBD的奖励。如果作者选择50% 50%，系统会将奖励分为两部分，一部分作为SBD奖励，另一部分作为SP奖励；如果作者选择发帖时power up 100%，则系统将会将奖励全部按照SP进行power up。当然你也可以通过交易所或其它货币持有者交易来获得这些货币。</p>
 </div>
-<div id="section-2.2.6" class="section level3">
-<h3><span class="header-section-number">2.2.6</span> 总结</h3>
+<div id="how-to-calculate-reward" class="section level3">
+<h3><span class="header-section-number">2.2.6</span> 帖子收益的计算方式 <a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a></h3>
+<p>帖子计算的公式
+<img src="images/chapter_02_0/image.png" /></p>
+<p><img src="images/chapter_02_0/image_1.png" /></p>
+<p>第一组公式：
+<strong>RS</strong>: 帖子收益总和，以rshares为单位。
+<strong>Rb（Reward Balance)</strong>: 每年Steem通货膨胀所产生的STEEM，大概每3秒产生 1.668 STEEM 加到奖金池里
+<strong>Rc（Recent Claims）</strong>: 所有帖子回复还没有结算的收益总和。以Rshares为单位。</p>
+<p>第二组公式：
+<strong>Psteem</strong>：通过第一组公式得到的以Steem计价的帖子收入
+<strong>Price</strong> : STEEM的喂价（STEEM 3.5日的中间价）</p>
+<p>通过第二组公式就可以获得Psbd 以SBD计的帖子收益。</p>
+<p>看到公式是不是很抽象？举个例子解释一下吧。</p>
+<p>比如我的这篇帖子：<a href="https://steemit.com/@ericet/partiko20-2mmhatnw">https://steemit.com/<span class="citation">@ericet/partiko20-2mmhatnw</span></a>
+显示的收益是$0.99.
+现在我们开始计算这$0.99是怎么来的。</p>
+<ul>
+<li>通过<a href="https://steemd.com/@ericet/partiko20-2mmhatnw">https://steemd.com/<span class="citation">@ericet/partiko20-2mmhatnw</span></a> 获取帖子点赞的RS，总共：1,644,564,313,801</li>
+<li>Rb: 847,366</li>
+<li>Rc: 550,688,291B</li>
+<li>通过www.steemd.com 获取STEEM喂价：$0.39 然后套入公式后：</li>
+</ul>
+<blockquote>
+<p>Psbd = RSx(Rb/Rc)xPrice</p>
+</blockquote>
+<p>Psbd = 1,644,564,313,801 x (847,366/550,688,291,000,000,000) x 0.39
+Psbd = 0.987</p>
+<p>算出的收益为0.987 SBD，1SBD以1美元计，和帖子显示的$0.99相符（四舍五入）</p>
+<p>读懂上面的公式对理解帖子的收益有很大的帮助。
+比如：</p>
+<ul>
+<li>帖子的收益受什么因素影响？</li>
+<li>什么时候买赞比较合算？</li>
+<li>币价低迷是不是写文章的好时机？</li>
+</ul>
+<p>这些问题都可以通过上面的公式来解释。</p>
+</div>
+<div id="section-2.2.7" class="section level3">
+<h3><span class="header-section-number">2.2.7</span> 总结</h3>
 <p>Steem上的货币是相互依存，息息相关的，新手朋友光看这些文字可能还是不能完全理解。如果你想投资进来我建议可以先投资一小部分自己实际操作一下，完全搞清楚这里面的各种关系后再决定是否大力投资。</p>
 </div>
 </div>
 <div id="about-sp" class="section level2">
 <h2><span class="header-section-number">2.3</span> 关于SP（steem power）</h2>
 <div id="what-is-sp" class="section level3">
-<h3><span class="header-section-number">2.3.1</span> 什么是SP代理？ <a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a></h3>
+<h3><span class="header-section-number">2.3.1</span> 什么是SP代理？ <a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a></h3>
 <p>在上一节，我们学习了关于Steem的里面几种货币的知识。我们了解到了SP(Steem Power)在Steem的重要性。这里我们再扩展说一下SP的扩展应用——代理SP。</p>
 <p>SP非常的重要，日常的发帖或者直接购买都可以增加你的SP。那么，当我们的SP有一定程度的富余的时候，除了点赞外，我们还有什么办法更好的使用掉这些富余的SP呢？或者我想要快速的获得更多的SP，有什么办法呢？</p>
 <p>这个办法就是代理SP，也就是所谓的<strong>delegate SP</strong></p>
@@ -488,7 +527,7 @@
 <p>解释了代理SP的用处及好处。接下来，我们来看如何代理SP。</p>
 </div>
 <div id="how-to-delegate-SP" class="section level3">
-<h3><span class="header-section-number">2.3.2</span> 如何代理SP？ <a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a></h3>
+<h3><span class="header-section-number">2.3.2</span> 如何代理SP？ <a href="#fn16" class="footnote-ref" id="fnref16"><sup>16</sup></a></h3>
 <p>如何操作才能代理SP给别人呢？</p>
 <p>我们这里就以代理SP给点赞机器人@cnbuddy为例说明。 要想代理SP给别人，需要使用@justyy开发的小工具，(<strong><a href="https://steemyy.com/delegate-form/">点击这里可以跳转</a></strong>)</p>
 <p>这个工具需要通过steemconnect授权，所以不用担心安全的问题。</p>
@@ -515,7 +554,7 @@
 <p>总而言之，代理SP无论对自己还是对别人都是非常有用处的。所以还等什么呢？赶紧操作起来吧！</p>
 </div>
 <div id="sp" class="section level3">
-<h3><span class="header-section-number">2.3.3</span> 代理SP的其他方法 <a href="#fn16" class="footnote-ref" id="fnref16"><sup>16</sup></a></h3>
+<h3><span class="header-section-number">2.3.3</span> 代理SP的其他方法 <a href="#fn17" class="footnote-ref" id="fnref17"><sup>17</sup></a></h3>
 <p>代理SP的話, 簡單記得2個要點.</p>
 <ol style="list-style-type: decimal">
 <li>代理是輸入你<strong>“總計”</strong>想代理多少, <a href="mailto:比如你已經代理了給@team-cn">比如你已經代理了給@team-cn</a> 2SP, 然後你想增加至10SP話, 你要輸入10SP 而<del>不是8SP</del></li>
@@ -537,7 +576,7 @@
 <p>3個方法中我最常用的是Keychain, 超方便快捷, 其他的則需要輸入密碼確認, 安全一點.</p>
 </div>
 <div id="power-up" class="section level3">
-<h3><span class="header-section-number">2.3.4</span> power up <a href="#fn17" class="footnote-ref" id="fnref17"><sup>17</sup></a></h3>
+<h3><span class="header-section-number">2.3.4</span> power up <a href="#fn18" class="footnote-ref" id="fnref18"><sup>18</sup></a></h3>
 <p>对于已经在steemit待了七天以上的朋友来说，理论上有第一笔作者奖励已经入账，那么我们的账户中就会有sbd。对我来说，看到价格合适的情况下就会选择用sbd买入steem再power up，大家可以根据自己的具体需要决定。</p>
 <p>登陆主页——钱包——STEEM DOLLARS——市场
 <img src="images/03-power_up01.png" /></p>
@@ -557,7 +596,7 @@
 <img src="images/03-power_up08.png" /></p>
 </div>
 <div id="lease-sp" class="section level3">
-<h3><span class="header-section-number">2.3.5</span> 如何租借SP？ <a href="#fn18" class="footnote-ref" id="fnref18"><sup>18</sup></a></h3>
+<h3><span class="header-section-number">2.3.5</span> 如何租借SP？ <a href="#fn19" class="footnote-ref" id="fnref19"><sup>19</sup></a></h3>
 <p>對於剛剛來到的新人, 經常會有不夠RCs(能量)的煩惱. RCs是日常活動的體力值, 在HF20的更新後, 如果你的SP低於50的話, 每日只能有限制地活動, 十分沒趣. 但是如果要找人代理的話也不一定可以找到足夠的數量. 所以新人在收到你的第一個STEEM/SBD後, 建議你去以下2個地方租用SP以維持在STEEM上的活動~</p>
 <p>2個網站的租用方法大概是差不多的, 在Create New Lease Request的畫面輸入以下4個資料便會帶你去到Steemconnect的確認轉帳畫面以完成交易.</p>
 <hr>
@@ -597,7 +636,7 @@
 </div>
 </div>
 <div id="section-2.4" class="section level2">
-<h2><span class="header-section-number">2.4</span> 关于声望的一切<a href="#fn19" class="footnote-ref" id="fnref19"><sup>19</sup></a></h2>
+<h2><span class="header-section-number">2.4</span> 关于声望的一切<a href="#fn20" class="footnote-ref" id="fnref20"><sup>20</sup></a></h2>
 <p>小雅来到Steemit已经好几天了，文章也发了好几篇了。虽然点赞的人不多，每篇文章的收益也就零点零几美元，不过小雅也很满足了，因为自己已经慢慢开始熟悉这个社区了。</p>
 <p>小雅今天发现了一个事情，就是自己名字旁边有个括号，里面写了一个数字。她记得刚来的时候这个数字是25，今天这个数字变成了26。这让她很是好奇，她把鼠标悬停了在数字上面，屏幕显示出了一行文字“这是小雅的声望分数，信誉评分取决于收到的投票历史记录，用于隐藏低质量的内容。”</p>
 <p>“声望？这是什么？”小雅喃喃自语道。小雅把这个理解为类似等级的东西，只要自己好好写文章，这个等级会上升的吧。但是屏幕提示的最后一句话“用于隐藏低质量的内容”，让她有点不明白，难道这里的声望会出现负数？出现了负数后账号会被隐藏吗？</p>
@@ -624,7 +663,7 @@
 <p>另外，给超过7天的帖子点赞，不会提高对方的声望，也不会让对方的收益增加，你自己也不会获得审查奖励，某些程度来说，还浪费了自己的Voting power。</p>
 </div>
 <div id="section-2.5" class="section level2">
-<h2><span class="header-section-number">2.5</span> 关于文章收益的一切 <a href="#fn20" class="footnote-ref" id="fnref20"><sup>20</sup></a></h2>
+<h2><span class="header-section-number">2.5</span> 关于文章收益的一切 <a href="#fn21" class="footnote-ref" id="fnref21"><sup>21</sup></a></h2>
 <p>今天是小雅来到Steemit的第7天了。今天发生了一件事情让小雅很是兴奋，那就是小雅收到了第一笔付款。虽然这笔钱只有可怜的0.015SBD，但是小雅还是很开心，因为自己的账户总算不是零了。</p>
 <p>不过小雅因此产生了一个新的疑问，这里的收益是怎么计算的？自己收到的这笔钱是第一篇自我介绍的收入，她的那篇文章的收入是0.03美元。文章上写的是美元，但是发来的却是SBD和SP。而且这比例也不知道是如何换算的，0.03美元的文章换来了0.015SBD。小雅算了算，获得的SBD大概是美元价格除以2。但是自己还获得了零点零几的SP，这又是如何换算的？</p>
 <p>小雅越算越烦恼，越算越不明白，最终她决定放弃计算收益，反正有钱收就好，算的那么明白干什么呢？</p>
@@ -665,9 +704,8 @@
 <li><p>三.Steem的市场价格</p>
 <p>由于文章收益其实来源于Steem通货膨胀产生的新的Steem和对应的SBD,如果近期Steem价格大降，而获得的Steem数量不变，反映到文章收益的数字也就跟着大降了。（SBD不用考虑，因为不管SBD市场价是多少，在文章收益中都是显示为1SBD对应1$。所以显示的文章收益主要与Steem市场价格有关。）</p></li>
 <li><p>四.近期Steemit总点赞量</p>
-<p>这个也许是被大家忽略最多的因素。要解释起来比较困难。我们可以用夸张的方法。假设在你发表文章以前7天全部Steemit用户都没有发表过一篇文章，那你刚发表完文章后就会显示你的这篇文章将获得所有这7天产生的新Steem，也许总价会是$100000。但如果你的文章发表后7天又有很多人陆续发表文章，那么他们将和你分摊这$100000,到了文章发表后第七天，你领取到了真实收益可能就不到$10了。　
-　
-当然这个是很夸张的情况了，基本上不可能出现，大多数时候是可能近几天全球很多人发帖，点赞的人也很热情，那么你分到的收益就会减少一点，如果相反，你分到的收益就会增多一点。</p></li>
+<p>这个也许是被大家忽略最多的因素。要解释起来比较困难。我们可以用夸张的方法。假设在你发表文章以前7天全部Steemit用户都没有发表过一篇文章，那你刚发表完文章后就会显示你的这篇文章将获得所有这7天产生的新Steem，也许总价会是$100000。但如果你的文章发表后7天又有很多人陆续发表文章，那么他们将和你分摊这$100000,到了文章发表后第七天，你领取到了真实收益可能就不到$10了。　</p>
+<p>当然这个是很夸张的情况了，基本上不可能出现，大多数时候是可能近几天全球很多人发帖，点赞的人也很热情，那么你分到的收益就会减少一点，如果相反，你分到的收益就会增多一点。</p></li>
 </ul></li>
 </ul>
 <p>以上为适合新人理解的精简版解释，如果你想了解文章收益变化的更多细节，请看下面更专业的解释：</p>
@@ -743,7 +781,7 @@
 </ul>
 </div>
 <div id="section-2.6" class="section level2">
-<h2><span class="header-section-number">2.6</span> 关于带宽的一切 <a href="#fn21" class="footnote-ref" id="fnref21"><sup>21</sup></a></h2>
+<h2><span class="header-section-number">2.6</span> 关于带宽的一切 <a href="#fn22" class="footnote-ref" id="fnref22"><sup>22</sup></a></h2>
 <p>对于新人来说，在解决了设置个人信息问题，开始发帖和互动，最常遇到的一个问题就是：</p>
 <blockquote>
 <p>Bandwidth Limit Exceeded是什么？我怎么消息发不出去了？带宽又是什么？</p>
@@ -781,7 +819,7 @@ Market Bandwidth：用于转账、交易等等</p>
 <p>4、无论是代理、卖赞还是power down，务必在账户中留下足够的SP。曾遇到过有代理过多SP出去（退出代理需要7天的时间），导致自己什么都做不了的朋友，最后还是经由他人代理了一部分SP才解除困境。</p>
 </div>
 <div id="section-2.7" class="section level2">
-<h2><span class="header-section-number">2.7</span> 关注、点赞、拉黑、踩灰 <a href="#fn22" class="footnote-ref" id="fnref22"><sup>22</sup></a></h2>
+<h2><span class="header-section-number">2.7</span> 关注、点赞、拉黑、踩灰 <a href="#fn23" class="footnote-ref" id="fnref23"><sup>23</sup></a></h2>
 <p>收到钱让小雅很是开心，这大大的激发了她对Steemit的热情。她打开了网页，开始浏览别人的文章。</p>
 <p>小雅对于给别人点赞从来不吝啬，基本上她看过的文章都点赞了。其中她觉得文章写的很有趣的人，她会点击“关注”，当然她更加希望别人会回关她。但是点赞的过程中她又产生了新的困惑，就是刚开始她点赞别人的收益会增加0.01美元，到了后来，就完全不增加了，这让小雅非常的困惑。不过小雅很快就抛开了这个困惑，想不通那就别想。</p>
 <p>她还发现了文章上面有一个小旗子，她好奇地点了点，居然发现别人文章收益减少了。看来这个按钮是用来踩人的，自己没事别乱点这个按钮，以免得罪人了。</p>
@@ -867,7 +905,7 @@ Market Bandwidth：用于转账、交易等等</p>
 </div>
 </div>
 <div id="lmhbq" class="section level2">
-<h2><span class="header-section-number">2.8</span> 类目和标签 <a href="#fn23" class="footnote-ref" id="fnref23"><sup>23</sup></a></h2>
+<h2><span class="header-section-number">2.8</span> 类目和标签 <a href="#fn24" class="footnote-ref" id="fnref24"><sup>24</sup></a></h2>
 <p>小雅已经慢慢熟悉了Steemit社区，在这里，她每天都会发现一点新东西。</p>
 <p>这天，她如同往常一样在编辑文章。在准备发布的时候，她留意到了一个事情，就是标签。这个标签其实从最初写文章的时候就要求填写，但是小雅每次填写都非常随意，今天她不知道为什么特别在意起了这个事情。</p>
 <p>小雅直觉的认为，这个标签应该是文章的一种分类，那样的话，自己就不应该随意填写标签，要有一个细致的分类。于是她开始研究别人文章的标签如何写的。研究中她发现了一个有趣的标签，那就是很多中文的文章里面都有一个“cn”的标签，这个发现犹如发现新大陆一般让她兴奋。她点进去cn的标签一看，发现cn标签里面全是中文的写作者，这顿时让她有种找到组织的感觉。</p>
@@ -915,7 +953,7 @@ Market Bandwidth：用于转账、交易等等</p>
 <p>关于标签的使用再给大家强调一点：文章的主题一定要与标签相关，如果贴上与文章主题不符的标签，很有可能会有大鲸来踩，这样会对作者的声望等级和收益造成很大的负面影响。</p>
 </div>
 <div id="section-2.9" class="section level2">
-<h2><span class="header-section-number">2.9</span> 大鲸和小鱼<a href="#fn24" class="footnote-ref" id="fnref24"><sup>24</sup></a></h2>
+<h2><span class="header-section-number">2.9</span> 大鲸和小鱼<a href="#fn25" class="footnote-ref" id="fnref25"><sup>25</sup></a></h2>
 <p>最近小雅在浏览别人文章的时候发现了一个有趣的词语，那就是“大鲸”和“小鱼”。</p>
 <p>小雅发现很多新人喜欢称呼自己为“小鱼”，而很多Steemit的老前辈被尊称为“大鲸”。这个现象小雅觉得很有趣，用海洋动物来取代等级给人的感觉非常的可爱。但是同时小雅也很疑惑，他们是如何判断一个人是大鲸还是小鱼的呢？</p>
 <p>为了解开这个谜团，小雅进行了一系列的明察暗访。最终发现这个等级是按照SP的大小来划分的，大鲸就是这里最高等级的人了。然后小雅好奇的按照了这个等级划分把自己归类，发现自己是最低等的浮游生物，连小鱼都不是，这让小雅有点哭笑不得。小雅暗暗的给自己定下了一个目标，总有一天自己要成为一条大鲸！</p>
@@ -951,7 +989,7 @@ Market Bandwidth：用于转账、交易等等</p>
 <p>PS：海豚和鲸其实都属于哺乳动物，不是鱼。</p>
 </div>
 <div id="section-2.10" class="section level2">
-<h2><span class="header-section-number">2.10</span> 机器人和小号<a href="#fn25" class="footnote-ref" id="fnref25"><sup>25</sup></a></h2>
+<h2><span class="header-section-number">2.10</span> 机器人和小号<a href="#fn26" class="footnote-ref" id="fnref26"><sup>26</sup></a></h2>
 <p>小雅像往常一样勤奋地更新文章，在仔细地检查了文章的错别字后，小雅按下了“POST”的按钮。然后小雅再次浏览自己的文章。翻到后面，发现居然已经有一个人在后面评论了。</p>
 <p>小雅感到惊喜的同时又有一丝好奇，是谁在自己文章刚发出就过来评论了呢？小雅仔细读了读评论，是一段英文。翻译过来的意思就是“我是一个机器人，已经给你点赞了，希望你也可以来回访我。”这让小雅更加惊讶了，这居然是一个机器人？Steemit社区居然还有机器人在活跃，这太超出小雅的想象力了。</p>
 <p>小雅顺着机器人的主页一路摸索过去，发现这个机器人的主人叫做大辉，是一个程序员，这个点赞机器人就是他开发的。小雅对机器人充满好奇的同时，也对这个叫大辉的人充满了崇拜。</p>
@@ -985,7 +1023,7 @@ Market Bandwidth：用于转账、交易等等</p>
 <p>当然小号的用法还有很多，每个人都可以找到自己的创意用法，如果你有什么有趣的用法，欢迎告诉我们。</p>
 </div>
 <div id="section-2.11" class="section level2">
-<h2><span class="header-section-number">2.11</span> 禁忌和审核<a href="#fn26" class="footnote-ref" id="fnref26"><sup>26</sup></a></h2>
+<h2><span class="header-section-number">2.11</span> 禁忌和审核<a href="#fn27" class="footnote-ref" id="fnref27"><sup>27</sup></a></h2>
 <p>今天小雅非常的难过。为什么呢？因为小雅今天被一条大鲸踩了一下。</p>
 <p>这大鲸一踩可不得了，首先自己的文章直接变成了灰色，成为了不可浏览的状态，然后自己的声望等级还直接掉了2级那么多。</p>
 <p>这位大鲸同时给小雅留了言，“请不要使用没有版权的图片，而且你用的还是我的图片。”小雅有些纳闷，怎么自己就那么倒霉刚好用了大鲸的图片呢？不过这也让小雅警觉起来，在这里的所有人都非常注重原创性和版权的问题，自己这样随意使用别人的图片是很危险的。小雅反思了一下自己的行为，诚恳的给大鲸道了歉。这位大鲸也非常的通情达理，一番沟通后撤销了对小雅的踩。</p>
@@ -1033,7 +1071,7 @@ Market Bandwidth：用于转账、交易等等</p>
 </table>
 </div>
 <div id="section-2.12" class="section level2">
-<h2><span class="header-section-number">2.12</span> 延伸阅读：自动点赞 <a href="#fn27" class="footnote-ref" id="fnref27"><sup>27</sup></a></h2>
+<h2><span class="header-section-number">2.12</span> 延伸阅读：自动点赞 <a href="#fn28" class="footnote-ref" id="fnref28"><sup>28</sup></a></h2>
 <p>在使用 SteemAuto 之前，我用的是另一款自动点赞工具。在没有仔细阅读服务条例的情况下，我就稀里糊涂开始用，后来才发现，那个工具会用我的名字给他们认为合适的帖子点赞，每天一次。这就尴尬了，万一哪篇帖子是骂我的，碰巧被我自己点赞的话，岂不是自打耳光？</p>
 <p>于是我就把那款软件停用了，却苦于没有替代软件，直到朋友为我推荐了 SteemAuto。</p>
 <p>SteemAuto 提供了三种自动点赞方案：自动点赞帖子，自动点赞评论，自动跟随点赞。本教程对这三种方式逐一介绍。</p>
@@ -1084,7 +1122,7 @@ Market Bandwidth：用于转账、交易等等</p>
 <p>以上介绍了 SteemAuto 的自动点赞帖子、自动点赞评论、自动跟随点赞等方法。如有哪里说得不清楚的地方，欢迎留言探讨。</p>
 </div>
 <div id="5" class="section level2">
-<h2><span class="header-section-number">2.13</span> 延伸阅读：评论中的5点禁忌 <a href="#fn28" class="footnote-ref" id="fnref28"><sup>28</sup></a></h2>
+<h2><span class="header-section-number">2.13</span> 延伸阅读：评论中的5点禁忌 <a href="#fn29" class="footnote-ref" id="fnref29"><sup>29</sup></a></h2>
 <p>刚来到steemit的朋友们在解决了如何发帖这类基础问题后，面临的就是如何增加声誉、收益和followers。很多前辈会说，最直接的方法就是提供优质内容。虽说酒香不怕巷子深，但必要的“敲门砖”还是需要的，这里我指的就是互动。</p>
 <p>我们都知道，steemit严格意义来说应该算是社交平台，因而互动就占着很重要的地位。初期，受带宽的限制，我一天一般自己发1篇文章，赞10篇文章，留言20条（这里面还包括了回复给我的留言）。这样的限制，与入驻初期急于“广交朋友”的愿望是很矛盾的。想解决带宽问题，最直接的方法就是power up。如果你不想，那就只能合理运用自己的带宽，做最合适的事，能交到朋友吸引大鲸当然是最好，最低限度是起码不“招黑”。</p>
 <p>我们都知道，upvote（点赞）可以带给我们收益和声誉，那么downvote（踩）将让你苦心经营的一切化为乌有。</p>
@@ -1121,7 +1159,7 @@ Market Bandwidth：用于转账、交易等等</p>
 <p>不过基于steemit等级低的用户无法给等级高的用户downvote，而大鱼大鲸间保持着一定的制衡，不会为了此等小事撕破脸皮。因而这种情况下，大多数还是敢（会）怒不敢（会）言的状况。当然，CN区这种情况几乎未有出现，得到大赞的大多是言而有实的内容。对于此，SP掌握在别人自家手里，别人也没什么置喙的权力了。</p>
 </div>
 <div id="shadowsocks" class="section level2">
-<h2><span class="header-section-number">2.14</span> 延伸阅读：如何傻瓜式使用shadowsocks科学上网 <a href="#fn29" class="footnote-ref" id="fnref29"><sup>29</sup></a></h2>
+<h2><span class="header-section-number">2.14</span> 延伸阅读：如何傻瓜式使用shadowsocks科学上网 <a href="#fn30" class="footnote-ref" id="fnref30"><sup>30</sup></a></h2>
 <p>最近网络封锁升级，在目前还没有办法肉翻的情况下，掌握科学上网可谓是一项必备技能。steemit去中心化的设置，是否有天也会有Google的命运犹未可知，抱着多一门手艺总是好的技能，我开始研究了如何搭梯子。</p>
 <p>首先，你得购买好海外VPS服务器，我自己用的是<a href="https://www.vultr.com/?ref=7283331">vultr</a>。</p>
 <p>经过简单的注册以后，你就可以拥有自己的服务器啦。注意在注册前，在网上搜索一下最近的优惠码或邀请码，可以有一定的优惠。一般个人用的话，2.5/mo的足够了。</p>
@@ -1189,22 +1227,23 @@ Enjoy it!</code></pre>
 <ol start="12">
 <li id="fn12"><p>作者：@wang-peilin；小故事：@maiyude；编辑：@dapeng<a href="jbcsp-.html#fnref12" class="footnote-back">↩</a></p></li>
 <li id="fn13"><p>作者：@wang-peilin；小故事:@maiyude;编辑：@dapeng。本文部分引用自@rivalhw的文章<a href="jbcsp-.html#fnref13" class="footnote-back">↩</a></p></li>
-<li id="fn14"><p>作者：@maiyude；校对：@meixia；更新：@miniu；原文链接：<a href="https://steemit.com/cn/@maiyude/sp-steem-power；内容更新：https://steemit.com/cn/@miniu/steem231sp-cnbywwmtop" class="uri">https://steemit.com/cn/@maiyude/sp-steem-power；内容更新：https://steemit.com/cn/@miniu/steem231sp-cnbywwmtop</a><a href="jbcsp-.html#fnref14" class="footnote-back">↩</a></p></li>
+<li id="fn14"><p>作者：@ericet；原文链接：<a href="https://steemit.com/cn/@ericet/35f52g" class="uri">https://steemit.com/cn/@ericet/35f52g</a><a href="jbcsp-.html#fnref14" class="footnote-back">↩</a></p></li>
 <li id="fn15"><p>作者：@maiyude；校对：@meixia；更新：@miniu；原文链接：<a href="https://steemit.com/cn/@maiyude/sp-steem-power；内容更新：https://steemit.com/cn/@miniu/steem231sp-cnbywwmtop" class="uri">https://steemit.com/cn/@maiyude/sp-steem-power；内容更新：https://steemit.com/cn/@miniu/steem231sp-cnbywwmtop</a><a href="jbcsp-.html#fnref15" class="footnote-back">↩</a></p></li>
-<li id="fn16"><p>作者：@minloulou；原文链接：<a href="https://busy.org/@minloulou/sp3sp2-ogzvhsoiey" class="uri">https://busy.org/@minloulou/sp3sp2-ogzvhsoiey</a><a href="jbcsp-.html#fnref16" class="footnote-back">↩</a></p></li>
-<li id="fn17"><p>作者：@vickylin；编辑：@vickylin<a href="jbcsp-.html#fnref17" class="footnote-back">↩</a></p></li>
-<li id="fn18"><p>作者：@minloulou：原文链接：<a href="https://busy.org/@minloulou/sp3sp2-ogzvhsoiey" class="uri">https://busy.org/@minloulou/sp3sp2-ogzvhsoiey</a><a href="jbcsp-.html#fnref18" class="footnote-back">↩</a></p></li>
-<li id="fn19"><p>作者：@vickylin；小故事：@maiyude编辑：@vickylin<a href="jbcsp-.html#fnref19" class="footnote-back">↩</a></p></li>
-<li id="fn20"><p>作者：@wang-peilin 小故事：@maiyude；校对：@meixia；本文部分引用@tumutanzi、@oflyhigh的文章<a href="jbcsp-.html#fnref20" class="footnote-back">↩</a></p></li>
-<li id="fn21"><p>作者：@vickylin；编辑：@vickylin<a href="jbcsp-.html#fnref21" class="footnote-back">↩</a></p></li>
-<li id="fn22"><p>作者：@vickylin 小故事：@maiyude 编辑：@vickylin<a href="jbcsp-.html#fnref22" class="footnote-back">↩</a></p></li>
-<li id="fn23"><p>作者:@woolfe19861008/;小故事@maiyude;校对：@meixia<a href="jbcsp-.html#fnref23" class="footnote-back">↩</a></p></li>
-<li id="fn24"><p>作者：@dapeng；小故事：@maiyude;编辑@vickylin;<a href="jbcsp-.html#fnref24" class="footnote-back">↩</a></p></li>
-<li id="fn25"><p>作者：@maiyude<a href="jbcsp-.html#fnref25" class="footnote-back">↩</a></p></li>
-<li id="fn26"><p>作者：@incrediblesnow;小故事:@maiyude;原文链接:<a href="https://steemit.com/@incrediblesnow/3lyojl-steemit" class="uri">https://steemit.com/@incrediblesnow/3lyojl-steemit</a><a href="jbcsp-.html#fnref26" class="footnote-back">↩</a></p></li>
-<li id="fn27"><p>作者：@dapeng；编辑：@vickylin;<a href="jbcsp-.html#fnref27" class="footnote-back">↩</a></p></li>
-<li id="fn28"><p>作者：@vickylin；编辑：@vickylin; 校对：@meixia<a href="jbcsp-.html#fnref28" class="footnote-back">↩</a></p></li>
-<li id="fn29"><p>作者：@vickylin；编辑：@vickylin<a href="jbcsp-.html#fnref29" class="footnote-back">↩</a></p></li>
+<li id="fn16"><p>作者：@maiyude；校对：@meixia；更新：@miniu；原文链接：<a href="https://steemit.com/cn/@maiyude/sp-steem-power；内容更新：https://steemit.com/cn/@miniu/steem231sp-cnbywwmtop" class="uri">https://steemit.com/cn/@maiyude/sp-steem-power；内容更新：https://steemit.com/cn/@miniu/steem231sp-cnbywwmtop</a><a href="jbcsp-.html#fnref16" class="footnote-back">↩</a></p></li>
+<li id="fn17"><p>作者：@minloulou；原文链接：<a href="https://busy.org/@minloulou/sp3sp2-ogzvhsoiey" class="uri">https://busy.org/@minloulou/sp3sp2-ogzvhsoiey</a><a href="jbcsp-.html#fnref17" class="footnote-back">↩</a></p></li>
+<li id="fn18"><p>作者：@vickylin；编辑：@vickylin<a href="jbcsp-.html#fnref18" class="footnote-back">↩</a></p></li>
+<li id="fn19"><p>作者：@minloulou：原文链接：<a href="https://busy.org/@minloulou/sp3sp2-ogzvhsoiey" class="uri">https://busy.org/@minloulou/sp3sp2-ogzvhsoiey</a><a href="jbcsp-.html#fnref19" class="footnote-back">↩</a></p></li>
+<li id="fn20"><p>作者：@vickylin；小故事：@maiyude编辑：@vickylin<a href="jbcsp-.html#fnref20" class="footnote-back">↩</a></p></li>
+<li id="fn21"><p>作者：@wang-peilin 小故事：@maiyude；校对：@meixia；本文部分引用@tumutanzi、@oflyhigh的文章<a href="jbcsp-.html#fnref21" class="footnote-back">↩</a></p></li>
+<li id="fn22"><p>作者：@vickylin；编辑：@vickylin<a href="jbcsp-.html#fnref22" class="footnote-back">↩</a></p></li>
+<li id="fn23"><p>作者：@vickylin 小故事：@maiyude 编辑：@vickylin<a href="jbcsp-.html#fnref23" class="footnote-back">↩</a></p></li>
+<li id="fn24"><p>作者:@woolfe19861008/;小故事@maiyude;校对：@meixia<a href="jbcsp-.html#fnref24" class="footnote-back">↩</a></p></li>
+<li id="fn25"><p>作者：@dapeng；小故事：@maiyude;编辑@vickylin;<a href="jbcsp-.html#fnref25" class="footnote-back">↩</a></p></li>
+<li id="fn26"><p>作者：@maiyude<a href="jbcsp-.html#fnref26" class="footnote-back">↩</a></p></li>
+<li id="fn27"><p>作者：@incrediblesnow;小故事:@maiyude;原文链接:<a href="https://steemit.com/@incrediblesnow/3lyojl-steemit" class="uri">https://steemit.com/@incrediblesnow/3lyojl-steemit</a><a href="jbcsp-.html#fnref27" class="footnote-back">↩</a></p></li>
+<li id="fn28"><p>作者：@dapeng；编辑：@vickylin;<a href="jbcsp-.html#fnref28" class="footnote-back">↩</a></p></li>
+<li id="fn29"><p>作者：@vickylin；编辑：@vickylin; 校对：@meixia<a href="jbcsp-.html#fnref29" class="footnote-back">↩</a></p></li>
+<li id="fn30"><p>作者：@vickylin；编辑：@vickylin<a href="jbcsp-.html#fnref30" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
             </section>

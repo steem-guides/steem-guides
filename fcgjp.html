@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>第8章 辅助工具 | Steem Handbook</title>
   <meta name="description" content="第8章 辅助工具 | Steem Handbook" />
-  <meta name="generator" content="bookdown 0.11.1 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.11.2 and GitBook 2.6.7" />
 
   <meta property="og:title" content="第8章 辅助工具 | Steem Handbook" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Steem 中文社区集体创作" />
 
 
-<meta name="date" content="2019-06-17" />
+<meta name="date" content="2019-07-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -104,7 +104,8 @@
 <li class="chapter" data-level="2.2.3" data-path="jbcsp-.html"><a href="jbcsp-.html#spsteem-power"><i class="fa fa-check"></i><b>2.2.3</b> SP(Steem Power)</a></li>
 <li class="chapter" data-level="2.2.4" data-path="jbcsp-.html"><a href="jbcsp-.html#sbdsteem-dollars"><i class="fa fa-check"></i><b>2.2.4</b> SBD(Steem Dollars)</a></li>
 <li class="chapter" data-level="2.2.5" data-path="jbcsp-.html"><a href="jbcsp-.html#section-2.2.5"><i class="fa fa-check"></i><b>2.2.5</b> 怎么获得这些货币</a></li>
-<li class="chapter" data-level="2.2.6" data-path="jbcsp-.html"><a href="jbcsp-.html#section-2.2.6"><i class="fa fa-check"></i><b>2.2.6</b> 总结</a></li>
+<li class="chapter" data-level="2.2.6" data-path="jbcsp-.html"><a href="jbcsp-.html#how-to-calculate-reward"><i class="fa fa-check"></i><b>2.2.6</b> 帖子收益的计算方式 </a></li>
+<li class="chapter" data-level="2.2.7" data-path="jbcsp-.html"><a href="jbcsp-.html#section-2.2.7"><i class="fa fa-check"></i><b>2.2.7</b> 总结</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="jbcsp-.html"><a href="jbcsp-.html#about-sp"><i class="fa fa-check"></i><b>2.3</b> 关于SP（steem power）</a><ul>
 <li class="chapter" data-level="2.3.1" data-path="jbcsp-.html"><a href="jbcsp-.html#what-is-sp"><i class="fa fa-check"></i><b>2.3.1</b> 什么是SP代理？ </a></li>
@@ -393,7 +394,7 @@
 <div id="fcgjp" class="section level1">
 <h1><span class="header-section-number">第8章</span> 辅助工具</h1>
 <div id="oflyhigh_dwsgyh_steemit_dsyff" class="section level2">
-<h2><span class="header-section-number">8.1</span> oflyhigh 的微信公众号 steemit <a href="#fn52" class="footnote-ref" id="fnref52"><sup>52</sup></a></h2>
+<h2><span class="header-section-number">8.1</span> oflyhigh 的微信公众号 steemit <a href="#fn53" class="footnote-ref" id="fnref53"><sup>53</sup></a></h2>
 <p>有一款 steem 信息查询工具，不用不知道，用了离不了。精致小巧，功能丰富，它是 STEEM 用户的一把瑞士军刀。</p>
 <p>这款工具可以帮助你实时查询各种重要的 steem 信息，包括一个账号的 SP、声望、VP、钱包；可以为你提供发文收益百分比的建议；可以提供各种电子货币的实时市场价格……</p>
 <p>事实上，类似的工具有不少， 但这款工具的绝妙之处在于，它是个微信公众号。你可以享受微信平台提供的一切便利，例如节省流量、反应迅速、方便转发等。只需在微信上关注它，就像跟朋友聊天一样问问题，它就会告诉你答案，实时从区块链直接读取。</p>
@@ -733,7 +734,7 @@ fd=feed
 </ul>
 </div>
 <div id="section-8.2.2" class="section level3">
-<h3><span class="header-section-number">8.2.2</span> 查看你和朋友的对话 <a href="#fn53" class="footnote-ref" id="fnref53"><sup>53</sup></a></h3>
+<h3><span class="header-section-number">8.2.2</span> 查看你和朋友的对话 <a href="#fn54" class="footnote-ref" id="fnref54"><sup>54</sup></a></h3>
 <p>想要在steem区块链上快速找到您和朋友之间的对话？ 此工具将检索两个steem帐户之间的对话（评论）。</p>
 <p><strong>工具地址</strong>
 <a href="https://steemyy.com/steem-conversations-viewer/" class="uri">https://steemyy.com/steem-conversations-viewer/</a></p>
@@ -745,7 +746,7 @@ fd=feed
 使用 steem-js 库对 两个帐号同时进行地毯式搜索，把对话（评论）内容输出来。本来想用 steemsql 的（缓存数据库），不过它家的月费是20 SBD，有点贵，如果将来不用STEEMSQL了 那么所有的基于它的工具都不能用了， 所以还是用最原始的方法来做，并且这样的获取的数据始终是最新的。</p>
 </div>
 <div id="section-8.2.3" class="section level3">
-<h3><span class="header-section-number">8.2.3</span> 查看你的帐号信息 <a href="#fn54" class="footnote-ref" id="fnref54"><sup>54</sup></a></h3>
+<h3><span class="header-section-number">8.2.3</span> 查看你的帐号信息 <a href="#fn55" class="footnote-ref" id="fnref55"><sup>55</sup></a></h3>
 <p>基于 <a href="https://steemyy.com/steemjs-editor">Steem-JS</a> 撸了一个查看STEEM帐号信息的工具。地址如下：
 <a href="https://steemyy.com/account-data/justyy" class="uri">https://steemyy.com/account-data/justyy</a>
 可以把URL最后面的ID换成你的STEEM ID就可以打开使用了。</p>
@@ -754,7 +755,7 @@ fd=feed
 <img src="images/08_justyy_steem_account.png" /></p>
 </div>
 <div id="section-8.2.4" class="section level3">
-<h3><span class="header-section-number">8.2.4</span> 您的见证人信息页面 <a href="#fn55" class="footnote-ref" id="fnref55"><sup>55</sup></a></h3>
+<h3><span class="header-section-number">8.2.4</span> 您的见证人信息页面 <a href="#fn56" class="footnote-ref" id="fnref56"><sup>56</sup></a></h3>
 <p>STEEM区块链上活跃的见证人大概有100来个，他们是STEEM区块链上不可缺失的一环节：把STEEM上所有的活动都打包成块，出块的时候相应的得到SP作为奖励。</p>
 <p>我弄一个简单的页面，显示见证人的基本信息和最新出的块：</p>
 <p>工具地址： <a href="https://steemyy.com/witness-lookup/justyy" class="uri">https://steemyy.com/witness-lookup/justyy</a>
@@ -763,7 +764,7 @@ fd=feed
 <p><img src="images/08_justyy_steem_witness.png" /></p>
 </div>
 <div id="steem" class="section level3">
-<h3><span class="header-section-number">8.2.5</span> 查看STEEM区块链上最受欢迎的代理 <a href="#fn56" class="footnote-ref" id="fnref56"><sup>56</sup></a></h3>
+<h3><span class="header-section-number">8.2.5</span> 查看STEEM区块链上最受欢迎的代理 <a href="#fn57" class="footnote-ref" id="fnref57"><sup>57</sup></a></h3>
 <p>STEEM <a href="https://justyy.com/archives/5733">区块链</a>上一个很好玩的功能就是你可以把你的STEEM POWER代理给别人。有很多项目都有很多人参于。如果我们想发现STEEM上比较火的项目，我们可以用以下几个工具。这几个工具对应的API由于处理耗时较久，所以并不是实时的数据，一般情况下有几分钟的延时。</p>
 <p><strong>按代理人数显示最受欢迎的STEEM帐号</strong>
 工具地址：<a href="https://steemyy.com/list-of-top-delegations-by-count/" class="uri">https://steemyy.com/list-of-top-delegations-by-count/</a>
@@ -779,7 +780,7 @@ fd=feed
 <p><img src="images/08_justyy_top_delegation.png" /></p>
 </div>
 <div id="steem-" class="section level3">
-<h3><span class="header-section-number">8.2.6</span> Steem 钱包转帐查询工具 <a href="#fn57" class="footnote-ref" id="fnref57"><sup>57</sup></a></h3>
+<h3><span class="header-section-number">8.2.6</span> Steem 钱包转帐查询工具 <a href="#fn58" class="footnote-ref" id="fnref58"><sup>58</sup></a></h3>
 <p>有时候我想搜索一下某条转帐记录，苦于记不太清楚时间，于是只能不停的刷或者翻页来找，很不方便，于是想着做一个简单的钱包转帐查询工具，可以满足这样的需求。</p>
 <p>工具地址：<a href="https://steemyy.com/advanced-transfer-viewer/" class="uri">https://steemyy.com/advanced-transfer-viewer/</a></p>
 <p><strong>使用方法</strong>
@@ -796,14 +797,14 @@ fd=feed
 <p>每条记录都可以通过链接来获得具体所在块的信息 (steemd)。</p>
 </div>
 <div id="steem-" class="section level3">
-<h3><span class="header-section-number">8.2.7</span> STEEM 自动领赏工具 <a href="#fn58" class="footnote-ref" id="fnref58"><sup>58</sup></a></h3>
+<h3><span class="header-section-number">8.2.7</span> STEEM 自动领赏工具 <a href="#fn59" class="footnote-ref" id="fnref59"><sup>59</sup></a></h3>
 <p>文章收益7天后得领赏，如果不通过程序自动领赏的话就得人为的去点领赏的按钮。并不是所有人都是能付得起24/7服务器的程序员，也并不是所有人都喜欢人工去领赏的这么一个过程。</p>
 <p>这个网页版本的工具是基于 <a href="https://github.com/steemit/steem-js">steem-js</a> 库开发的。完全是客户端，只需要填写ID和私钥（不会被保存或者上传），选择一个时间间隔即可让领赏程序自动在后台运行，然后你就可以该干嘛干嘛了。</p>
 <p>工具地址：<a href="https://steemyy.com/auto-claim-rewards/" class="uri">https://steemyy.com/auto-claim-rewards/</a></p>
 <p><img src="images/08_justyy_steemit-auto-claim-tools.jpg" /></p>
 </div>
 <div id="section-8.2.8" class="section level3">
-<h3><span class="header-section-number">8.2.8</span> 踩人与被踩 <a href="#fn59" class="footnote-ref" id="fnref59"><sup>59</sup></a></h3>
+<h3><span class="header-section-number">8.2.8</span> 踩人与被踩 <a href="#fn60" class="footnote-ref" id="fnref60"><sup>60</sup></a></h3>
 <p>这两天 <a href="https://steemit.com/utopian-io/@oflyhigh/utopian-io">utopian.io 被黑 - Utopian.io 被黑，你可能关心的一些问题 / 如何移除授权</a> 你可能想知道自己有没有中招。中招的表现就是你会当枪使：去踩 haejin。</p>
 <p>踩在STEEM上是标红旗的动作，一般来说就是文章三观不正，但也经常被误用于表示情绪的不满。踩人最直接的表现就会让该帖子收益变少(如果踩人者的有效ESP、能量都很足的话)，甚至能让帖子变灰，也可能让作者的声誉值变少（如果踩人者的等级比被踩者的高）。</p>
 <p><strong>查看你踩人的记录</strong>
@@ -825,7 +826,7 @@ fd=feed
 <p>所以，踩之前请三思！</p>
 </div>
 <div id="sbdsteem" class="section level3">
-<h3><span class="header-section-number">8.2.9</span> 同时给多个帐号发送SBD或者STEEM <a href="#fn60" class="footnote-ref" id="fnref60"><sup>60</sup></a></h3>
+<h3><span class="header-section-number">8.2.9</span> 同时给多个帐号发送SBD或者STEEM <a href="#fn61" class="footnote-ref" id="fnref61"><sup>61</sup></a></h3>
 <p>STEEMIT 和 BUSY 的前端都有一个内置的钱包工具，您可以一次给一个帐号发送 SBD 或者 STEEM。当我们要给很多很多人发送钱的时候，就显得有些不方便了。这时候可以用这个在线工具：</p>
 <p><a href="https://steemyy.com/wallet-tool/" class="uri">https://steemyy.com/wallet-tool/</a></p>
 <p><strong>填写表单</strong>
@@ -841,7 +842,7 @@ fd=feed
 <p>这个小工具用来群发消息或者发些奖励再适合不过了。不过当前版本的局限性就是每个收款人的金额是一样的。</p>
 </div>
 <div id="section-8.2.10" class="section level3">
-<h3><span class="header-section-number">8.2.10</span> 见证人代理查询 <a href="#fn61" class="footnote-ref" id="fnref61"><sup>61</sup></a></h3>
+<h3><span class="header-section-number">8.2.10</span> 见证人代理查询 <a href="#fn62" class="footnote-ref" id="fnref62"><sup>62</sup></a></h3>
 <p>之前我们了解到一个STEEM帐号可以有30票投给见证人，如果您有选择困难或者不愿意费心一个一个投，您可以设置 SteemIt 的见证人代理 (Witness Proxy) 。这个见证人代理就会全权代理你来投票：他/她投谁，那么你就跟投谁。</p>
 <p>比如大神 @abit 设置 @smooth 为见证人代理，在 steemd.com/@abit 上就会有这样的信息：</p>
 <blockquote>
@@ -875,7 +876,7 @@ timestamp</p>
 </blockquote>
 </div>
 <div id="---" class="section level3">
-<h3><span class="header-section-number">8.2.11</span> 见证人相互投票 - 谁没有给你投票? <a href="#fn62" class="footnote-ref" id="fnref62"><sup>62</sup></a></h3>
+<h3><span class="header-section-number">8.2.11</span> 见证人相互投票 - 谁没有给你投票? <a href="#fn63" class="footnote-ref" id="fnref63"><sup>63</sup></a></h3>
 <p>见证人也是互相抱团的，网红 @jerrybanfield 给我<a href="https://steemit.com/witness-category/@justyy/witness-tool-update-showing-total-blocks-produced-and-miss-rate#@jerrybanfield/re-justyy-witness-tool-update-showing-total-blocks-produced-and-miss-rate-20180331t010922718z">留言</a>，问我是否能提供一个工具能用于查看投你为见证人的支持者、和你相互抱团的见证人 还有没给你投票的见证人。</p>
 <p><strong>工具地址</strong>
 &gt; <a href="https://steemyy.com/list-of-mutual-witness/" class="uri">https://steemyy.com/list-of-mutual-witness/</a></p>
@@ -907,7 +908,7 @@ API访问接口如下：</p>
 </blockquote>
 </div>
 <div id="discord-" class="section level3">
-<h3><span class="header-section-number">8.2.12</span> Discord 机器人 <a href="#fn63" class="footnote-ref" id="fnref63"><sup>63</sup></a></h3>
+<h3><span class="header-section-number">8.2.12</span> Discord 机器人 <a href="#fn64" class="footnote-ref" id="fnref64"><sup>64</sup></a></h3>
 <p>Discord 原本是给游戏设计的，但由于其功能多，接口开放能力强，使用的用户越来越多。我们CN区也有一个Discord 频道，加入地址为：</p>
 <blockquote>
 <p><a href="https://discord.gg/7ctT3Xt" class="uri">https://discord.gg/7ctT3Xt</a></p>
@@ -948,7 +949,7 @@ API访问接口如下：</p>
 <p><img src="images/08_justyy_discord_5.png" /></p>
 </div>
 <div id="section-8.2.13" class="section level3">
-<h3><span class="header-section-number">8.2.13</span> 查看被删除的帖子或评论 <a href="#fn64" class="footnote-ref" id="fnref64"><sup>64</sup></a></h3>
+<h3><span class="header-section-number">8.2.13</span> 查看被删除的帖子或评论 <a href="#fn65" class="footnote-ref" id="fnref65"><sup>65</sup></a></h3>
 <p>大家都知道，STEEM上的一言一行都是会被记录在STEEM区块链上的，哪怕是7天内可以修改（或者删除）文章或者评论，<a href="https://justyy.com/archives/5420">修改的记录</a>也都是会被忠实的记录的。不相信？这个在线工具就可以做到把删除过的评论给列出来。</p>
 <p><strong>工具地址</strong>
 中文：<a href="https://steemyy.com/list-of-deleted-comments/" class="uri">https://steemyy.com/list-of-deleted-comments/</a>
@@ -989,7 +990,7 @@ transaction_merkle_root</p>
 <p>最后，请记住：谨言慎行。</p>
 </div>
 <div id="section-8.2.14" class="section level3">
-<h3><span class="header-section-number">8.2.14</span> 查看代理 <a href="#fn65" class="footnote-ref" id="fnref65"><sup>65</sup></a></h3>
+<h3><span class="header-section-number">8.2.14</span> 查看代理 <a href="#fn66" class="footnote-ref" id="fnref66"><sup>66</sup></a></h3>
 <p>在我所有的<a href="https://helloacm.com/tools/steemit-tools/">SteemIt工具</a>中，查看代理的两个工具最受欢迎。</p>
 <p><strong>代理能量</strong>
 比如我有两个号A和B，我想把A的1000个Steem Power 给B。但是Steem Power 需要3个月时候可以 Power Down 成 Steem（每7天系统把1/13变成Steem)。由此可见，这并不是最好方法，因为：
@@ -1035,7 +1036,7 @@ delegator</p>
 <p>如果您想查看谁把SP代理给了你（搞不好哪天就收到了 <span class="citation">@ned</span> 的代理呢），您可以把上面的 <code>delegatees</code> 换成 <code>delegators</code></p>
 </div>
 <div id="section-8.2.15" class="section level3">
-<h3><span class="header-section-number">8.2.15</span> 查看您投票的见证人 <a href="#fn66" class="footnote-ref" id="fnref66"><sup>66</sup></a></h3>
+<h3><span class="header-section-number">8.2.15</span> 查看您投票的见证人 <a href="#fn67" class="footnote-ref" id="fnref67"><sup>67</sup></a></h3>
 <p>我成为<a href="https://steemit.com/cn/@justyy/5h6gyv-cn">见证人</a>有一个月左右了，然后就和其它见证人一样，到处拉票，特别是手上拥有大量SP的大鱼更是一票难求。</p>
 <p>我在拉票的过程中，有些大鱼人比较 nice 则会说，“我手上30票已经满了，等哪天有人不在线上了，我就投你票”。好吧，这一等不知道得等多久……</p>
 <p>这下好了，今天走在马路上琢磨着这事，想着，写一个工具，把你投票的见证人的状态全列出来，这样谁不在线上了，一清二楚，拿着这个数据再去找大鱼，估计他也很难再搪塞了吧，嘿嘿，说干就干，今天很顺利，代码一调就过。</p>
@@ -1092,7 +1093,7 @@ created</p>
 </blockquote>
 </div>
 <div id="cointools-" class="section level3">
-<h3><span class="header-section-number">8.2.16</span> CoinTools 介绍 <a href="#fn67" class="footnote-ref" id="fnref67"><sup>67</sup></a></h3>
+<h3><span class="header-section-number">8.2.16</span> CoinTools 介绍 <a href="#fn68" class="footnote-ref" id="fnref68"><sup>68</sup></a></h3>
 <p>我之前很零碎的开发了查询STEEM/SBD币价的功能，把同样的功能放在公众号](<a href="https://justyy.com/archives/6086" class="uri">https://justyy.com/archives/6086</a>) 或者 <a href="https://justyy.com/archives/6089">Discord</a> 频道里，但终究觉得不够直观，因为用户需要键盘敲入命令才能查询，这很程序员思维的设计。</p>
 <p>我想着如何让币价查询变得再简单一些，于是我想到了做成Chrome<a href="https://justyy.com/archives/4324">浏览器插件</a>，因为我觉得这是最好的入口：
 1. Chrome 浏览器的市场占有率接近60%
@@ -1163,9 +1164,9 @@ CoinTools软件的默认语言是英语，在第一次使用的时候可以通�
 </div>
 </div>
 <div id="dapeng--steemr" class="section level2">
-<h2><span class="header-section-number">8.3</span> dapeng 的 steemr <a href="#fn68" class="footnote-ref" id="fnref68"><sup>68</sup></a></h2>
+<h2><span class="header-section-number">8.3</span> dapeng 的 steemr <a href="#fn69" class="footnote-ref" id="fnref69"><sup>69</sup></a></h2>
 <p>steemr 被收录在 steemit 官方推荐的 <a href="https://steemprojects.com/projects/p/steemr/">Steem project</a> 和 <a href="http://steemtools.com">steem tools</a> 中，以及 <a href="https://steemitburgenlandacademy.wordpress.com/useful-guides-anleitungen/notifications-verstaendigungen/">steemit 布尔根兰学院</a> 的推荐工具里。</p>
-<p><strong>指定 ID 的所有帖子查询</strong> <a href="#fn69" class="footnote-ref" id="fnref69"><sup>69</sup></a></p>
+<p><strong>指定 ID 的所有帖子查询</strong> <a href="#fn70" class="footnote-ref" id="fnref70"><sup>70</sup></a></p>
 <p>Steem 有个让人无比郁闷的毛病：想一目了然地看一个人的所有帖子，你得往下拉，等着载入，再拉，再等……尤其是那些发布了几百上千篇帖子的大神，想看他们的旧帖，在 steemit 上难比登天。我只能去 chainbb，那里支持分页，点第一页就行了。但是，你还得点页码，仍然不是很方便。</p>
 <p>为啥就没个文章全部列表呢？连杀人鲸 <span class="citation">@deanliu</span> 都<a href="https://cnsteem.com/cn/@deanliu/juan">抱怨</a>：</p>
 <blockquote>
@@ -1187,12 +1188,12 @@ CoinTools软件的默认语言是英语，在第一次使用的时候可以通�
 <p>其实，上面这两个问题，都容易解决：去 steemr，到文章展示厅，输入 id 回车，右上角搜索栏输入文章标签，就可以查看自己私人的分类标签文章了。</p>
 <p>例如，输入 dapeng 回车，搜索栏输入“cn-31”，就可以看到历届三个一活动的发起帖和颁奖帖，帖子里是所有参赛作品和获奖作品列表。</p>
 <p><img src="images/08_07.jpg" /></p>
-<p><strong>粉丝大厅</strong> <a href="#fn70" class="footnote-ref" id="fnref70"><sup>70</sup></a></p>
+<p><strong>粉丝大厅</strong> <a href="#fn71" class="footnote-ref" id="fnref71"><sup>71</sup></a></p>
 <p>用起来很简单：</p>
 <ul>
 <li>点击 <code>Follower report</code> 标签，输入你想查的 ID，点击 <code>GO</code> 按钮，等几秒钟或十几秒钟（取决于服务器的速度和 你要查的 ID 的情况）就可以看到结果了，包括粉丝 （followers） ID 的词云图，按这些粉丝的粉丝数量、发帖数量和vests大小排序。如果粉丝超过30个，就取前三十个。词云图下方，还给出了尚未互粉的 ID 列表。</li>
 </ul>
-<p><strong>水浒英雄榜</strong> <a href="#fn71" class="footnote-ref" id="fnref71"><sup>71</sup></a></p>
+<p><strong>水浒英雄榜</strong> <a href="#fn72" class="footnote-ref" id="fnref72"><sup>72</sup></a></p>
 <p>《水浒》里面哪段情节最激动人心？我觉得是“忠义堂石碣受天文，梁山泊英雄排座次”。小说开头放出的 108 员天罡地煞星，历经千难万险，终于再度聚齐。英雄好汉们按威望（Reputation）、能力（ESP）、财力（Account Value）、长幼（Online Days）等综合实力排名次，上下有序，一片和谐，摩拳擦掌，准备干一番大事业。就像来自五湖四海的 Steemit CN 用户，最近纷纷聚到了同一个微信群。不知大家怎么看，反正我有种“英雄好汉齐聚梁山泊”的感觉。</p>
 <p>1、可以输入一个 ID，给出该 ID 的声誉、权力等各项指标排位座次，以及邻座坐的是谁。看看谁坐在我旁边：</p>
 <p><img src="images/08_10.jpg" /></p>
@@ -1212,7 +1213,7 @@ CoinTools软件的默认语言是英语，在第一次使用的时候可以通�
 <p><strong>Steem 中国聚义厅</strong></p>
 <p>你想加入英雄榜吗？请联系 <span class="citation">@dapeng</span> 入伙。</p>
 <p>好了，来看看吧，在 Steem CN 的聚义厅里，你是哪条英雄好汉？坐哪把交椅？</p>
-<p><strong>月旦评琅琊榜</strong> <a href="#fn72" class="footnote-ref" id="fnref72"><sup>72</sup></a></p>
+<p><strong>月旦评琅琊榜</strong> <a href="#fn73" class="footnote-ref" id="fnref73"><sup>73</sup></a></p>
 <p>在 <span class="citation">@rivalhw</span> 发布<a href="https://steemit.com/cn/@rivalhw/sadt6">【广纳建言】关于设立“琅琊榜”提议的一些思考</a>后，steemr 新增了月旦评查询功能。</p>
 <p><img src="images/08_03.jpg" /></p>
 <p>目前，月旦评琅琊榜分三部分：琅琊文章榜，琅琊人物榜，月旦评历史发展曲线，实时在线显示。用的是 steemsql 数据库，可能比区块链的数据会有点滞后。大家先凑合看。</p>
@@ -1231,7 +1232,7 @@ CoinTools软件的默认语言是英语，在第一次使用的时候可以通�
 <p><img src="images/08_05.jpg" /></p>
 <p>月旦评历史发展曲线给出了月旦评活动累计的投稿数量、文章收益和点赞数。</p>
 <p><img src="images/08_06.jpg" /></p>
-<p><strong>三个一和好声音</strong> <a href="#fn73" class="footnote-ref" id="fnref73"><sup>73</sup></a></p>
+<p><strong>三个一和好声音</strong> <a href="#fn74" class="footnote-ref" id="fnref74"><sup>74</sup></a></p>
 <p><a href="http://steemr.org">steemr</a> 新增了个更为强大的页面，来展示史上所有参加三个一活动的帖子列表、作者名录，以及统计数据。</p>
 <p>用法很简单：</p>
 <ul>
@@ -1263,7 +1264,7 @@ CoinTools软件的默认语言是英语，在第一次使用的时候可以通�
 <p>在此，我简单介绍几款我自己收藏夹里的强大而便捷的工具。虽然这些工具都是英文界面，但只要稍微熟悉之后，即使不懂英文，也不影响正常使用。</p>
 </div>
 <div id="tool-steemworld" class="section level3">
-<h3><span class="header-section-number">8.4.2</span> steemworld.com <a href="#fn74" class="footnote-ref" id="fnref74"><sup>74</sup></a></h3>
+<h3><span class="header-section-number">8.4.2</span> steemworld.com <a href="#fn75" class="footnote-ref" id="fnref75"><sup>75</sup></a></h3>
 <p>Steemit最全面数据的网站：SteemWorld</p>
 <p>这个集多种工具以一身的网站，强烈建议收藏！</p>
 <p>网址：www.steemworld.org</p>
@@ -1346,7 +1347,7 @@ CoinTools软件的默认语言是英语，在第一次使用的时候可以通�
 <p><img src="images/08_steemworld_21.png" /></p>
 </div>
 <div id="tool-steemd" class="section level3">
-<h3><span class="header-section-number">8.4.3</span> steemd.com <a href="#fn75" class="footnote-ref" id="fnref75"><sup>75</sup></a></h3>
+<h3><span class="header-section-number">8.4.3</span> steemd.com <a href="#fn76" class="footnote-ref" id="fnref76"><sup>76</sup></a></h3>
 <p>steemd 是个神奇的网站。我们可以把它理解成 steemit 的 X 光透视仪：steemit 网站的大部分网页，只要把地址里的 steemit 换成 steemd，你就会看到这个网页的内部结构，有多少块骨头都数得出来。</p>
 <p>我们用这台 X 光透视仪，来给几个网页拍个片。</p>
 <p>第一个，相当于为 steemit.com 的首页拍的片。访问 <a href="https://steemd.com" class="uri">https://steemd.com</a>，你看到的是最新发帖的帖子源码。侧边栏显示的是 steem 区块链的系统信息。</p>
@@ -1365,7 +1366,7 @@ CoinTools软件的默认语言是英语，在第一次使用的时候可以通�
 <p>谢谢 steemd 的作者 @roadscape！</p>
 </div>
 <div id="tool-steem-data" class="section level3">
-<h3><span class="header-section-number">8.4.4</span> steemdata.com <a href="#fn76" class="footnote-ref" id="fnref76"><sup>76</sup></a></h3>
+<h3><span class="header-section-number">8.4.4</span> steemdata.com <a href="#fn77" class="footnote-ref" id="fnref77"><sup>77</sup></a></h3>
 <p>steemdata 本身是个数据库，我们将在本书的高级篇里详细介绍这个数据库的用法。由于免费，很多应用都是以这个数据库为基础的。其作者 @furion 就开发出了有用有趣的工具。</p>
 <p><img src="images/08_22.jpg" /></p>
 <p>访问 steemdata.com，点击顶部的 Apps，就看到工具列表了。其中，Tickers 给出了 STEEM、SBD、BTC 等几种货币的市场价格（含图表），Charts 给出了 steem 账号的活跃情况图，无须多讲。这里我们只介绍一下 Mentions 和 Post History 两个工具。</p>
@@ -1388,7 +1389,7 @@ CoinTools软件的默认语言是英语，在第一次使用的时候可以通�
 <p><img src="images/08_23.jpg" /></p>
 </div>
 <div id="tool-steem-keychain" class="section level3">
-<h3><span class="header-section-number">8.4.5</span> Steem Keychain <a href="#fn77" class="footnote-ref" id="fnref77"><sup>77</sup></a></h3>
+<h3><span class="header-section-number">8.4.5</span> Steem Keychain <a href="#fn78" class="footnote-ref" id="fnref78"><sup>78</sup></a></h3>
 <p>本节为Steem Keychain的简介和操作指南</p>
 <p><strong>Steem上的登录方式有3种：</strong></p>
 <ul>
@@ -1496,33 +1497,33 @@ CoinTools软件的默认语言是英语，在第一次使用的时候可以通�
 </div>
 <div class="footnotes">
 <hr />
-<ol start="52">
-<li id="fn52"><p>本文由 @dapeng 根据 @oflyhigh 的帖子整理而成。<a href="fcgjp.html#fnref52" class="footnote-back">↩</a></p></li>
-<li id="fn53"><p>作者：@justyy, 原文链接：<a href="https://steemit.com/cn/@justyy/6hu2ch-steem" class="uri">https://steemit.com/cn/@justyy/6hu2ch-steem</a><a href="fcgjp.html#fnref53" class="footnote-back">↩</a></p></li>
-<li id="fn54"><p>作者：@justyy, 原文链接：<a href="https://steemit.com/cn/@justyy/2rhnkr-steem" class="uri">https://steemit.com/cn/@justyy/2rhnkr-steem</a><a href="fcgjp.html#fnref54" class="footnote-back">↩</a></p></li>
-<li id="fn55"><p>作者：@justyy, 原文链接：<a href="https://steemit.com/cn/@justyy/6u2yjq-steem" class="uri">https://steemit.com/cn/@justyy/6u2yjq-steem</a><a href="fcgjp.html#fnref55" class="footnote-back">↩</a></p></li>
-<li id="fn56"><p>作者：@justyy, 原文链接：<a href="https://steemit.com/cn/@justyy/3zfiuk-steem-steem" class="uri">https://steemit.com/cn/@justyy/3zfiuk-steem-steem</a><a href="fcgjp.html#fnref56" class="footnote-back">↩</a></p></li>
-<li id="fn57"><p>作者：@justyy, 原文链接：<a href="https://steemit.com/cn/@justyy/2bxnhm-steem-steem" class="uri">https://steemit.com/cn/@justyy/2bxnhm-steem-steem</a><a href="fcgjp.html#fnref57" class="footnote-back">↩</a></p></li>
-<li id="fn58"><p>作者：@justyy, 原文链接：<a href="https://steemit.com/cn/@justyy/steem-steem" class="uri">https://steemit.com/cn/@justyy/steem-steem</a><a href="fcgjp.html#fnref58" class="footnote-back">↩</a></p></li>
-<li id="fn59"><p>作者：@justyy, 原文链接：<a href="https://steemit.com/cn/@justyy/3czrdz-steem" class="uri">https://steemit.com/cn/@justyy/3czrdz-steem</a><a href="fcgjp.html#fnref59" class="footnote-back">↩</a></p></li>
-<li id="fn60"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn/@justyy/steem-justyy-api-sbd-steem" class="uri">https://steemit.com/cn/@justyy/steem-justyy-api-sbd-steem</a><a href="fcgjp.html#fnref60" class="footnote-back">↩</a></p></li>
-<li id="fn61"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn/@justyy/78a3jr-steem-justyy-api" class="uri">https://steemit.com/cn/@justyy/78a3jr-steem-justyy-api</a><a href="fcgjp.html#fnref61" class="footnote-back">↩</a></p></li>
-<li id="fn62"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn/@justyy/2lj55r-steem-justyy-api" class="uri">https://steemit.com/cn/@justyy/2lj55r-steem-justyy-api</a><a href="fcgjp.html#fnref62" class="footnote-back">↩</a></p></li>
-<li id="fn63"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn/@justyy/steem-justyy-api-discord" class="uri">https://steemit.com/cn/@justyy/steem-justyy-api-discord</a><a href="fcgjp.html#fnref63" class="footnote-back">↩</a></p></li>
-<li id="fn64"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn-reader/@justyy/7gwnq3-steem-justyy-api" class="uri">https://steemit.com/cn-reader/@justyy/7gwnq3-steem-justyy-api</a><a href="fcgjp.html#fnref64" class="footnote-back">↩</a></p></li>
-<li id="fn65"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn-reader/@justyy/steem-justyy-api" class="uri">https://steemit.com/cn-reader/@justyy/steem-justyy-api</a><a href="fcgjp.html#fnref65" class="footnote-back">↩</a></p></li>
-<li id="fn66"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn-reader/@justyy/steem-justyy-api-steemit" class="uri">https://steemit.com/cn-reader/@justyy/steem-justyy-api-steemit</a><a href="fcgjp.html#fnref66" class="footnote-back">↩</a></p></li>
-<li id="fn67"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn-reader/@justyy/steem-justyy-api-cointools" class="uri">https://steemit.com/cn-reader/@justyy/steem-justyy-api-cointools</a><a href="fcgjp.html#fnref67" class="footnote-back">↩</a></p></li>
-<li id="fn68"><p>作者：@dapeng，原文链接：<a href="https://steemit.com/steemdev/@dapeng/display-all-the-posts-of-a-steemian-and-the-statistics-or" class="uri">https://steemit.com/steemdev/@dapeng/display-all-the-posts-of-a-steemian-and-the-statistics-or</a><a href="fcgjp.html#fnref68" class="footnote-back">↩</a></p></li>
-<li id="fn69"><p>原文链接：<a href="https://steemit.com/steemdev/@dapeng/display-all-the-posts-of-a-steemian-and-the-statistics-or" class="uri">https://steemit.com/steemdev/@dapeng/display-all-the-posts-of-a-steemian-and-the-statistics-or</a><a href="fcgjp.html#fnref69" class="footnote-back">↩</a></p></li>
-<li id="fn70"><p>原文链接：<a href="https://steemit.com/cn/@dapeng/steemr-a-web-based-tool-for-steemers-or-steemians-steemr" class="uri">https://steemit.com/cn/@dapeng/steemr-a-web-based-tool-for-steemers-or-steemians-steemr</a><a href="fcgjp.html#fnref70" class="footnote-back">↩</a></p></li>
-<li id="fn71"><p>原文链接：<a href="https://steemit.com/cn/@dapeng/6mnla8-steemit-cn" class="uri">https://steemit.com/cn/@dapeng/6mnla8-steemit-cn</a><a href="fcgjp.html#fnref71" class="footnote-back">↩</a></p></li>
-<li id="fn72"><p>原文链接：<a href="https://steemit.com/cn/@dapeng/or-an-online-app-for-the-monthly-review-in-cn-category" class="uri">https://steemit.com/cn/@dapeng/or-an-online-app-for-the-monthly-review-in-cn-category</a><a href="fcgjp.html#fnref72" class="footnote-back">↩</a></p></li>
-<li id="fn73"><p>原文链接：<a href="https://steemit.com/cn/@dapeng/steemr" class="uri">https://steemit.com/cn/@dapeng/steemr</a><a href="fcgjp.html#fnref73" class="footnote-back">↩</a></p></li>
-<li id="fn74"><p>作者：@ericet, 原文链接：<a href="https://steemit.com/@ericet/steem-steemworld" class="uri">https://steemit.com/@ericet/steem-steemworld</a><a href="fcgjp.html#fnref74" class="footnote-back">↩</a></p></li>
-<li id="fn75"><p>作者：@dapeng<a href="fcgjp.html#fnref75" class="footnote-back">↩</a></p></li>
-<li id="fn76"><p>steemdata 已于2018年5月1日关闭服务。<a href="fcgjp.html#fnref76" class="footnote-back">↩</a></p></li>
-<li id="fn77"><p>作者：@ericet，创作时间：2019年4月16日，原文链接：<a href="https://steemit.com/cn/@ericet/steemkeychain-7n2z3fu72e" class="uri">https://steemit.com/cn/@ericet/steemkeychain-7n2z3fu72e</a><a href="fcgjp.html#fnref77" class="footnote-back">↩</a></p></li>
+<ol start="53">
+<li id="fn53"><p>本文由 @dapeng 根据 @oflyhigh 的帖子整理而成。<a href="fcgjp.html#fnref53" class="footnote-back">↩</a></p></li>
+<li id="fn54"><p>作者：@justyy, 原文链接：<a href="https://steemit.com/cn/@justyy/6hu2ch-steem" class="uri">https://steemit.com/cn/@justyy/6hu2ch-steem</a><a href="fcgjp.html#fnref54" class="footnote-back">↩</a></p></li>
+<li id="fn55"><p>作者：@justyy, 原文链接：<a href="https://steemit.com/cn/@justyy/2rhnkr-steem" class="uri">https://steemit.com/cn/@justyy/2rhnkr-steem</a><a href="fcgjp.html#fnref55" class="footnote-back">↩</a></p></li>
+<li id="fn56"><p>作者：@justyy, 原文链接：<a href="https://steemit.com/cn/@justyy/6u2yjq-steem" class="uri">https://steemit.com/cn/@justyy/6u2yjq-steem</a><a href="fcgjp.html#fnref56" class="footnote-back">↩</a></p></li>
+<li id="fn57"><p>作者：@justyy, 原文链接：<a href="https://steemit.com/cn/@justyy/3zfiuk-steem-steem" class="uri">https://steemit.com/cn/@justyy/3zfiuk-steem-steem</a><a href="fcgjp.html#fnref57" class="footnote-back">↩</a></p></li>
+<li id="fn58"><p>作者：@justyy, 原文链接：<a href="https://steemit.com/cn/@justyy/2bxnhm-steem-steem" class="uri">https://steemit.com/cn/@justyy/2bxnhm-steem-steem</a><a href="fcgjp.html#fnref58" class="footnote-back">↩</a></p></li>
+<li id="fn59"><p>作者：@justyy, 原文链接：<a href="https://steemit.com/cn/@justyy/steem-steem" class="uri">https://steemit.com/cn/@justyy/steem-steem</a><a href="fcgjp.html#fnref59" class="footnote-back">↩</a></p></li>
+<li id="fn60"><p>作者：@justyy, 原文链接：<a href="https://steemit.com/cn/@justyy/3czrdz-steem" class="uri">https://steemit.com/cn/@justyy/3czrdz-steem</a><a href="fcgjp.html#fnref60" class="footnote-back">↩</a></p></li>
+<li id="fn61"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn/@justyy/steem-justyy-api-sbd-steem" class="uri">https://steemit.com/cn/@justyy/steem-justyy-api-sbd-steem</a><a href="fcgjp.html#fnref61" class="footnote-back">↩</a></p></li>
+<li id="fn62"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn/@justyy/78a3jr-steem-justyy-api" class="uri">https://steemit.com/cn/@justyy/78a3jr-steem-justyy-api</a><a href="fcgjp.html#fnref62" class="footnote-back">↩</a></p></li>
+<li id="fn63"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn/@justyy/2lj55r-steem-justyy-api" class="uri">https://steemit.com/cn/@justyy/2lj55r-steem-justyy-api</a><a href="fcgjp.html#fnref63" class="footnote-back">↩</a></p></li>
+<li id="fn64"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn/@justyy/steem-justyy-api-discord" class="uri">https://steemit.com/cn/@justyy/steem-justyy-api-discord</a><a href="fcgjp.html#fnref64" class="footnote-back">↩</a></p></li>
+<li id="fn65"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn-reader/@justyy/7gwnq3-steem-justyy-api" class="uri">https://steemit.com/cn-reader/@justyy/7gwnq3-steem-justyy-api</a><a href="fcgjp.html#fnref65" class="footnote-back">↩</a></p></li>
+<li id="fn66"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn-reader/@justyy/steem-justyy-api" class="uri">https://steemit.com/cn-reader/@justyy/steem-justyy-api</a><a href="fcgjp.html#fnref66" class="footnote-back">↩</a></p></li>
+<li id="fn67"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn-reader/@justyy/steem-justyy-api-steemit" class="uri">https://steemit.com/cn-reader/@justyy/steem-justyy-api-steemit</a><a href="fcgjp.html#fnref67" class="footnote-back">↩</a></p></li>
+<li id="fn68"><p>作者：@justyy，原文链接：<a href="https://steemit.com/cn-reader/@justyy/steem-justyy-api-cointools" class="uri">https://steemit.com/cn-reader/@justyy/steem-justyy-api-cointools</a><a href="fcgjp.html#fnref68" class="footnote-back">↩</a></p></li>
+<li id="fn69"><p>作者：@dapeng，原文链接：<a href="https://steemit.com/steemdev/@dapeng/display-all-the-posts-of-a-steemian-and-the-statistics-or" class="uri">https://steemit.com/steemdev/@dapeng/display-all-the-posts-of-a-steemian-and-the-statistics-or</a><a href="fcgjp.html#fnref69" class="footnote-back">↩</a></p></li>
+<li id="fn70"><p>原文链接：<a href="https://steemit.com/steemdev/@dapeng/display-all-the-posts-of-a-steemian-and-the-statistics-or" class="uri">https://steemit.com/steemdev/@dapeng/display-all-the-posts-of-a-steemian-and-the-statistics-or</a><a href="fcgjp.html#fnref70" class="footnote-back">↩</a></p></li>
+<li id="fn71"><p>原文链接：<a href="https://steemit.com/cn/@dapeng/steemr-a-web-based-tool-for-steemers-or-steemians-steemr" class="uri">https://steemit.com/cn/@dapeng/steemr-a-web-based-tool-for-steemers-or-steemians-steemr</a><a href="fcgjp.html#fnref71" class="footnote-back">↩</a></p></li>
+<li id="fn72"><p>原文链接：<a href="https://steemit.com/cn/@dapeng/6mnla8-steemit-cn" class="uri">https://steemit.com/cn/@dapeng/6mnla8-steemit-cn</a><a href="fcgjp.html#fnref72" class="footnote-back">↩</a></p></li>
+<li id="fn73"><p>原文链接：<a href="https://steemit.com/cn/@dapeng/or-an-online-app-for-the-monthly-review-in-cn-category" class="uri">https://steemit.com/cn/@dapeng/or-an-online-app-for-the-monthly-review-in-cn-category</a><a href="fcgjp.html#fnref73" class="footnote-back">↩</a></p></li>
+<li id="fn74"><p>原文链接：<a href="https://steemit.com/cn/@dapeng/steemr" class="uri">https://steemit.com/cn/@dapeng/steemr</a><a href="fcgjp.html#fnref74" class="footnote-back">↩</a></p></li>
+<li id="fn75"><p>作者：@ericet, 原文链接：<a href="https://steemit.com/@ericet/steem-steemworld" class="uri">https://steemit.com/@ericet/steem-steemworld</a><a href="fcgjp.html#fnref75" class="footnote-back">↩</a></p></li>
+<li id="fn76"><p>作者：@dapeng<a href="fcgjp.html#fnref76" class="footnote-back">↩</a></p></li>
+<li id="fn77"><p>steemdata 已于2018年5月1日关闭服务。<a href="fcgjp.html#fnref77" class="footnote-back">↩</a></p></li>
+<li id="fn78"><p>作者：@ericet，创作时间：2019年4月16日，原文链接：<a href="https://steemit.com/cn/@ericet/steemkeychain-7n2z3fu72e" class="uri">https://steemit.com/cn/@ericet/steemkeychain-7n2z3fu72e</a><a href="fcgjp.html#fnref78" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
             </section>
