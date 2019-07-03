@@ -22,7 +22,7 @@ Steemit.com是由Steem区块链的官方开发者建立的一个网站，在这�
 
 - 3.其它接入Steem链的网站
 
-除了Steemit.com外，我们还可以通过Busy、eSteem、ChainBB、Utopian.io、Steepshot、Zappl、DTube、Dsound、Dlive、Dmania等各类网站输出或输入Steem链上的内容。就好像以前我们使用的光盘，我们不仅能在DVD上播放光盘的内容，还可以在EVD甚至有光驱的电脑上播放这个光盘。最重要的内容就存在这小小的光盘上。那么我们要问这么神奇的Steem链，究竟是什么呢？
+除了Steemit.com外，我们还可以通过Busy、eSteem、Steempeak、Utopian.io、Steepshot、Zappl、DTube、Dsound、Partiko等各类网站输出或输入Steem链上的内容。就好像以前我们使用的光盘，我们不仅能在DVD上播放光盘的内容，还可以在EVD甚至有光驱的电脑上播放这个光盘。最重要的内容就存在这小小的光盘上。那么我们要问这么神奇的Steem链，究竟是什么呢？
 
 - 4.Steem链的本质
 
@@ -62,6 +62,52 @@ SBD初衷是设计来1：1兑换美元的，官方现在也是把1SBD固定视�
 ### 怎么获得这些货币
 
 作者在发文章之后，按照Steemit的规则，7日后文章将被锁定而且无法修改(区块链永久不可篡改性)，同时进行该帖的结算，并根据作者发帖时的设定进行Steem和SBD的奖励。如果作者选择50% 50%，系统会将奖励分为两部分，一部分作为SBD奖励，另一部分作为SP奖励；如果作者选择发帖时power up 100%，则系统将会将奖励全部按照SP进行power up。当然你也可以通过交易所或其它货币持有者交易来获得这些货币。
+
+### 帖子收益的计算方式 ^[作者：\@ericet；原文链接：https://steemit.com/cn/@ericet/35f52g]{#how-to-calculate-reward}
+
+帖子计算的公式 
+![](https://steemitimages.com/0x0/https://steemitimages.com/0x0/https://steemitimages.com/DQmQzJrSMkdMiwXXih35wfYwZVAjtf2aqqDW23MauhchK6G/image.png)
+
+![](https://steemitimages.com/0x0/https://steemitimages.com/0x0/https://steemitimages.com/DQmeg1KkdmzzCHjB3FHKT5KEjGkGu7kzCbxsNL9TgFMjAkZ/image.png)
+
+第一组公式：
+**RS**: 帖子收益总和，以rshares为单位。
+**Rb（Reward Balance)**:  每年Steem通货膨胀所产生的STEEM，大概每3秒产生 1.668 STEEM 加到奖金池里
+**Rc（Recent Claims）**: 所有帖子回复还没有结算的收益总和。以Rshares为单位。
+
+第二组公式：
+**Psteem**：通过第一组公式得到的以Steem计价的帖子收入
+**Price** : STEEM的喂价（STEEM 3.5日的中间价）
+
+通过第二组公式就可以获得Psbd 以SBD计的帖子收益。
+
+看到公式是不是很抽象？举个例子解释一下吧。
+
+比如我的这篇帖子：[https://steemit.com/@ericet/partiko20-2mmhatnw](https://steemit.com/@ericet/partiko20-2mmhatnw)
+显示的收益是$0.99.
+现在我们开始计算这$0.99是怎么来的。
+
+- 通过[https://steemd.com/@ericet/partiko20-2mmhatnw](https://steemd.com/@ericet/partiko20-2mmhatnw) 获取帖子点赞的RS，总共：1,644,564,313,801
+- Rb: 847,366
+- Rc: 550,688,291B
+- 通过www.steemd.com 获取STEEM喂价：$0.39 然后套入公式后：
+
+> Psbd = RSx(Rb/Rc)xPrice
+
+Psbd = 1,644,564,313,801 x (847,366/550,688,291,000,000,000) x 0.39
+Psbd = 0.987
+
+算出的收益为0.987 SBD，1SBD以1美元计，和帖子显示的$0.99相符（四舍五入）
+
+读懂上面的公式对理解帖子的收益有很大的帮助。
+比如：
+
+- 帖子的收益受什么因素影响？
+- 什么时候买赞比较合算？
+- 币价低迷是不是写文章的好时机？
+
+这些问题都可以通过上面的公式来解释。
+
 
 ### 总结
 
@@ -394,7 +440,7 @@ c. 租用多少星期, 輸入數字1 ~52. (即一星期至一年)
   * 四.近期Steemit总点赞量
 
     这个也许是被大家忽略最多的因素。要解释起来比较困难。我们可以用夸张的方法。假设在你发表文章以前7天全部Steemit用户都没有发表过一篇文章，那你刚发表完文章后就会显示你的这篇文章将获得所有这7天产生的新Steem，也许总价会是$100000。但如果你的文章发表后7天又有很多人陆续发表文章，那么他们将和你分摊这$100000,到了文章发表后第七天，你领取到了真实收益可能就不到$10了。　
-　
+
     当然这个是很夸张的情况了，基本上不可能出现，大多数时候是可能近几天全球很多人发帖，点赞的人也很热情，那么你分到的收益就会减少一点，如果相反，你分到的收益就会增多一点。
 
 以上为适合新人理解的精简版解释，如果你想了解文章收益变化的更多细节，请看下面更专业的解释：
