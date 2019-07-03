@@ -219,7 +219,7 @@ DTube是基于steem区块链开发的一个去中心化的视频分享网站，�
 
 最后说一个比较重要的技巧，Dlive有自己的discord聊天室。Dlive的团队、管理员们和用户都在里面交流，毕竟Dlive是一个社群，如果想发展的好，和团队人员搞好关系是非常重要的，当然聊天室里面有中文区，也有国人管理员，但是其他频道都是用英语交流的。如果你想练习英文，来这里也是很好的。
 
-## Tasteem - 美食分享平台^[作者:\@aaronli, \@deanliu;编辑:\@aaronli;原文链接:https://steemit.com/artnearn/@aaronli/dapptasteemio-l2l53r8rmu, https://steemit.com/cn/@deanliu/tasteem-review-tasteem-wpfnzl9m]
+## Tasteem - 美食分享平台^[作者:\@aaronli, \@deanliu;编辑:\@aaronli;原文链接:https://steemit.com/artnearn/@aaronli/dapptasteemio-l2l53r8rmu, https://steemit.com/cn/@deanliu/tasteem-review-tasteem-wpfnzl9m]（更新於2019年7月3日）
 
 Tasteem於2018年3月加入Steemit，是基於Steem社區以餐廳為主題的應用，你可以在到不同用戶就不同主題的餐廳介紹。現在已經是Steemit上最出名的餐廳介紹活動舉辦者。截至2019年6月，Tasteem的代理SP已經超過一百萬。
 Tasteem每一天都會舉辦一個不同的餐廳主題活動，只要按照要求投稿發文，寫得好的文章就會得到tasteem的點贊。
@@ -227,7 +227,7 @@ Tasteem每一天都會舉辦一個不同的餐廳主題活動，只要按照要�
 Tasteem 網址：http://tasteem.io
 
 
-### **使用tasteem的好處**
+<h3>**使用tasteem的好處**</h3>
 
 1. 有機會得到 [@tasteem](https://steemit.com/@tasteem) 點贊
 2. 使用tasteem.io 的收藏功能，收藏自己喜歡的餐廳
@@ -235,12 +235,13 @@ Tasteem 網址：http://tasteem.io
 4. 學習用英文寫作
 
 
-### **如何使用tasteem**
+<h3>**如何使用tasteem**</h3>
 
 1. 首先我們到 tasteem.io，點擊右上角的「Sign in」，用自己的steemit帳戶登入。
 ![](https://i.imgur.com/TWZkplc.jpg)
 
 1. 登入後，可瀏覽自己感興趣的主題活動，並了解活動資料。
+
     1 活動的舉行日期
     2 活動主題
     3 活動距離截止的尚餘時間
@@ -257,6 +258,7 @@ Tasteem 網址：http://tasteem.io
 ![](https://i.imgur.com/YIB1DPr.png)
 
 第二部份是文章規則，基本上每次活動的規則都是一樣。以下為規則的中文翻譯：
+
 * 你必須曾在最近親自光顧過該餐廳
 * 你的文章至少需要有三張照片及八句文字描述
 * 你發表的餐廳必須符合活動主題
@@ -281,20 +283,22 @@ Tasteem 網址：http://tasteem.io
 ![](https://i.imgur.com/KQaqd4Y.png)
 
 
-### Tasteem的評分方法
+<h3>Tasteem的評分方法</h3>
 
 Tasteem擁有自己的一套評分系統，按分數來決定勝出者。用戶可以三種方法得到分數：
+
 1. 一個點贊可獲兩分
 2. 文章每得到1 SBD的收益可得10分
 3. 文章每得到1個收藏可得3分
 
 另外大家需要留意兩點：
+
 1. 只有曾登入tasteem用戶的點贊才會得到分數
 2. 文章收藏得到的分數最多是30分，即10個收藏
 3. Tasteem嚴格禁止bidbot，使用bidbot的有可能會被排除資格
 
 
-### 結語
+<h3>結語</h3>
 
 tasteem對經常光顧新餐廳的朋友來說是一個很不錯的選擇，大家也不需要害怕要寫英語，其實外國人對非英語為母語的人的文法要求並不高，只要看得懂就行了。大家也不需要寫得長篇大論，只要有8句句子就符要參賽資格。
 
