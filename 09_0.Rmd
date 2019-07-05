@@ -219,8 +219,9 @@ DTube是基于steem区块链开发的一个去中心化的视频分享网站，�
 
 最后说一个比较重要的技巧，Dlive有自己的discord聊天室。Dlive的团队、管理员们和用户都在里面交流，毕竟Dlive是一个社群，如果想发展的好，和团队人员搞好关系是非常重要的，当然聊天室里面有中文区，也有国人管理员，但是其他频道都是用英语交流的。如果你想练习英文，来这里也是很好的。
 
+## STEEMPEAK
 
-## STEEMPEAK的基本使用方法 ^[作者:\@minloulou;编辑:\@jianan;原文链接:https://steemit.com/steem-guides/@minloulou/steempeak-steempeak]
+### STEEMPEAK的PC版基本使用方法 ^[作者:\@minloulou;编辑:\@jianan;原文链接:https://steemit.com/steem-guides/@minloulou/steempeak-steempeak]
 
 
 STEEMPEAK推出了一年多了，不知道各位有沒有在使用?
@@ -248,23 +249,23 @@ STEEMPEAK推出了一年多了，不知道各位有沒有在使用?
 - 登入成功後你會看到你的名字(minloulou)和個人頭像在右上方出現 (圖五)
 
 
-![image.png](https://files.steempeak.com/file/steempeak/minloulou/O6r7PrIX-image.png)
+![](https://files.steempeak.com/file/steempeak/minloulou/O6r7PrIX-image.png)
 
 (圖一)
 
-![image.png](https://files.steempeak.com/file/steempeak/minloulou/9XgbFrEP-image.png)
+![](https://files.steempeak.com/file/steempeak/minloulou/9XgbFrEP-image.png)
 
 (圖二)
 
-![image.png](https://files.steempeak.com/file/steempeak/minloulou/u7mzP5YF-image.png)
+![](https://files.steempeak.com/file/steempeak/minloulou/u7mzP5YF-image.png)
 
 (圖三)
 
-![image.png](https://files.steempeak.com/file/steempeak/minloulou/JxFz4Cnc-image.png)
+![](https://files.steempeak.com/file/steempeak/minloulou/JxFz4Cnc-image.png)
 
 (圖四)
 
-![image.png](https://files.steempeak.com/file/steempeak/minloulou/qZXxNxC3-image.png)
+![](https://files.steempeak.com/file/steempeak/minloulou/qZXxNxC3-image.png)
 
 (圖五)
 
@@ -277,19 +278,19 @@ STEEMPEAK推出了一年多了，不知道各位有沒有在使用?
 
 *我個人最喜歡用這個功能去搜索#cn-activity的活動，透過參加活動可以令大家快速融入社區。首先當然要Follow @cn-activity的帳號，然後使用Explore這個功能，再選擇FAVORITE TOPICS(最愛主題)，最後找到最新(Created)的帖子* (圖九)
 
-![image.png](https://files.steempeak.com/file/steempeak/minloulou/OQ121Xux-image.png)
+![](https://files.steempeak.com/file/steempeak/minloulou/OQ121Xux-image.png)
 
 (圖六)
 
-![image.png](https://files.steempeak.com/file/steempeak/minloulou/nAV5a7tT-image.png)
+![](https://files.steempeak.com/file/steempeak/minloulou/nAV5a7tT-image.png)
 
 (圖七)
 
-![image.png](https://files.steempeak.com/file/steempeak/minloulou/1qQdH8A1-image.png)
+![](https://files.steempeak.com/file/steempeak/minloulou/1qQdH8A1-image.png)
 
 (圖八)
 
-![image.png](https://files.steempeak.com/file/steempeak/minloulou/gVuhIERD-image.png)
+![](https://files.steempeak.com/file/steempeak/minloulou/gVuhIERD-image.png)
 
 (圖九)
 
@@ -301,9 +302,10 @@ STEEMPEAK推出了一年多了，不知道各位有沒有在使用?
 
 **在STEEMPEAK上寫作是十分安心的**，他會自動幫你儲存草稿(Draft)，作家最怕是花了很多時間，寫了很長的一篇文作後突然因為故障或其作問題而令作品不見了!!!
 
-![image.png](https://files.steempeak.com/file/steempeak/minloulou/4lQuGS3B-image.png)
+![](https://files.steempeak.com/file/steempeak/minloulou/4lQuGS3B-image.png)
 (圖十)
-![image.png](https://files.steempeak.com/file/steempeak/minloulou/kESzC7Au-image.png)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/kESzC7Au-image.png)
 (圖十一)
 
 **最後說一下STEEMPEAK超強大的錢包功能(超強大)**
@@ -316,19 +318,20 @@ STEEMPEAK推出了一年多了，不知道各位有沒有在使用?
 
 **好用的功能數之不盡，還請各位努力探索或者期待我未來的帖子！！**
 
-![image.png](https://files.steempeak.com/file/steempeak/minloulou/zg3O5gG8-image.png)
+![](https://files.steempeak.com/file/steempeak/minloulou/zg3O5gG8-image.png)
 (圖十二)
-![image.png](https://files.steempeak.com/file/steempeak/minloulou/uwC4Qvzy-image.png)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/uwC4Qvzy-image.png)
 (圖十三)
 
 
 **最後最後還有一個很重要的是支持開發者(SUPPORT US)，如果你用得開心，不妨將你收到的STEEM/SBD捐贈給開發者以支持他們繼續努力!!**
 
-![image.png](https://files.steempeak.com/file/steempeak/minloulou/JbiMWdr9-image.png)
+![](https://files.steempeak.com/file/steempeak/minloulou/JbiMWdr9-image.png)
 
 
 
-## STEEMPEAK的手機版 ^[作者:\@minloulou;编辑:\@jianan;原文链接:https://steemit.com/steem-guides/@minloulou/steempeak-steempeak]
+### STEEMPEAK的手機版 ^[作者:\@minloulou;编辑:\@jianan;原文链接:https://steemit.com/steem-guides/@minloulou/steempeak-steempeak]
 
 [齊齊來玩STEEMPEAK(一) STEEMPEAK的基本使用方法](https://steempeak.com/steem-guides/@minloulou/steempeak-steempeak)
 
@@ -358,11 +361,11 @@ https://steempeak.com/
 
 完全地把大部份功能移植至手機網頁版本, 感謝\@STEEMPEAK的努力!! 在手機也可以接近相同的良好體驗
 
-![WhatsApp Image 20190629 at 15.52.23 1.jpeg](https://files.steempeak.com/file/steempeak/minloulou/a2kr1eXR-WhatsApp20Image202019-06-2920at2015.52.23201.jpeg)
+![](https://files.steempeak.com/file/steempeak/minloulou/a2kr1eXR-WhatsApp20Image202019-06-2920at2015.52.23201.jpeg)
 
-![WhatsApp Image 20190629 at 15.52.24.jpeg](https://files.steempeak.com/file/steempeak/minloulou/PTspCZ4t-WhatsApp20Image202019-06-2920at2015.52.24.jpeg)
+![](https://files.steempeak.com/file/steempeak/minloulou/PTspCZ4t-WhatsApp20Image202019-06-2920at2015.52.24.jpeg)
 
-![WhatsApp Image 20190629 at 15.52.25.jpeg](https://files.steempeak.com/file/steempeak/minloulou/Mw1SgUOl-WhatsApp20Image202019-06-2920at2015.52.25.jpeg)
+![](https://files.steempeak.com/file/steempeak/minloulou/Mw1SgUOl-WhatsApp20Image202019-06-2920at2015.52.25.jpeg)
 
 特別一提的以下2個比較細微的功能
 - Feed頁面的Filter功能
@@ -372,9 +375,9 @@ Filter如圖如示, 可以直接跳到你喜愛的作者的頁面而不用search
 
 另外中間的這個選單有些時候會被人忽略, 所以特別提出。
 
-![WhatsApp Image 20190629 at 15.52.23.jpeg](https://files.steempeak.com/file/steempeak/minloulou/LA5MyhMp-WhatsApp20Image202019-06-2920at2015.52.23.jpeg)
+![](https://files.steempeak.com/file/steempeak/minloulou/LA5MyhMp-WhatsApp20Image202019-06-2920at2015.52.23.jpeg)
 
-![WhatsApp Image 20190629 at 15.52.24 1.jpeg](https://files.steempeak.com/file/steempeak/minloulou/NzZm4XR1-WhatsApp20Image202019-06-2920at2015.52.24201.jpeg)
+![](https://files.steempeak.com/file/steempeak/minloulou/NzZm4XR1-WhatsApp20Image202019-06-2920at2015.52.24201.jpeg)
 
 **最後最後還有一個很重要的是支持開發者(SUPPORT US)，如果你用得開心，不妨將你收到的STEEM/SBD捐贈給開發者以支持他們繼續努力!!**
 
@@ -426,7 +429,7 @@ Steemitworldmap是一个基于Steem社区和谷歌地图的一个应用，官方
 
 ![](https://cdn.steemitimages.com/DQmS2Hnp6WxDYYsgJxkCPir4tjHZzKNRF2FEbk9QynKwxYK/image.png)
 
-4.点击你认为正确的地点后，地图下部会显示出一串类似“\[//\]:# (!steemitworldmap 31.149316 lat 121.803556 long d3scr)”的代码，点击这串代码，系统会提示已复制成功
+4.点击你认为正确的地点后，地图下部会显示出一串类似“\[//\]:\# \(\!steemitworldmap 31.149316 lat 121.803556 long d3scr\)”的代码，点击这串代码，系统会提示已复制成功
 
 ![](https://cdn.steemitimages.com/DQmRAMddBAtTaN9Wyh93imUCeCPPuBVeh4rczUuQYB7B6JN/image.png)  
 
@@ -441,7 +444,7 @@ Steemitworldmap是一个基于Steem社区和谷歌地图的一个应用，官方
 **国内用户被墙时的使用方法**
     
 
-国内访问[https://www.steemitworldmap.com/](https://www.steemitworldmap.com/) 时，你会发现地图是加载不出来的，只有数字，那是因为谷歌被墙了，这时候得采用另一个策略。大家看到上面介绍的我们需要复制粘贴的一串代码中，只有lat（纬度）和long（经度）前面的数字会发生变化，其他都不会变。那么你只要能找到地图的经纬度，来代替下面的代码中的经纬度就可以了，不一定非得打开Steemitworldmap。 \[//\]:# (!steemitworldmap 纬度数字 lat 经度数字 long d3scr
+国内访问[https://www.steemitworldmap.com/](https://www.steemitworldmap.com/) 时，你会发现地图是加载不出来的，只有数字，那是因为谷歌被墙了，这时候得采用另一个策略。大家看到上面介绍的我们需要复制粘贴的一串代码中，只有lat（纬度）和long（经度）前面的数字会发生变化，其他都不会变。那么你只要能找到地图的经纬度，来代替下面的代码中的经纬度就可以了，不一定非得打开Steemitworldmap。 \[//\]:\#\(\!steemitworldmap 纬度数字 lat 经度数字 long d3scr
 
 <h4>1\. PC端</h4>
 
@@ -478,7 +481,7 @@ Steemitworldmap是一个基于Steem社区和谷歌地图的一个应用，官方
 
 ![](https://cdn.steemitimages.com/DQmdLnAqC3dhAj8oegrctsPSZBxFw5N8DKpUwb14fRmepPZ/image.png)
 
-将经纬度代替以下代码，并将其复制粘贴到你的帖子的最后即可。 \[//\]:# (!steemitworldmap 纬度数字 lat 经度数字 long d3scr
+将经纬度代替以下代码，并将其复制粘贴到你的帖子的最后即可。 \[//\]:\# \(\!steemitworldmap 纬度数字 lat 经度数字 long d3scr
 
 <h3>后语</h3>
 
