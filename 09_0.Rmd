@@ -126,6 +126,174 @@ Busy的主网页为busy.org,这个网页的主要优势是在原版Steemit.com�
 
 > 影响力=更多跟随者=更高价值的赞
 
+
+
+## STEEMPEAK
+
+### STEEMPEAK的PC版基本使用方法 ^[作者:\@minloulou;编辑:\@jianan;原文链接:https://steemit.com/steem-guides/@minloulou/steempeak-steempeak]
+
+
+STEEMPEAK推出了一年多了，不知道各位有沒有在使用?
+
+\@STEEMPEAK持續的優化令我大開眼界, 尤其是他在\@peakmonsters的貢獻, 真的令\@steemmonsters生色不少
+
+十分感謝\@asgarth \@jarvie \@r00sj3 \@dmytrokorol的努力。
+
+(Really appreciate those amazing work from \@asgarth \@jarvie \@r00sj3 \@dmytrokorol)
+
+今日, 讓我簡單教大家玩一玩STEEMPEAK, 增加你在使用Steemit的樂趣
+
+在Steemit上, 最基本的當然是 吸收新知、寫作分享和查看錢包收益。在STEEMPEAK上當然可以做到同樣的動作，但有更好的用家體驗！
+
+**第一步當然是 登入。**
+
+- 先在右上角找到Login如 (圖一)
+
+- 如果你是在使用Chrome/Brave的瀏覽器的話，而又有安裝Steem Keychain的話，你會看到以下(圖二)的這個畫面。只需要簡單輸入的名字便可以登入了
+
+- 而如果你沒有Steem Keychain的話，你會被帶到steemconnect的畫面如 (圖三)
+
+- 這個時候你便需要使用active key登入了 (圖四)
+
+- 登入成功後你會看到你的名字(minloulou)和個人頭像在右上方出現 (圖五)
+
+
+![](https://files.steempeak.com/file/steempeak/minloulou/O6r7PrIX-image.png)
+
+(圖一)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/9XgbFrEP-image.png)
+
+(圖二)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/u7mzP5YF-image.png)
+
+(圖三)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/JxFz4Cnc-image.png)
+
+(圖四)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/qZXxNxC3-image.png)
+
+(圖五)
+
+
+成功登入後，**你可以使用上方的標題開始探索(Feed/Explore)**
+- 如Feed是指你跟隨(Follow)的人的最新帖子(圖六)
+- Explore則是可以按不同條件去搜索相關的帖子
+- 在(圖七)我搜索了#cn區的最有價值(REWARD)帖子
+- 另外你也可以按(REWARD)那個字，彈出菜單去選擇最新(Created)的帖子(圖八)
+
+*我個人最喜歡用這個功能去搜索#cn-activity的活動，透過參加活動可以令大家快速融入社區。首先當然要Follow @cn-activity的帳號，然後使用Explore這個功能，再選擇FAVORITE TOPICS(最愛主題)，最後找到最新(Created)的帖子* (圖九)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/OQ121Xux-image.png)
+
+(圖六)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/nAV5a7tT-image.png)
+
+(圖七)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/1qQdH8A1-image.png)
+
+(圖八)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/gVuhIERD-image.png)
+
+(圖九)
+
+
+**在Steemit別忘了寫一寫、分享一下與其他人互動**
+- 在STEEMPEAK的右上方找到這支鉛筆後你可以看到(Create a Post)的功能(圖十)
+- 在Steemit的寫作需要留意的當然是標題(Post Title)、內容、標籤(tag)、草稿(Draft)和發布(PUBLISH)
+- 你可以寫(圖十一)我把需要留意的地方都畫上紅線
+
+**在STEEMPEAK上寫作是十分安心的**，他會自動幫你儲存草稿(Draft)，作家最怕是花了很多時間，寫了很長的一篇文作後突然因為故障或其作問題而令作品不見了!!!
+
+![](https://files.steempeak.com/file/steempeak/minloulou/4lQuGS3B-image.png)
+(圖十)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/kESzC7Au-image.png)
+(圖十一)
+
+**最後說一下STEEMPEAK超強大的錢包功能(超強大)**
+
+在右上方按一下的你的名字便會彈出選單。點選錢包(Wallet)後，你便會看到你的STEEM/SP/SBD和TOKENs(Steem Engine Tokens)(圖十二)
+
+還可以發送STEEM/SBD, PowerUp, 代理(DELEGATE), Power Down/Cancel Power Down, 看到Power Down的最新情況, 領取收益(Claim Rewards), Steem/SBD的最新價錢, 戶口價值(Estimated Steem Account Value),
+
+(圖十三)查看戶口的轉帳(Transactions), 篩選(FLITERS)指定條件的交易
+
+**好用的功能數之不盡，還請各位努力探索或者期待我未來的帖子！！**
+
+![](https://files.steempeak.com/file/steempeak/minloulou/zg3O5gG8-image.png)
+(圖十二)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/uwC4Qvzy-image.png)
+(圖十三)
+
+
+**最後最後還有一個很重要的是支持開發者(SUPPORT US)，如果你用得開心，不妨將你收到的STEEM/SBD捐贈給開發者以支持他們繼續努力!!**
+
+![](https://files.steempeak.com/file/steempeak/minloulou/JbiMWdr9-image.png)
+
+
+### STEEMPEAK的手機版 ^[作者:\@minloulou;编辑:\@jianan;原文链接:https://steemit.com/steem-guides/@minloulou/25jqmd-steempeak-steempeak]
+
+[齊齊來玩STEEMPEAK(一) STEEMPEAK的基本使用方法](https://steempeak.com/steem-guides/@minloulou/steempeak-steempeak)
+
+昨天寫了STEEMPEAK的基本後, \@john371911提問了\@STEEMPEAK的手機版,有沒有手機apps, 答案是: 暫時沒有, 但可以使用手機瀏覽器使用\@STEEMPEAK的大部份功能。
+
+
+開啟手機瀏覽器進入\@STEEMPEAK的主頁:
+https://steempeak.com/
+
+在右上角點一下後便會彈出Login的選單。手機由於沒有Steem Keychain, 所以使用steemconnect去登入。
+
+
+![](https://files.steempeak.com/file/steempeak/minloulou/Z2hTcH1H-WhatsApp20Image202019-06-2920at2015.52.20.jpeg)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/u2pQKwMZ-WhatsApp20Image202019-06-2920at2015.52.21.jpeg)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/1FTIWwzQ-WhatsApp20Image202019-06-2920at2015.52.22.jpeg)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/GcrwTzYN-WhatsApp20Image202019-06-2920at2015.52.22201.jpeg)
+
+
+登入成功後, 你會看到你的個人頭像在右上方。
+
+點一下你的頭像便會彈出選單。
+
+由普通的Feed, Explore, Wallet等, 到最新的Tribes也有, 甚至也可以有search, settings, switch users等等!!!
+
+完全地把大部份功能移植至手機網頁版本, 感謝\@STEEMPEAK的努力!! 在手機也可以接近相同的良好體驗
+
+![](https://files.steempeak.com/file/steempeak/minloulou/a2kr1eXR-WhatsApp20Image202019-06-2920at2015.52.23201.jpeg)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/PTspCZ4t-WhatsApp20Image202019-06-2920at2015.52.24.jpeg)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/Mw1SgUOl-WhatsApp20Image202019-06-2920at2015.52.25.jpeg)
+
+特別一提的以下2個比較細微的功能
+- Feed頁面的Filter功能
+- 中間的基本資料選單
+
+Filter如圖如示, 可以直接跳到你喜愛的作者的頁面而不用search, 真是貼心的設計!!
+
+另外中間的這個選單有些時候會被人忽略, 所以特別提出。
+
+![](https://files.steempeak.com/file/steempeak/minloulou/LA5MyhMp-WhatsApp20Image202019-06-2920at2015.52.23.jpeg)
+
+![](https://files.steempeak.com/file/steempeak/minloulou/NzZm4XR1-WhatsApp20Image202019-06-2920at2015.52.24201.jpeg)
+
+**最後最後還有一個很重要的是支持開發者(SUPPORT US)，如果你用得開心，不妨將你收到的STEEM/SBD捐贈給開發者以支持他們繼續努力!!**
+
+![](https://steemitimages.com/0x0/https://files.steempeak.com/file/steempeak/minloulou/JbiMWdr9-image.png)
+
+各位也可以follow @steempeak的page以得到最新的發展，也可以加入他們的discord: https://discord.gg/pC5bgK 發表你的意見~!
+
+
 ## dtube ^[作者:\@yellowbird;编辑:\@maiyude;原文链接:https://bihu.com/article/216210]
 ![](images/9-d-1.png)
 
@@ -218,6 +386,225 @@ DTube是基于steem区块链开发的一个去中心化的视频分享网站，�
 ![](images/9-l-2.png)
 
 最后说一个比较重要的技巧，Dlive有自己的discord聊天室。Dlive的团队、管理员们和用户都在里面交流，毕竟Dlive是一个社群，如果想发展的好，和团队人员搞好关系是非常重要的，当然聊天室里面有中文区，也有国人管理员，但是其他频道都是用英语交流的。如果你想练习英文，来这里也是很好的。
+
+
+## Tasteem - 美食分享平台^[作者:\@aaronli, \@deanliu;编辑:\@aaronli;原文链接:https://steemit.com/artnearn/@aaronli/dapptasteemio-l2l53r8rmu, https://steemit.com/cn/@deanliu/tasteem-review-tasteem-wpfnzl9m]
+
+Tasteem於2018年3月加入Steemit，是基於Steem社區以餐廳為主題的應用，你可以在到不同用戶就不同主題的餐廳介紹。現在已經是Steemit上最出名的餐廳介紹活動舉辦者。截至2019年6月，Tasteem的代理SP已經超過一百萬。
+Tasteem每一天都會舉辦一個不同的餐廳主題活動，只要按照要求投稿發文，寫得好的文章就會得到tasteem的點贊。
+
+Tasteem 網址：http://tasteem.io
+
+<h3>使用tasteem的好處</h3>
+
+1. 有機會得到 [@tasteem](https://steemit.com/@tasteem) 點贊
+2. 使用tasteem.io 的收藏功能，收藏自己喜歡的餐廳
+3. 增加自己的寫作題材
+4. 學習用英文寫作
+
+
+<h3>如何使用tasteem</h3>
+
+1. 首先我們到 tasteem.io，點擊右上角的「Sign in」，用自己的steemit帳戶登入。
+![](https://i.imgur.com/TWZkplc.jpg)
+
+1. 登入後，可瀏覽自己感興趣的主題活動，並了解活動資料。
+    1 活動的舉行日期
+    2 活動主題
+    3 活動距離截止的尚餘時間
+    4 活動現時的總獎賞
+
+![](https://i.imgur.com/ceDdjkT.png)
+
+進入活動頁面後，可查看活動的介紹及其他參加者的文章。
+
+![](https://i.imgur.com/Ee7fMBr.png)
+
+點擊最下方的「Post」，即可進入文章編輯頁面。編輯頁面共分幾個部份，第一部份是上載封面圖片。
+
+![](https://i.imgur.com/YIB1DPr.png)
+
+第二部份是文章規則，基本上每次活動的規則都是一樣。以下為規則的中文翻譯：
+
+* 你必須曾在最近親自光顧過該餐廳
+* 你的文章至少需要有三張照片及八句文字描述
+* 你發表的餐廳必須符合活動主題
+* 你的文章必須擁有至少一張你親自拍攝的照片
+* 如果你使用第三方照片，你必須得到使用許可並在文章列明照片來源
+* 你必須使用合適的語言（即英語），並不使用任何翻譯工具
+* 你不能發表任何特許經營（如快餐店、咖啡室及其他）、外賣速遞或外賣自取的食物（筆者按：即是不能寫連鎖店及外賣）
+* 你不能發表曾於一個月內發表過的餐廳
+
+![](https://i.imgur.com/dEr6UYS.png)
+
+第三部份就可以開始發表內容了，文章編輯器支援markdown，和Steemit一樣。左方是文字輸入部份，右邊則是預覽部份。至於右下方的WYSIWYG，則是直接在編輯器顯示預覽。
+
+![](https://i.imgur.com/JATdxty.png)
+
+第四部份，需要輸入餐廳的名稱、評級、實際的地址和加上標簽。tasteem是預設的標簽，總收可加5個標簽。
+
+![](https://i.imgur.com/IGXgMa1.png)
+
+最後點擊「Publish」，你就能在活動文章列表看到自己的文章。
+
+![](https://i.imgur.com/KQaqd4Y.png)
+
+
+<h3>Tasteem的評分方法</h3>
+
+Tasteem擁有自己的一套評分系統，按分數來決定勝出者。用戶可以三種方法得到分數：
+
+1. 一個點贊可獲兩分
+2. 文章每得到1 SBD的收益可得10分
+3. 文章每得到1個收藏可得3分
+
+另外大家需要留意兩點：
+
+1. 只有曾登入tasteem用戶的點贊才會得到分數
+2. 文章收藏得到的分數最多是30分，即10個收藏
+3. Tasteem嚴格禁止bidbot，使用bidbot的有可能會被排除資格
+
+<h3>結語</h3>
+
+tasteem對經常光顧新餐廳的朋友來說是一個很不錯的選擇，大家也不需要害怕要寫英語，其實外國人對非英語為母語的人的文法要求並不高，只要看得懂就行了。大家也不需要寫得長篇大論，只要有8句句子就符要參賽資格。
+
+
+## Steemitworldmap ^[作者:\@morningshine;编辑:\@jianan;原文链接:https://steemit.com/cn/@morningshine/steemitworldmap-3aefdqt1uu]
+
+在我的另一篇文章《[摄影爱好者Steem社区新手发帖入门](https://busy.org/@morningshine/steem-gt5jkx9uua)》中有提到使用Steemitworldmap能带来额外的收益。但是Steemitworldmap使用方法和标签不太一样，今天我专门写一篇文章来介绍如何使用Steemitworldmap。
+
+<h3>Steemitworldmap是什么？</h3>
+
+
+Steemitworldmap是一个基于Steem社区和谷歌地图的一个应用，官方网址是：[https://www.steemitworldmap.com/](https://www.steemitworldmap.com/)。
+
+如果你在steem上发旅游贴或风光照片并在这个地图上标记了具体地点，那么在这个地图上将看到你发的帖子。以下便是进入[https://www.steemitworldmap.com/](https://www.steemitworldmap.com/) 看到的界面，你可以大致看到每个地方发帖的数量，有数字的代表改地方不止一篇文章，没有数字的标记代表只有一篇文章，可以点击这些标记查看与这个地方相关的所有帖子。
+
+ ![](http://cnstm.oss-cn-shenzhen.aliyuncs.com/2019/06/20190623022401.jpg)  
+
+<h3>使用Steemitworldmap的好处</h3>
+
+1.  有可能得到\@steemitworldmap的点赞
+2.  如果配合旅游帖，有可能入选[Travel Digest](https://steemit.com/@steemitworldmap)，一旦入选，将会得到更大的曝光以及更多人的点赞。
+3.  可以按地图来查看自己或某个Steem账号使用过Steemitworldmap的帖子。例如下图通过Filter来筛选：
+
+![](http://cnstm.oss-cn-shenzhen.aliyuncs.com/2019/06/20190623023248.jpg)  
+
+<h3>如何使用Steemitworldmap</h3>
+
+由于Steemitworldmap调用了Google地图，因此正常国内网络情况下，国内的用户是无法查看地图的，因此我将分两种情况来描述。
+
+**海外用户的使用方式**
+       
+
+1.访问网址：[https://www.steemitworldmap.com/](https://www.steemitworldmap.com/)
+
+2.搜索输入框中输入地址，并且从联想地址中选择一个，如果没有特别精准的也先选择一个，到地理里可以再次调整。
+
+![](https://cdn.steemitimages.com/DQmXph5aAZgLiEfwQnKWaYqe4RPr4tB5p3ZHjvk9pQE3MSf/image.png)  
+
+![](https://cdn.steemitimages.com/DQmXph5aAZgLiEfwQnKWaYqe4RPr4tB5p3ZHjvk9pQE3MSf/image.png)
+
+3.选择地址后，点击地图底部的“code”按钮
+
+![](https://cdn.steemitimages.com/DQmS2Hnp6WxDYYsgJxkCPir4tjHZzKNRF2FEbk9QynKwxYK/image.png)  
+
+![](https://cdn.steemitimages.com/DQmS2Hnp6WxDYYsgJxkCPir4tjHZzKNRF2FEbk9QynKwxYK/image.png)
+
+4.点击你认为正确的地点后，地图下部会显示出一串类似 `[//]:# (!steemitworldmap 31.149316 lat 121.803556 long d3scr)` 的代码，点击这串代码，系统会提示已复制成功
+
+![](https://cdn.steemitimages.com/DQmRAMddBAtTaN9Wyh93imUCeCPPuBVeh4rczUuQYB7B6JN/image.png)  
+
+![](https://cdn.steemitimages.com/DQmRAMddBAtTaN9Wyh93imUCeCPPuBVeh4rczUuQYB7B6JN/image.png)
+
+![](https://cdn.steemitimages.com/DQmchKrSBSx3Ccd5MGqezQd6zaCtLS33zECG4cBmmStoLbt/image.png)  
+
+![](https://cdn.steemitimages.com/DQmchKrSBSx3Ccd5MGqezQd6zaCtLS33zECG4cBmmStoLbt/image.png)
+
+5.将这串代码粘贴到你的文章的最后面，正常看文章的时候这段代码是不会显示在Steemit的界面上的。需要注意的是，我在用Steempress工具发帖的时候，如果想代码粘贴在后面然后同步到Steem之后，这段代码会显示出来，我也不知道是否会生效。因此，我的做法是用Steempress编辑的时候不加次代码，而是同步到Steem后，我再编辑文章，加入此段代码。
+
+**国内用户被墙时的使用方法**
+    
+
+国内访问[https://www.steemitworldmap.com/](https://www.steemitworldmap.com/) 时，你会发现地图是加载不出来的，只有数字，那是因为谷歌被墙了，这时候得采用另一个策略。大家看到上面介绍的我们需要复制粘贴的一串代码中，只有lat（纬度）和long（经度）前面的数字会发生变化，其他都不会变。那么你只要能找到地图的经纬度，来代替下面的代码中的经纬度就可以了，不一定非得打开Steemitworldmap。 
+
+```
+[//]:# (!steemitworldmap 纬度数字 lat 经度数字 long d3scr
+```
+
+<h4>1\. PC端</h4>
+
+国内用户可以通过访问百度坐标拾取系统（网址：[http://api.map.baidu.com/lbsapi/getpoint/index.html](http://api.map.baidu.com/lbsapi/getpoint/index.html)
+）来找到对应的经纬度。如下图例子，点击地图的地点，右上角的位置会显示出你点击的地点的经纬度，经度和纬度是以逗号隔开的，你只要分别将其复制出来即可： 
+
+![](https://cdn.steemitimages.com/DQmdMG2WUHCu73SGVPsYL9TRHdk5251Esh28dBqdZyci4gp/image.png)  
+
+![](https://cdn.steemitimages.com/DQmdMG2WUHCu73SGVPsYL9TRHdk5251Esh28dBqdZyci4gp/image.png)
+
+**需要再三注意的是：百度坐标拾取系统是先经度后维度的，而Steemitworldmap的代码是先维度后经度，换句话来说，两者的数字位置是相反的。**
+
+记得千万别填错，那真的是会相差十万八千里的。将经纬度填入代码串后，如上文所述，将其粘贴到帖子的最后即可。
+
+<h4>2\. 手机端</h4>
+
+对于没有电脑的用户，我推荐大家下载手机App——奥维互动地图，这款APP无需翻墙即可访问谷歌地图，谷歌地图相对百度地图来说，对国外的地理支持更好。
+
+通过奥维互动地图APP你可以获取到经纬坐标。操作如下： 打开奥威地图后，搜索位置并用手长按住屏幕中你想要的地点。
+
+![](https://cdn.steemitimages.com/DQmPEHUsCrsYnTTk6ryn84wKkAr7TDQ5CdeLuoLVVaH6C2S/image.png)  
+
+![](https://cdn.steemitimages.com/DQmPEHUsCrsYnTTk6ryn84wKkAr7TDQ5CdeLuoLVVaH6C2S/image.png)
+
+接着弹出以下画面后，点击“经纬度及高度”。
+
+![](https://cdn.steemitimages.com/DQmZnHvaCoR5YjMhxKYoBxFPtzvQcdxn3JxsVWdDpy7GGX4/image.png) 
+
+![](https://cdn.steemitimages.com/DQmZnHvaCoR5YjMhxKYoBxFPtzvQcdxn3JxsVWdDpy7GGX4/image.png)
+
+同样的，你在这里可以找到对应的经纬度。
+
+![](https://cdn.steemitimages.com/DQmdLnAqC3dhAj8oegrctsPSZBxFw5N8DKpUwb14fRmepPZ/image.png)  
+
+![](https://cdn.steemitimages.com/DQmdLnAqC3dhAj8oegrctsPSZBxFw5N8DKpUwb14fRmepPZ/image.png)
+
+将经纬度代替以下代码，并将其复制粘贴到你的帖子的最后即可。 
+
+```
+[//]:# (!steemitworldmap 纬度数字 lat 经度数字 long d3scr
+```
+
+<h3>后语</h3>
+
+Steemitworldmap除了配合你的旅游帖子和美照之外，发美食应该也可以用，但是应该不会被评选到[Travel Digest](https://steemit.com/@steemitworldmap)，但是据说可能会得到点赞，这个本人没有试过，大家尝试过可以给我反馈确切的答案。
+
+
+## Steem Bounty之投票俱乐部 ^[作者:\@sonyeye;编辑:\@jianan;原文链接:https://steemit.com/steempress/@sonyeye/steemit-iuvt1g66xr]
+
+![](http://cnstm.oss-cn-shenzhen.aliyuncs.com/2019/06/2-3.jpg)
+
+在我刚刚进入steemit时，无意中发现了一个好用的网站，叫投票俱乐部。它是Steem Bounty的一个功能，Steem Bounty是由\@knircky开发的一个项目。
+
+投票俱乐部是Steem Bounty的一个功能，它的最主要的功能就是交换选票，就是这个俱乐部的成员之间互相投票，你会获得和你投出去的票价值相同的投票。
+
+要想使用这个功能，你需要首先在这个网站上注册。
+[https://steem-bounty.com/services?s=vote-club ](https://steem-bounty.com/services?s=vote-club )
+
+在你注册完成之后，他会自动帮你投票，直到你的投票能量低于你设定的最小值。在你给别人投票的同时，系统会计算出你的总体的投票价值，安排其他投票俱乐部的会员投给你相同价值的票。这个功能配合SP租赁一起使用我感觉是最好的。
+
+![](http://cnstm.oss-cn-shenzhen.aliyuncs.com/2019/06/10.jpg)
+
+  
+这个是投票的详细资料。我觉得对于新手来说可以租赁一定的SP，然后再使用这个功能，这样不仅能收回之前的支出，而且还能增加自己的声望，使其快速增长。 下面是具体的操作步骤：
+
+![](http://cnstm.oss-cn-shenzhen.aliyuncs.com/2019/06/3-2.jpg)
+
+  
+进入之后首先会看见这个页面，点击I'am interested.
+
+![](http://cnstm.oss-cn-shenzhen.aliyuncs.com/2019/06/5-1.jpg)
+  
+在前两个上面分别填入你的用户名和发帖密码，然后在下面填入你愿意维持的最小的投票能量，当你的投票能量低于你设定的数值时，你就不会在进行投票，同样别人也不会给你投票。最后点击I'am sure就ok啦。
+
 
 ## 延伸阅读：授权与安全 ^[作者:\@rileyge;\@skenan;编辑:\@maiyude;原文链接:https://steemit.com/cn/@rileyge/steemconnect-v2]
 
