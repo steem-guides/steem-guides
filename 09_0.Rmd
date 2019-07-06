@@ -429,7 +429,7 @@ Steemitworldmap是一个基于Steem社区和谷歌地图的一个应用，官方
 
 ![](https://cdn.steemitimages.com/DQmS2Hnp6WxDYYsgJxkCPir4tjHZzKNRF2FEbk9QynKwxYK/image.png)
 
-4.点击你认为正确的地点后，地图下部会显示出一串类似“\[//\]:# (!steemitworldmap 31.149316 lat 121.803556 long d3scr)”的代码，点击这串代码，系统会提示已复制成功
+4.点击你认为正确的地点后，地图下部会显示出一串类似 `[//]:# (!steemitworldmap 31.149316 lat 121.803556 long d3scr)` 的代码，点击这串代码，系统会提示已复制成功
 
 ![](https://cdn.steemitimages.com/DQmRAMddBAtTaN9Wyh93imUCeCPPuBVeh4rczUuQYB7B6JN/image.png)  
 
@@ -444,7 +444,9 @@ Steemitworldmap是一个基于Steem社区和谷歌地图的一个应用，官方
 **国内用户被墙时的使用方法**
     
 
-国内访问[https://www.steemitworldmap.com/](https://www.steemitworldmap.com/) 时，你会发现地图是加载不出来的，只有数字，那是因为谷歌被墙了，这时候得采用另一个策略。大家看到上面介绍的我们需要复制粘贴的一串代码中，只有lat（纬度）和long（经度）前面的数字会发生变化，其他都不会变。那么你只要能找到地图的经纬度，来代替下面的代码中的经纬度就可以了，不一定非得打开Steemitworldmap。 \[//\]:# (!steemitworldmap 纬度数字 lat 经度数字 long d3scr
+国内访问[https://www.steemitworldmap.com/](https://www.steemitworldmap.com/) 时，你会发现地图是加载不出来的，只有数字，那是因为谷歌被墙了，这时候得采用另一个策略。大家看到上面介绍的我们需要复制粘贴的一串代码中，只有lat（纬度）和long（经度）前面的数字会发生变化，其他都不会变。那么你只要能找到地图的经纬度，来代替下面的代码中的经纬度就可以了，不一定非得打开Steemitworldmap。 
+
+```[//]:# (!steemitworldmap 纬度数字 lat 经度数字 long d3scr```
 
 <h4>1\. PC端</h4>
 
@@ -481,7 +483,9 @@ Steemitworldmap是一个基于Steem社区和谷歌地图的一个应用，官方
 
 ![](https://cdn.steemitimages.com/DQmdLnAqC3dhAj8oegrctsPSZBxFw5N8DKpUwb14fRmepPZ/image.png)
 
-将经纬度代替以下代码，并将其复制粘贴到你的帖子的最后即可。 \[//\]:# (!steemitworldmap 纬度数字 lat 经度数字 long d3scr
+将经纬度代替以下代码，并将其复制粘贴到你的帖子的最后即可。 
+
+```[//]:# (!steemitworldmap 纬度数字 lat 经度数字 long d3scr```
 
 <h3>后语</h3>
 
