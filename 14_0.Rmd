@@ -15,7 +15,7 @@ NBC是[ \@team-cn](https://steempeak.com/@team-cn)在steem-engine上发的一款
 
 - 收益分红，每日按锁仓币的比重，分享 [ \@team-cn](https://steempeak.com/@team-cn)的SBD/STEEM收益分红； [ \@team-cn](https://steempeak.com/@team-cn)的收益主要来自飞鸽传书50%收益，寻宝团50%收益，小卖部30%收益，[ \@teamcn-fund](https://steempeak.com/@teamcn-fund)每日发帖收益，还有少量来自[ \@team-cn](https://steempeak.com/@team-cn)发帖收益。 由于收益时高时低，并不能准确估计年回报率是多少。但是超过30%年利率是肯定的。 以NBC的长期支持者嘉楠哥[ \@jianan](https://steempeak.com/@jianan)的NBC持有算一下年回报率： 
 
-![](https://steemitimages.com/0x0/https://ipfs.busy.org/ipfs/QmTndF6mLP2NT1mMCffAFAXv6uHQErieaEZSqcXgu2Go4i)
+![](https://i.imgur.com/ZOiFJBz.png)
 
 嘉楠哥持有300 NBC 2个月，总共获得0.006 STEEM和9.108 SBD，按照目前1 SBD = 2.5 STEEM计算，2个月获得22.776 STEEM分红。一年的年利率差不多45.55%。还没算上发帖获得的点赞。
 
@@ -41,7 +41,7 @@ NBC的价值来自[ \@team-cn](https://steempeak.com/@team-cn). 只要[ \@team-c
 
 - 通过steem-engine市场购买 目前有少量的NBC可以在市场上购买，最低卖价是1.04 STEEM。 购买链接：https://steem-engine.com/?p=market&t=NBC 
 
-![](https://steemitimages.com/0x0/https://ipfs.busy.org/ipfs/QmRUswQuv4guAqDoPo646oCtAeReju4mvbAERv5nGQML9o)
+![](https://i.imgur.com/rS3MtvD.png)
 
 - 通过代理SP给[ \@team-cn](https://steempeak.com/@team-cn)获得 代理SP给team-cn除了可以获得每日点赞外，还可以获得每日0.05%的NBC利息（一年20%复利） 
 使用下面链接代理给[ \@team-cn](https://steempeak.com/@team-cn): [10SP](https://steemconnect.com/sign/delegateVestingShares?delegatee=team-cn&vesting_shares=10%20SP), [20SP](https://steemconnect.com/sign/delegateVestingShares?delegatee=team-cn&vesting_shares=20%20SP), [50SP](https://steemconnect.com/sign/delegateVestingShares?delegatee=team-cn&vesting_shares=50%20SP), [100SP](https://steemconnect.com/sign/delegateVestingShares?delegatee=team-cn&vesting_shares=100%20SP), [200SP](https://steemconnect.com/sign/delegateVestingShares?delegatee=team-cn&vesting_shares=200%20SP), [300SP](https://steemconnect.com/sign/delegateVestingShares?delegatee=team-cn&vesting_shares=300%20SP), [400SP](https://steemconnect.com/sign/delegateVestingShares?delegatee=team-cn&vesting_shares=400%20SP), [500SP](https://steemconnect.com/sign/delegateVestingShares?delegatee=team-cn&vesting_shares=500%20SP), [1,000SP](https://steemconnect.com/sign/delegateVestingShares?delegatee=team-cn&vesting_shares=1000%20SP), [5,000SP](https://steemconnect.com/sign/delegateVestingShares?delegatee=team-cn&vesting_shares=5000%20SP), [其他数量](https://steembottracker.com/delegation.html?delegatee=team-cn)
