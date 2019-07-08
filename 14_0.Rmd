@@ -1,19 +1,19 @@
 
 # 币圈投资 {#bqtz}
-
 ## NBC 新手币 ^[作者:\@ericet;编辑:\@minloulou;原文链接:https://steempeak.com/cn/@ericet/steem-enginenbc-8gramkt1en]
 
+<h3> NBC是什麼</h3>
 
 NBC是[ \@team-cn](https://steempeak.com/@team-cn)在steem-engine上发的一款代币。目的是取代对SBI（Steem Basic Income)的依赖，奖励社区积极分子，好文作者和在背后努力的各种编辑（好声音，steem手册，寻宝团，飞鸽传书等）
 
 目前市场价格1 NBC = 1 STEEM，在市面上流通的NBC数量大概5000。
 
 
-### 持有NBC的好处
+<h3> 持有NBC的好处</h3>
 
-- 每日点赞，持有新手币者，将会获得@team-cn每日一帖的点赞； 目前@team-cn账号大概有20000SP, 持有2 NBC每日会获得2% team-cn点赞（相当于400sp），如果把‘cn’ 作为首标签，还可以额外获得2%点赞(相当于800sp）。
+- 每日点赞，持有新手币者，将会获得[ \@team-cn](https://steempeak.com/@team-cn)每日一帖的点赞； 目前[ \@team-cn](https://steempeak.com/@team-cn)账号大概有20000SP, 持有2 NBC每日会获得2% team-cn点赞（相当于400sp），如果把‘cn’ 作为首标签，还可以额外获得2%点赞(相当于800sp）。
 
-- 收益分红，每日按锁仓币的比重，分享 @team-cn的SBD/STEEM收益分红； @team-cn的收益主要来自飞鸽传书50%收益，寻宝团50%收益，小卖部30%收益，@teamcn-fund每日发帖收益，还有少量来自@team-cn发帖收益。 由于收益时高时低，并不能准确估计年回报率是多少。但是超过30%年利率是肯定的。 以NBC的长期支持者嘉楠哥@jianan的NBC持有算一下年回报率： 
+- 收益分红，每日按锁仓币的比重，分享 [ \@team-cn](https://steempeak.com/@team-cn)的SBD/STEEM收益分红； [ \@team-cn](https://steempeak.com/@team-cn)的收益主要来自飞鸽传书50%收益，寻宝团50%收益，小卖部30%收益，[ \@teamcn-fund](https://steempeak.com/@teamcn-fund)每日发帖收益，还有少量来自[ \@team-cn](https://steempeak.com/@team-cn)发帖收益。 由于收益时高时低，并不能准确估计年回报率是多少。但是超过30%年利率是肯定的。 以NBC的长期支持者嘉楠哥[ \@jianan](https://steempeak.com/@jianan)的NBC持有算一下年回报率： 
 
 ![](https://steemitimages.com/0x0/https://ipfs.busy.org/ipfs/QmTndF6mLP2NT1mMCffAFAXv6uHQErieaEZSqcXgu2Go4i)
 
@@ -29,15 +29,15 @@ NBC是[ \@team-cn](https://steempeak.com/@team-cn)在steem-engine上发的一款
 
 [ \@sct.teamcn](https://steempeak.com/@sct.teamcn)这个账号目前有928 staked SCT. 专门用于给持有NBC的用户的sct帖子点赞。会不断增加锁仓SCT的数量来提高点赞。算是给NBC持有者的额外福利。
 
-### NBC的价值在哪里？
+<h3> NBC的价值在哪里？</h3>
 
-NBC的价值来自@team-cn. 只要@team-cn继续下去，NBC就会有价值。
+NBC的价值来自[ \@team-cn](https://steempeak.com/@team-cn). 只要[ \@team-cn](https://steempeak.com/@team-cn)继续下去，NBC就会有价值。
 
 目前支撑NBC的价值的是来自各种[ \@team-cn](https://steempeak.com/@team-cn)的基础设施，比如[ \@cn-curation](https://steempeak.com/@cn-curation)，[ \@cn-activity](https://steempeak.com/@cn-activity)，[ \@teamcn-shop](https://steempeak.com/@teamcn-shop)，[ \@teamcn-fund](https://steempeak.com/@teamcn-fund)。
 
 [ \@team-cn](https://steempeak.com/@team-cn) 也没有跑路的风险，因为这是个公益项目，没有盈利也没有亏损。获得的收益也全部回报给社区和持有NBC者。
 
-### 怎么获得NBC？
+<h3> 怎么获得NBC？</h3>
 
 - 通过steem-engine市场购买 目前有少量的NBC可以在市场上购买，最低卖价是1.04 STEEM。 购买链接：https://steem-engine.com/?p=market&t=NBC 
 
