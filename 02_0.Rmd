@@ -108,6 +108,239 @@ Psbd = 0.987
 
 这些问题都可以通过上面的公式来解释。
 
+### 为什么帐号上的SP数量每天都在增长？^[作者：\@ericet；原文链接：https://steemit.com/steempress/@ericet/sp-0nzgkme8l3]
+你有没有发现你STEEM钱包里面SP每天一点点的增加？
+
+想要了解这个问题，先看看白皮书里关于SP部分的解说：
+
+<blockquote>
+  Starting with the network’s 16th hard fork in December 2016, Steem began creating new tokens at an
+  annual inflation rate of 9.5%. The inflation rate decreases at a rate of 0.01% every 250,000 blocks, or
+  about 0.5% per year. The inflation will continue decreasing at this pace until the overall inflation rate
+  reaches 0.95%. This will take about 20.5 years from the time hard fork 16 went into effect.
+  Of the new tokens that are generated, 75% go to fund the reward pool, which is split between authors and
+  curators. Another 15% of the new tokens are awarded to holders of SP. The remaining 10% pays for the
+  witnesses to power the blockchain.
+
+</blockquote>
+
+从HF16开始，每年STEEM会通货膨胀产生9.5%的代币。通货膨胀率以每250，000个区块递减0.01%（每年大概递减0.5%）。
+通货膨胀率将持续递减到0.95%（大概20.5年时间）。
+新产生的代币将有75%放入奖金池，15%给予每位SP的持有者，10%给予见证人。
+
+这是未来30年STEEM的数量，通货膨胀率和每年产生的STEEM的数量。
+
+<table>
+<thead>
+<tr>
+  <th>Year</th>
+  <th>Supply</th>
+  <th>Inflation</th>
+  <th>New Supply</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>2016</td>
+  <td>250,000,000</td>
+  <td>9.50%</td>
+  <td>23,750,000</td>
+</tr>
+<tr>
+  <td>2017</td>
+  <td>273,750,000</td>
+  <td>9.08%</td>
+  <td>24,854,398</td>
+</tr>
+<tr>
+  <td>2018</td>
+  <td>298,604,398</td>
+  <td>8.66%</td>
+  <td>25,854,554</td>
+</tr>
+<tr>
+  <td>2019</td>
+  <td>324,458,952</td>
+  <td>8.24%</td>
+  <td>26,727,942</td>
+</tr>
+<tr>
+  <td>2020</td>
+  <td>351,186,894</td>
+  <td>7.82%</td>
+  <td>27,452,027</td>
+</tr>
+<tr>
+  <td>2021</td>
+  <td>378,638,921</td>
+  <td>7.40%</td>
+  <td>28,004,740</td>
+</tr>
+<tr>
+  <td>2022</td>
+  <td>406,643,661</td>
+  <td>6.98%</td>
+  <td>28,364,989</td>
+</tr>
+<tr>
+  <td>2023</td>
+  <td>435,008,650</td>
+  <td>6.55%</td>
+  <td>28,513,181</td>
+</tr>
+<tr>
+  <td>2024</td>
+  <td>463,521,832</td>
+  <td>6.13%</td>
+  <td>28,431,762</td>
+</tr>
+<tr>
+  <td>2025</td>
+  <td>491,953,593</td>
+  <td>5.71%</td>
+  <td>28,105,742</td>
+</tr>
+<tr>
+  <td>2026</td>
+  <td>520,059,335</td>
+  <td>5.29%</td>
+  <td>27,523,204</td>
+</tr>
+<tr>
+  <td>2027</td>
+  <td>547,582,539</td>
+  <td>4.87%</td>
+  <td>26,675,768</td>
+</tr>
+<tr>
+  <td>2028</td>
+  <td>574,258,308</td>
+  <td>4.45%</td>
+  <td>25,558,997</td>
+</tr>
+<tr>
+  <td>2029</td>
+  <td>599,817,304</td>
+  <td>4.03%</td>
+  <td>24,172,733</td>
+</tr>
+<tr>
+  <td>2030</td>
+  <td>623,990,038</td>
+  <td>3.61%</td>
+  <td>22,521,348</td>
+</tr>
+<tr>
+  <td>2031</td>
+  <td>646,511,386</td>
+  <td>3.19%</td>
+  <td>20,613,886</td>
+</tr>
+<tr>
+  <td>2032</td>
+  <td>667,125,272</td>
+  <td>2.77%</td>
+  <td>18,464,106</td>
+</tr>
+<tr>
+  <td>2033</td>
+  <td>685,589,378</td>
+  <td>2.35%</td>
+  <td>16,090,399</td>
+</tr>
+<tr>
+  <td>2034</td>
+  <td>701,679,777</td>
+  <td>1.93%</td>
+  <td>13,515,587</td>
+</tr>
+<tr>
+  <td>2035</td>
+  <td>715,195,364</td>
+  <td>1.51%</td>
+  <td>10,766,608</td>
+</tr>
+<tr>
+  <td>2036</td>
+  <td>725,961,973</td>
+  <td>1.08%</td>
+  <td>7,874,074</td>
+</tr>
+<tr>
+  <td>2037</td>
+  <td>733,836,047</td>
+  <td>0.95%</td>
+  <td>6,971,442</td>
+</tr>
+<tr>
+  <td>2038</td>
+  <td>740,807,489</td>
+  <td>0.95%</td>
+  <td>7,037,671</td>
+</tr>
+<tr>
+  <td>2039</td>
+  <td>747,845,160</td>
+  <td>0.95%</td>
+  <td>7,104,529</td>
+</tr>
+<tr>
+  <td>2040</td>
+  <td>754,949,689</td>
+  <td>0.95%</td>
+  <td>7,172,022</td>
+</tr>
+<tr>
+  <td>2041</td>
+  <td>762,121,711</td>
+  <td>0.95%</td>
+  <td>7,240,156</td>
+</tr>
+<tr>
+  <td>2042</td>
+  <td>769,361,868</td>
+  <td>0.95%</td>
+  <td>7,308,938</td>
+</tr>
+<tr>
+  <td>2043</td>
+  <td>776,670,805</td>
+  <td>0.95%</td>
+  <td>7,378,373</td>
+</tr>
+<tr>
+  <td>2044</td>
+  <td>784,049,178</td>
+  <td>0.95%</td>
+  <td>7,448,467</td>
+</tr>
+<tr>
+  <td>2045</td>
+  <td>791,497,645</td>
+  <td>0.95%</td>
+  <td>7,519,228</td>
+</tr>
+</tbody>
+</table>
+
+回到这篇帖子的主题，为什么帐号上的SP数量每天都在增长？
+之前说过了，新产生的代币将有75%放入奖金池，15%给予每位SP的持有者，10%给予见证人。
+
+新产生的代币将有15%给予每位持有者，我们来算算，如果你持有100SP，每天将会获得多少SP?
+
+目前我们大约有324,074,116 STEEM
+通货膨胀率大概8.24%.
+一年的通货膨胀获得的SP数量：100SP * 0.0824 * 0.15 = 1.236 SP
+一天的通货膨胀获得的SP数量：1.236SP/365 = 0.0034SP
+
+所以你一年啥都不做，SP的数量会自动增长1.236%
+
+之前就有人嘲笑STEEM的这个机制。
+自己先预挖了100万个代币，然后每年设置5%的通货膨胀率，什么都不做每年收入5万个代币。
+<img src="http://ericet.vornix.blog/wp-content/uploads/2019/01/Capture-3.jpg" alt="" /><br/>
+
+他说的不无道理，但是这不也是普通货币做的事吗？
+
 
 ### 总结
 
