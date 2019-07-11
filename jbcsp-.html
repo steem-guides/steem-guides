@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>第2章 基本常识 | Steem Handbook</title>
   <meta name="description" content="第2章 基本常识 | Steem Handbook" />
-  <meta name="generator" content="bookdown 0.11.3 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.12.1 and GitBook 2.6.7" />
 
   <meta property="og:title" content="第2章 基本常识 | Steem Handbook" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Steem 中文社区集体创作" />
 
 
-<meta name="date" content="2019-07-06" />
+<meta name="date" content="2019-07-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -104,8 +104,7 @@
 <li class="chapter" data-level="2.2.3" data-path="jbcsp-.html"><a href="jbcsp-.html#spsteem-power"><i class="fa fa-check"></i><b>2.2.3</b> SP(Steem Power)</a></li>
 <li class="chapter" data-level="2.2.4" data-path="jbcsp-.html"><a href="jbcsp-.html#sbdsteem-dollars"><i class="fa fa-check"></i><b>2.2.4</b> SBD(Steem Dollars)</a></li>
 <li class="chapter" data-level="2.2.5" data-path="jbcsp-.html"><a href="jbcsp-.html#section-2.2.5"><i class="fa fa-check"></i><b>2.2.5</b> 怎么获得这些货币</a></li>
-<li class="chapter" data-level="2.2.6" data-path="jbcsp-.html"><a href="jbcsp-.html#how-to-calculate-reward"><i class="fa fa-check"></i><b>2.2.6</b> 帖子收益的计算方式 </a></li>
-<li class="chapter" data-level="2.2.7" data-path="jbcsp-.html"><a href="jbcsp-.html#section-2.2.7"><i class="fa fa-check"></i><b>2.2.7</b> 总结</a></li>
+<li class="chapter" data-level="2.2.6" data-path="jbcsp-.html"><a href="jbcsp-.html#section-2.2.6"><i class="fa fa-check"></i><b>2.2.6</b> 总结</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="jbcsp-.html"><a href="jbcsp-.html#about-sp"><i class="fa fa-check"></i><b>2.3</b> 关于SP（steem power）</a><ul>
 <li class="chapter" data-level="2.3.1" data-path="jbcsp-.html"><a href="jbcsp-.html#what-is-sp"><i class="fa fa-check"></i><b>2.3.1</b> 什么是SP代理？ </a></li>
@@ -456,53 +455,15 @@
 <h3><span class="header-section-number">2.2.5</span> 怎么获得这些货币</h3>
 <p>作者在发文章之后，按照Steemit的规则，7日后文章将被锁定而且无法修改(区块链永久不可篡改性)，同时进行该帖的结算，并根据作者发帖时的设定进行Steem和SBD的奖励。如果作者选择50% 50%，系统会将奖励分为两部分，一部分作为SBD奖励，另一部分作为SP奖励；如果作者选择发帖时power up 100%，则系统将会将奖励全部按照SP进行power up。当然你也可以通过交易所或其它货币持有者交易来获得这些货币。</p>
 </div>
-<div id="how-to-calculate-reward" class="section level3">
-<h3><span class="header-section-number">2.2.6</span> 帖子收益的计算方式 <a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a></h3>
-<p>帖子计算的公式
-<img src="images/chapter_02_0/image.png" /></p>
-<p><img src="images/chapter_02_0/image_1.png" /></p>
-<p>第一组公式：
-<strong>RS</strong>: 帖子收益总和，以rshares为单位。
-<strong>Rb（Reward Balance)</strong>: 每年Steem通货膨胀所产生的STEEM，大概每3秒产生 1.668 STEEM 加到奖金池里
-<strong>Rc（Recent Claims）</strong>: 所有帖子回复还没有结算的收益总和。以Rshares为单位。</p>
-<p>第二组公式：
-<strong>Psteem</strong>：通过第一组公式得到的以Steem计价的帖子收入
-<strong>Price</strong> : STEEM的喂价（STEEM 3.5日的中间价）</p>
-<p>通过第二组公式就可以获得Psbd 以SBD计的帖子收益。</p>
-<p>看到公式是不是很抽象？举个例子解释一下吧。</p>
-<p>比如我的这篇帖子：<a href="https://steemit.com/@ericet/partiko20-2mmhatnw">https://steemit.com/<span class="citation">@ericet/partiko20-2mmhatnw</span></a>
-显示的收益是$0.99.
-现在我们开始计算这$0.99是怎么来的。</p>
-<ul>
-<li>通过<a href="https://steemd.com/@ericet/partiko20-2mmhatnw">https://steemd.com/<span class="citation">@ericet/partiko20-2mmhatnw</span></a> 获取帖子点赞的RS，总共：1,644,564,313,801</li>
-<li>Rb: 847,366</li>
-<li>Rc: 550,688,291B</li>
-<li>通过www.steemd.com 获取STEEM喂价：$0.39 然后套入公式后：</li>
-</ul>
-<blockquote>
-<p>Psbd = RSx(Rb/Rc)xPrice</p>
-</blockquote>
-<p>Psbd = 1,644,564,313,801 x (847,366/550,688,291,000,000,000) x 0.39
-Psbd = 0.987</p>
-<p>算出的收益为0.987 SBD，1SBD以1美元计，和帖子显示的$0.99相符（四舍五入）</p>
-<p>读懂上面的公式对理解帖子的收益有很大的帮助。
-比如：</p>
-<ul>
-<li>帖子的收益受什么因素影响？</li>
-<li>什么时候买赞比较合算？</li>
-<li>币价低迷是不是写文章的好时机？</li>
-</ul>
-<p>这些问题都可以通过上面的公式来解释。</p>
-</div>
-<div id="section-2.2.7" class="section level3">
-<h3><span class="header-section-number">2.2.7</span> 总结</h3>
+<div id="section-2.2.6" class="section level3">
+<h3><span class="header-section-number">2.2.6</span> 总结</h3>
 <p>Steem上的货币是相互依存，息息相关的，新手朋友光看这些文字可能还是不能完全理解。如果你想投资进来我建议可以先投资一小部分自己实际操作一下，完全搞清楚这里面的各种关系后再决定是否大力投资。</p>
 </div>
 </div>
 <div id="about-sp" class="section level2">
 <h2><span class="header-section-number">2.3</span> 关于SP（steem power）</h2>
 <div id="what-is-sp" class="section level3">
-<h3><span class="header-section-number">2.3.1</span> 什么是SP代理？ <a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a></h3>
+<h3><span class="header-section-number">2.3.1</span> 什么是SP代理？ <a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a></h3>
 <p>在上一节，我们学习了关于Steem的里面几种货币的知识。我们了解到了SP(Steem Power)在Steem的重要性。这里我们再扩展说一下SP的扩展应用——代理SP。</p>
 <p>SP非常的重要，日常的发帖或者直接购买都可以增加你的SP。那么，当我们的SP有一定程度的富余的时候，除了点赞外，我们还有什么办法更好的使用掉这些富余的SP呢？或者我想要快速的获得更多的SP，有什么办法呢？</p>
 <p>这个办法就是代理SP，也就是所谓的<strong>delegate SP</strong></p>
@@ -536,7 +497,7 @@ Psbd = 0.987</p>
 <p>解释了代理SP的用处及好处。接下来，我们来看如何代理SP。</p>
 </div>
 <div id="how-to-delegate-SP" class="section level3">
-<h3><span class="header-section-number">2.3.2</span> 如何代理SP？ <a href="#fn16" class="footnote-ref" id="fnref16"><sup>16</sup></a></h3>
+<h3><span class="header-section-number">2.3.2</span> 如何代理SP？ <a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a></h3>
 <p>如何操作才能代理SP给别人呢？</p>
 <p>我们这里就以代理SP给点赞机器人@cnbuddy为例说明。 要想代理SP给别人，需要使用@justyy开发的小工具，(<strong><a href="https://steemyy.com/delegate-form/">点击这里可以跳转</a></strong>)</p>
 <p>这个工具需要通过steemconnect授权，所以不用担心安全的问题。</p>
@@ -563,7 +524,7 @@ Psbd = 0.987</p>
 <p>总而言之，代理SP无论对自己还是对别人都是非常有用处的。所以还等什么呢？赶紧操作起来吧！</p>
 </div>
 <div id="sp" class="section level3">
-<h3><span class="header-section-number">2.3.3</span> 代理SP的其他方法 <a href="#fn17" class="footnote-ref" id="fnref17"><sup>17</sup></a></h3>
+<h3><span class="header-section-number">2.3.3</span> 代理SP的其他方法 <a href="#fn16" class="footnote-ref" id="fnref16"><sup>16</sup></a></h3>
 <p>代理SP的話, 簡單記得2個要點.</p>
 <ol style="list-style-type: decimal">
 <li>代理是輸入你<strong>“總計”</strong>想代理多少, <a href="mailto:比如你已經代理了給@team-cn">比如你已經代理了給@team-cn</a> 2SP, 然後你想增加至10SP話, 你要輸入10SP 而<del>不是8SP</del></li>
@@ -585,7 +546,7 @@ Psbd = 0.987</p>
 <p>3個方法中我最常用的是Keychain, 超方便快捷, 其他的則需要輸入密碼確認, 安全一點.</p>
 </div>
 <div id="power-up" class="section level3">
-<h3><span class="header-section-number">2.3.4</span> power up <a href="#fn18" class="footnote-ref" id="fnref18"><sup>18</sup></a></h3>
+<h3><span class="header-section-number">2.3.4</span> power up <a href="#fn17" class="footnote-ref" id="fnref17"><sup>17</sup></a></h3>
 <p>对于已经在steemit待了七天以上的朋友来说，理论上有第一笔作者奖励已经入账，那么我们的账户中就会有sbd。对我来说，看到价格合适的情况下就会选择用sbd买入steem再power up，大家可以根据自己的具体需要决定。</p>
 <p>登陆主页——钱包——STEEM DOLLARS——市场
 <img src="images/03-power_up01.png" /></p>
@@ -605,7 +566,7 @@ Psbd = 0.987</p>
 <img src="images/03-power_up08.png" /></p>
 </div>
 <div id="lease-sp" class="section level3">
-<h3><span class="header-section-number">2.3.5</span> 如何租借SP？ <a href="#fn19" class="footnote-ref" id="fnref19"><sup>19</sup></a></h3>
+<h3><span class="header-section-number">2.3.5</span> 如何租借SP？ <a href="#fn18" class="footnote-ref" id="fnref18"><sup>18</sup></a></h3>
 <p>對於剛剛來到的新人, 經常會有不夠RCs(能量)的煩惱. RCs是日常活動的體力值, 在HF20的更新後, 如果你的SP低於50的話, 每日只能有限制地活動, 十分沒趣. 但是如果要找人代理的話也不一定可以找到足夠的數量. 所以新人在收到你的第一個STEEM/SBD後, 建議你去以下2個地方租用SP以維持在STEEM上的活動~</p>
 <p>2個網站的租用方法大概是差不多的, 在Create New Lease Request的畫面輸入以下4個資料便會帶你去到Steemconnect的確認轉帳畫面以完成交易.</p>
 <hr>
@@ -641,7 +602,475 @@ Psbd = 0.987</p>
 <p>按下“LEASE SP”後, 你便會被帶到SteemConnect的畫面完成交易.</p>
 <p><img src="images/chapter_02_0/1eZTX53a-image.png" alt="image.png" /><br/></p>
 <hr>
-<p>個人經驗, @minnowbooster人流會多一點, 所以會比較容易租到SP. 但@delegationhub也不是太差的, 偶爾也會有活動可以收到他們贊助的少量SP~.</p>
+<p>個人經驗, @minnowbooster人流會多一點, 所以會比較容易租到SP. 但@delegationhub也不是太差的, 偶爾也會有活動可以收到他們贊助的少量SP~.
+### 为什么帐号上的SP数量每天都在增长？<a href="#fn19" class="footnote-ref" id="fnref19"><sup>19</sup></a>
+你有没有发现你STEEM钱包里面SP每天一点点的增加？</p>
+<p>想要了解这个问题，先看看白皮书里关于SP部分的解说：</p>
+<blockquote>
+<p>Starting with the network’s 16th hard fork in December 2016, Steem began creating new tokens at an
+annual inflation rate of 9.5%. The inflation rate decreases at a rate of 0.01% every 250,000 blocks, or
+about 0.5% per year. The inflation will continue decreasing at this pace until the overall inflation rate
+reaches 0.95%. This will take about 20.5 years from the time hard fork 16 went into effect.
+Of the new tokens that are generated, 75% go to fund the reward pool, which is split between authors and
+curators. Another 15% of the new tokens are awarded to holders of SP. The remaining 10% pays for the
+witnesses to power the blockchain.</p>
+</blockquote>
+<p>从HF16开始，每年STEEM会通货膨胀产生9.5%的代币。通货膨胀率以每250，000个区块递减0.01%（每年大概递减0.5%）。
+通货膨胀率将持续递减到0.95%（大概20.5年时间）。
+新产生的代币将有75%放入奖金池，15%给予每位SP的持有者，10%给予见证人。</p>
+<p>这是未来30年STEEM的数量，通货膨胀率和每年产生的STEEM的数量。</p>
+<table>
+<thead>
+<tr>
+<th>
+Year
+</th>
+<th>
+Supply
+</th>
+<th>
+Inflation
+</th>
+<th>
+New Supply
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+2016
+</td>
+<td>
+250,000,000
+</td>
+<td>
+9.50%
+</td>
+<td>
+23,750,000
+</td>
+</tr>
+<tr>
+<td>
+2017
+</td>
+<td>
+273,750,000
+</td>
+<td>
+9.08%
+</td>
+<td>
+24,854,398
+</td>
+</tr>
+<tr>
+<td>
+2018
+</td>
+<td>
+298,604,398
+</td>
+<td>
+8.66%
+</td>
+<td>
+25,854,554
+</td>
+</tr>
+<tr>
+<td>
+2019
+</td>
+<td>
+324,458,952
+</td>
+<td>
+8.24%
+</td>
+<td>
+26,727,942
+</td>
+</tr>
+<tr>
+<td>
+2020
+</td>
+<td>
+351,186,894
+</td>
+<td>
+7.82%
+</td>
+<td>
+27,452,027
+</td>
+</tr>
+<tr>
+<td>
+2021
+</td>
+<td>
+378,638,921
+</td>
+<td>
+7.40%
+</td>
+<td>
+28,004,740
+</td>
+</tr>
+<tr>
+<td>
+2022
+</td>
+<td>
+406,643,661
+</td>
+<td>
+6.98%
+</td>
+<td>
+28,364,989
+</td>
+</tr>
+<tr>
+<td>
+2023
+</td>
+<td>
+435,008,650
+</td>
+<td>
+6.55%
+</td>
+<td>
+28,513,181
+</td>
+</tr>
+<tr>
+<td>
+2024
+</td>
+<td>
+463,521,832
+</td>
+<td>
+6.13%
+</td>
+<td>
+28,431,762
+</td>
+</tr>
+<tr>
+<td>
+2025
+</td>
+<td>
+491,953,593
+</td>
+<td>
+5.71%
+</td>
+<td>
+28,105,742
+</td>
+</tr>
+<tr>
+<td>
+2026
+</td>
+<td>
+520,059,335
+</td>
+<td>
+5.29%
+</td>
+<td>
+27,523,204
+</td>
+</tr>
+<tr>
+<td>
+2027
+</td>
+<td>
+547,582,539
+</td>
+<td>
+4.87%
+</td>
+<td>
+26,675,768
+</td>
+</tr>
+<tr>
+<td>
+2028
+</td>
+<td>
+574,258,308
+</td>
+<td>
+4.45%
+</td>
+<td>
+25,558,997
+</td>
+</tr>
+<tr>
+<td>
+2029
+</td>
+<td>
+599,817,304
+</td>
+<td>
+4.03%
+</td>
+<td>
+24,172,733
+</td>
+</tr>
+<tr>
+<td>
+2030
+</td>
+<td>
+623,990,038
+</td>
+<td>
+3.61%
+</td>
+<td>
+22,521,348
+</td>
+</tr>
+<tr>
+<td>
+2031
+</td>
+<td>
+646,511,386
+</td>
+<td>
+3.19%
+</td>
+<td>
+20,613,886
+</td>
+</tr>
+<tr>
+<td>
+2032
+</td>
+<td>
+667,125,272
+</td>
+<td>
+2.77%
+</td>
+<td>
+18,464,106
+</td>
+</tr>
+<tr>
+<td>
+2033
+</td>
+<td>
+685,589,378
+</td>
+<td>
+2.35%
+</td>
+<td>
+16,090,399
+</td>
+</tr>
+<tr>
+<td>
+2034
+</td>
+<td>
+701,679,777
+</td>
+<td>
+1.93%
+</td>
+<td>
+13,515,587
+</td>
+</tr>
+<tr>
+<td>
+2035
+</td>
+<td>
+715,195,364
+</td>
+<td>
+1.51%
+</td>
+<td>
+10,766,608
+</td>
+</tr>
+<tr>
+<td>
+2036
+</td>
+<td>
+725,961,973
+</td>
+<td>
+1.08%
+</td>
+<td>
+7,874,074
+</td>
+</tr>
+<tr>
+<td>
+2037
+</td>
+<td>
+733,836,047
+</td>
+<td>
+0.95%
+</td>
+<td>
+6,971,442
+</td>
+</tr>
+<tr>
+<td>
+2038
+</td>
+<td>
+740,807,489
+</td>
+<td>
+0.95%
+</td>
+<td>
+7,037,671
+</td>
+</tr>
+<tr>
+<td>
+2039
+</td>
+<td>
+747,845,160
+</td>
+<td>
+0.95%
+</td>
+<td>
+7,104,529
+</td>
+</tr>
+<tr>
+<td>
+2040
+</td>
+<td>
+754,949,689
+</td>
+<td>
+0.95%
+</td>
+<td>
+7,172,022
+</td>
+</tr>
+<tr>
+<td>
+2041
+</td>
+<td>
+762,121,711
+</td>
+<td>
+0.95%
+</td>
+<td>
+7,240,156
+</td>
+</tr>
+<tr>
+<td>
+2042
+</td>
+<td>
+769,361,868
+</td>
+<td>
+0.95%
+</td>
+<td>
+7,308,938
+</td>
+</tr>
+<tr>
+<td>
+2043
+</td>
+<td>
+776,670,805
+</td>
+<td>
+0.95%
+</td>
+<td>
+7,378,373
+</td>
+</tr>
+<tr>
+<td>
+2044
+</td>
+<td>
+784,049,178
+</td>
+<td>
+0.95%
+</td>
+<td>
+7,448,467
+</td>
+</tr>
+<tr>
+<td>
+2045
+</td>
+<td>
+791,497,645
+</td>
+<td>
+0.95%
+</td>
+<td>
+7,519,228
+</td>
+</tr>
+</tbody>
+</table>
+<p>回到这篇帖子的主题，为什么帐号上的SP数量每天都在增长？
+之前说过了，新产生的代币将有75%放入奖金池，15%给予每位SP的持有者，10%给予见证人。</p>
+<p>新产生的代币将有15%给予每位持有者，我们来算算，如果你持有100SP，每天将会获得多少SP?</p>
+<p>目前我们大约有324,074,116 STEEM
+通货膨胀率大概8.24%.
+一年的通货膨胀获得的SP数量：100SP * 0.0824 * 0.15 = 1.236 SP
+一天的通货膨胀获得的SP数量：1.236SP/365 = 0.0034SP</p>
+<p>所以你一年啥都不做，SP的数量会自动增长1.236%</p>
+<p>之前就有人嘲笑STEEM的这个机制。
+自己先预挖了100万个代币，然后每年设置5%的通货膨胀率，什么都不做每年收入5万个代币。
+<img src="images/chapter_02_0/Capture-3.jpg" alt="" /><br/></p>
+<p>他说的不无道理，但是这不也是普通货币做的事吗？</p>
 </div>
 </div>
 <div id="section-2.4" class="section level2">
@@ -684,13 +1113,13 @@ Psbd = 0.987</p>
 <li><p>2.作者收益和点赞收益</p>
 <p>我们在Steem上能获得的主要收益来源于点赞。你发表一篇文章，你作为作者，会得到收益。同样，为你的文章点赞的Steem用户也能得到收益。一篇文章的收益理论上会有75%分给作者，25%由所有点赞者按一定比例收取。但实际情况作者得到的收益往往大于75%，那么为什么作者得到的收益比例会往往大于75%，这就主要涉及到了早鸟惩罚。请看下文。</p></li>
 <li><p>3.早鸟惩罚</p>
-<p>最初官方为了鼓励Steem用户发现优秀文章，就设计了一个点赞文章越早，得到点赞收益越多的规则。这本身是个很好的规则，但很多用户为了利益钻空子，就制造了很多点赞机器人，可以在文章刚发出来时就点赞文章，获得最大的收益。机器人获得的收益多了，那么自然认真发现优秀文章的用户得到收益就少了。为了减轻机器人抢赞造成的坏处，官方便设计了一个惩罚机制，太早点赞一篇文章则你本该获得点赞收益就会分一些给作者。极端情况下，比如文章发表三分钟内点赞，那么你所有的收益的点赞收益都会交给作者。随着时间的延长则交给作者的比例减小。直到30分钟后，你就可以获得你所有的点赞收益。所以实际上你发表一篇文章，有可能所有收益都归你所有，只要为你点赞的人都在你文章发表三分钟之内点赞。</p></li>
+<p>最初官方为了鼓励Steem用户发现优秀文章，就设计了一个点赞文章越早，得到点赞收益越多的规则。这本身是个很好的规则，但很多用户为了利益钻空子，就制造了很多点赞机器人，可以在文章刚发出来时就点赞文章，获得最大的收益。机器人获得的收益多了，那么自然认真发现优秀文章的用户得到收益就少了。为了减轻机器人抢赞造成的坏处，官方便设计了一个惩罚机制，太早点赞一篇文章则你本该获得点赞收益就会分一些给作者。极端情况下，比如文章发表一分钟内点赞，那么你所有的收益的点赞收益都会放回奖金池。随着时间的延长则返回奖金池的比例减小。直到15分钟后，你就可以获得你所有的点赞收益。所以实际上你发表一篇文章，不管点赞者什么时候点赞，作者都获得75%收益。而点赞者如果在15分钟内点赞，他们的部分审查收益将放回奖金池。</p></li>
 <li><p>4.点赞的时机</p>
 <p>那么既然早点赞有早鸟惩罚，那是不是就越晚点赞收益越多呢？也不是这样，因为点赞还是按照先点赞收益多，后点赞收益少的规则来的。再综合考虑早鸟惩罚的话，我们可以得出结论：</p>
 <ul>
-<li><p>一：3分钟之内不点赞</p></li>
-<li><p>二：30分钟后越早点赞越好</p></li>
-<li><p>三：3到30分钟之间任何时候点赞都可能得到最大收益，还是得具体情况具体分析。</p></li>
+<li><p>一：1分钟之内不点赞</p></li>
+<li><p>二：15分钟后越早点赞越好</p></li>
+<li><p>三：7到15分钟之间任何时候点赞都可能得到最大收益，还是得具体情况具体分析。</p></li>
 </ul>
 <p>不过话说回来，如您正在仔细研究这篇文章，您应该是个刚加入进来的新人，SP应该不多，任何时候点赞差别不会太大，所以还是随意就好。</p></li>
 <li><p>5.Steem来自哪里？</p>
@@ -786,11 +1215,47 @@ Psbd = 0.987</p>
 <p>不同的方案，同样的Steemit文章获取的人民币收益天壤之别！哪怕是再通过Bittrex将SBD换成STEEM，也会收获更多的Steem。</p>
 <p>这原因就在于STEEMIT系统内的Steem/SBD价格与市场上的价格严重倒挂。Bittrex交易所上STEEM/SBD之比是1/3，而系统内的STEEM/SBD之比是 3.426，Steem的价格过高，而SBD的价格严重过低！</p>
 <p><img src="images/2-4-05.png" /></p>
-<p>所以我们可以确定，只要1SBD的实际市场价格大于1美元，我们选择50%/50%分配方案就会比100%分配方案更有优势。</p></li>
+<p>所以我们可以确定，只要1SBD的实际市场价格大于1美元，我们选择50%/50%分配方案就会比100%分配方案更有优势。
+### 帖子收益的计算方式 <a href="#fn22" class="footnote-ref" id="fnref22"><sup>22</sup></a>{#how-to-calculate-reward}</p></li>
 </ul>
+<p>帖子计算的公式
+<img src="images/chapter_02_0/image.png" /></p>
+<p><img src="images/chapter_02_0/image_1.png" /></p>
+<p>第一组公式：
+<strong>RS</strong>: 帖子收益总和，以rshares为单位。
+<strong>Rb（Reward Balance)</strong>: 每年Steem通货膨胀所产生的STEEM，大概每3秒产生 1.668 STEEM 加到奖金池里
+<strong>Rc（Recent Claims）</strong>: 所有帖子回复还没有结算的收益总和。以Rshares为单位。</p>
+<p>第二组公式：
+<strong>Psteem</strong>：通过第一组公式得到的以Steem计价的帖子收入
+<strong>Price</strong> : STEEM的喂价（STEEM 3.5日的中间价）</p>
+<p>通过第二组公式就可以获得Psbd 以SBD计的帖子收益。</p>
+<p>看到公式是不是很抽象？举个例子解释一下吧。</p>
+<p>比如我的这篇帖子：<a href="https://steemit.com/@ericet/partiko20-2mmhatnw">https://steemit.com/<span class="citation">@ericet/partiko20-2mmhatnw</span></a>
+显示的收益是$0.99.
+现在我们开始计算这$0.99是怎么来的。</p>
+<ul>
+<li>通过<a href="https://steemd.com/@ericet/partiko20-2mmhatnw">https://steemd.com/<span class="citation">@ericet/partiko20-2mmhatnw</span></a> 获取帖子点赞的RS，总共：1,644,564,313,801</li>
+<li>Rb: 847,366</li>
+<li>Rc: 550,688,291B</li>
+<li>通过www.steemd.com 获取STEEM喂价：$0.39 然后套入公式后：</li>
+</ul>
+<blockquote>
+<p>Psbd = RSx(Rb/Rc)xPrice</p>
+</blockquote>
+<p>Psbd = 1,644,564,313,801 x (847,366/550,688,291,000,000,000) x 0.39
+Psbd = 0.987</p>
+<p>算出的收益为0.987 SBD，1SBD以1美元计，和帖子显示的$0.99相符（四舍五入）</p>
+<p>读懂上面的公式对理解帖子的收益有很大的帮助。
+比如：</p>
+<ul>
+<li>帖子的收益受什么因素影响？</li>
+<li>什么时候买赞比较合算？</li>
+<li>币价低迷是不是写文章的好时机？</li>
+</ul>
+<p>这些问题都可以通过上面的公式来解释。</p>
 </div>
 <div id="section-2.6" class="section level2">
-<h2><span class="header-section-number">2.6</span> 关于带宽的一切 <a href="#fn22" class="footnote-ref" id="fnref22"><sup>22</sup></a></h2>
+<h2><span class="header-section-number">2.6</span> 关于带宽的一切 <a href="#fn23" class="footnote-ref" id="fnref23"><sup>23</sup></a></h2>
 <p>对于新人来说，在解决了设置个人信息问题，开始发帖和互动，最常遇到的一个问题就是：</p>
 <blockquote>
 <p>Bandwidth Limit Exceeded是什么？我怎么消息发不出去了？带宽又是什么？</p>
@@ -828,7 +1293,7 @@ Market Bandwidth：用于转账、交易等等</p>
 <p>4、无论是代理、卖赞还是power down，务必在账户中留下足够的SP。曾遇到过有代理过多SP出去（退出代理需要7天的时间），导致自己什么都做不了的朋友，最后还是经由他人代理了一部分SP才解除困境。</p>
 </div>
 <div id="section-2.7" class="section level2">
-<h2><span class="header-section-number">2.7</span> 关注、点赞、拉黑、踩灰 <a href="#fn23" class="footnote-ref" id="fnref23"><sup>23</sup></a></h2>
+<h2><span class="header-section-number">2.7</span> 关注、点赞、拉黑、踩灰 <a href="#fn24" class="footnote-ref" id="fnref24"><sup>24</sup></a></h2>
 <p>收到钱让小雅很是开心，这大大的激发了她对Steemit的热情。她打开了网页，开始浏览别人的文章。</p>
 <p>小雅对于给别人点赞从来不吝啬，基本上她看过的文章都点赞了。其中她觉得文章写的很有趣的人，她会点击“关注”，当然她更加希望别人会回关她。但是点赞的过程中她又产生了新的困惑，就是刚开始她点赞别人的收益会增加0.01美元，到了后来，就完全不增加了，这让小雅非常的困惑。不过小雅很快就抛开了这个困惑，想不通那就别想。</p>
 <p>她还发现了文章上面有一个小旗子，她好奇地点了点，居然发现别人文章收益减少了。看来这个按钮是用来踩人的，自己没事别乱点这个按钮，以免得罪人了。</p>
@@ -866,8 +1331,8 @@ Market Bandwidth：用于转账、交易等等</p>
 <li><p>有效SP：指的是“自己的SP+别人代理/租给你的SP-你代理出去的SP”，同时这也是你在steemit的话语权；</p></li>
 <li><p>点赞比例：当sp小于500时，只能在https://busy.org 中设置选项中选择自己的点赞比例；当sp大于500时，你给别人点赞的时候，会出现一个拉条（0-100%），以你希望的比例对当前的帖子进行赞；</p></li>
 <li><p>Voting Power：满格是100%。当你的VP是100%的时候，你用100%的点赞比例对某帖子进行点赞时，不考虑到外在不可控因素，这样的点赞价值（vote value）是最高的。</p></li>
-<li><p>早鸟惩罚：最初官方为了鼓励Steem用户发现优秀文章，就设计了一个点赞文章越早，得到点赞收益越多的规则，机器人就应运而生。为了减轻机器人抢赞造成的坏处，官方便设计了一个惩罚机制，太早点赞一篇文章则你本该获得点赞收益就会分一些给作者。极端情况下，比如文章发表三分钟内点赞，那么你所有的收益的点赞收益都会交给作者。随着时间的延长则交给作者的比例减小。直到30分钟后，你就可以获得你所有的点赞收益。所以实际上你发表一篇文章，有可能所有收益都归你所有，只要为你点赞的人都在你文章发表三分钟之内点赞。</p></li>
-<li><p>点赞时机：考虑到早鸟惩罚，我们可以大致推测出3分钟之内不点赞，30分钟后越早点赞越好，3到30分钟之间任何时候点赞都可能得到最大收益，还是得具体情况具体分析。当然，如果你还在看这个章节，很可能你的有效SP还不算太高，那么遇到真心喜欢的文章，过了3分钟后就尽早点赞吧。</p></li>
+<li><p>早鸟惩罚：最初官方为了鼓励Steem用户发现优秀文章，就设计了一个点赞文章越早，得到点赞收益越多的规则。这本身是个很好的规则，但很多用户为了利益钻空子，就制造了很多点赞机器人，可以在文章刚发出来时就点赞文章，获得最大的收益。机器人获得的收益多了，那么自然认真发现优秀文章的用户得到收益就少了。为了减轻机器人抢赞造成的坏处，官方便设计了一个惩罚机制，太早点赞一篇文章则你本该获得点赞收益就会分一些给作者。极端情况下，比如文章发表一分钟内点赞，那么你所有的收益的点赞收益都会放回奖金池。随着时间的延长则返回奖金池的比例减小。直到15分钟后，你就可以获得你所有的点赞收益。所以实际上你发表一篇文章，不管点赞者什么时候点赞，作者都获得75%收益。而点赞者如果在15分钟内点赞，他们的部分审查收益将放回奖金池。</p></li>
+<li><p>点赞时机：考虑到早鸟惩罚，我们可以大致推测出1分钟之内不点赞，15分钟后越早点赞越好，1到15分钟之间任何时候点赞都可能得到最大收益，还是得具体情况具体分析。当然，如果你还在看这个章节，很可能你的有效SP还不算太高，那么遇到真心喜欢的文章，过了1分钟后就尽早点赞吧。</p></li>
 <li><p>喂价和市场价</p></li>
 <li><p>系统不可控因素</p></li>
 </ul>
@@ -914,7 +1379,7 @@ Market Bandwidth：用于转账、交易等等</p>
 </div>
 </div>
 <div id="lmhbq" class="section level2">
-<h2><span class="header-section-number">2.8</span> 类目和标签 <a href="#fn24" class="footnote-ref" id="fnref24"><sup>24</sup></a></h2>
+<h2><span class="header-section-number">2.8</span> 类目和标签 <a href="#fn25" class="footnote-ref" id="fnref25"><sup>25</sup></a></h2>
 <p>小雅已经慢慢熟悉了Steemit社区，在这里，她每天都会发现一点新东西。</p>
 <p>这天，她如同往常一样在编辑文章。在准备发布的时候，她留意到了一个事情，就是标签。这个标签其实从最初写文章的时候就要求填写，但是小雅每次填写都非常随意，今天她不知道为什么特别在意起了这个事情。</p>
 <p>小雅直觉的认为，这个标签应该是文章的一种分类，那样的话，自己就不应该随意填写标签，要有一个细致的分类。于是她开始研究别人文章的标签如何写的。研究中她发现了一个有趣的标签，那就是很多中文的文章里面都有一个“cn”的标签，这个发现犹如发现新大陆一般让她兴奋。她点进去cn的标签一看，发现cn标签里面全是中文的写作者，这顿时让她有种找到组织的感觉。</p>
@@ -962,7 +1427,7 @@ Market Bandwidth：用于转账、交易等等</p>
 <p>关于标签的使用再给大家强调一点：文章的主题一定要与标签相关，如果贴上与文章主题不符的标签，很有可能会有大鲸来踩，这样会对作者的声望等级和收益造成很大的负面影响。</p>
 </div>
 <div id="section-2.9" class="section level2">
-<h2><span class="header-section-number">2.9</span> 大鲸和小鱼<a href="#fn25" class="footnote-ref" id="fnref25"><sup>25</sup></a></h2>
+<h2><span class="header-section-number">2.9</span> 大鲸和小鱼<a href="#fn26" class="footnote-ref" id="fnref26"><sup>26</sup></a></h2>
 <p>最近小雅在浏览别人文章的时候发现了一个有趣的词语，那就是“大鲸”和“小鱼”。</p>
 <p>小雅发现很多新人喜欢称呼自己为“小鱼”，而很多Steemit的老前辈被尊称为“大鲸”。这个现象小雅觉得很有趣，用海洋动物来取代等级给人的感觉非常的可爱。但是同时小雅也很疑惑，他们是如何判断一个人是大鲸还是小鱼的呢？</p>
 <p>为了解开这个谜团，小雅进行了一系列的明察暗访。最终发现这个等级是按照SP的大小来划分的，大鲸就是这里最高等级的人了。然后小雅好奇的按照了这个等级划分把自己归类，发现自己是最低等的浮游生物，连小鱼都不是，这让小雅有点哭笑不得。小雅暗暗的给自己定下了一个目标，总有一天自己要成为一条大鲸！</p>
@@ -998,7 +1463,7 @@ Market Bandwidth：用于转账、交易等等</p>
 <p>PS：海豚和鲸其实都属于哺乳动物，不是鱼。</p>
 </div>
 <div id="section-2.10" class="section level2">
-<h2><span class="header-section-number">2.10</span> 机器人和小号<a href="#fn26" class="footnote-ref" id="fnref26"><sup>26</sup></a></h2>
+<h2><span class="header-section-number">2.10</span> 机器人和小号<a href="#fn27" class="footnote-ref" id="fnref27"><sup>27</sup></a></h2>
 <p>小雅像往常一样勤奋地更新文章，在仔细地检查了文章的错别字后，小雅按下了“POST”的按钮。然后小雅再次浏览自己的文章。翻到后面，发现居然已经有一个人在后面评论了。</p>
 <p>小雅感到惊喜的同时又有一丝好奇，是谁在自己文章刚发出就过来评论了呢？小雅仔细读了读评论，是一段英文。翻译过来的意思就是“我是一个机器人，已经给你点赞了，希望你也可以来回访我。”这让小雅更加惊讶了，这居然是一个机器人？Steemit社区居然还有机器人在活跃，这太超出小雅的想象力了。</p>
 <p>小雅顺着机器人的主页一路摸索过去，发现这个机器人的主人叫做大辉，是一个程序员，这个点赞机器人就是他开发的。小雅对机器人充满好奇的同时，也对这个叫大辉的人充满了崇拜。</p>
@@ -1032,7 +1497,7 @@ Market Bandwidth：用于转账、交易等等</p>
 <p>当然小号的用法还有很多，每个人都可以找到自己的创意用法，如果你有什么有趣的用法，欢迎告诉我们。</p>
 </div>
 <div id="section-2.11" class="section level2">
-<h2><span class="header-section-number">2.11</span> 禁忌和审核<a href="#fn27" class="footnote-ref" id="fnref27"><sup>27</sup></a></h2>
+<h2><span class="header-section-number">2.11</span> 禁忌和审核<a href="#fn28" class="footnote-ref" id="fnref28"><sup>28</sup></a></h2>
 <p>今天小雅非常的难过。为什么呢？因为小雅今天被一条大鲸踩了一下。</p>
 <p>这大鲸一踩可不得了，首先自己的文章直接变成了灰色，成为了不可浏览的状态，然后自己的声望等级还直接掉了2级那么多。</p>
 <p>这位大鲸同时给小雅留了言，“请不要使用没有版权的图片，而且你用的还是我的图片。”小雅有些纳闷，怎么自己就那么倒霉刚好用了大鲸的图片呢？不过这也让小雅警觉起来，在这里的所有人都非常注重原创性和版权的问题，自己这样随意使用别人的图片是很危险的。小雅反思了一下自己的行为，诚恳的给大鲸道了歉。这位大鲸也非常的通情达理，一番沟通后撤销了对小雅的踩。</p>
@@ -1080,7 +1545,7 @@ Market Bandwidth：用于转账、交易等等</p>
 </table>
 </div>
 <div id="section-2.12" class="section level2">
-<h2><span class="header-section-number">2.12</span> 延伸阅读：自动点赞 <a href="#fn28" class="footnote-ref" id="fnref28"><sup>28</sup></a></h2>
+<h2><span class="header-section-number">2.12</span> 延伸阅读：自动点赞 <a href="#fn29" class="footnote-ref" id="fnref29"><sup>29</sup></a></h2>
 <p>在使用 SteemAuto 之前，我用的是另一款自动点赞工具。在没有仔细阅读服务条例的情况下，我就稀里糊涂开始用，后来才发现，那个工具会用我的名字给他们认为合适的帖子点赞，每天一次。这就尴尬了，万一哪篇帖子是骂我的，碰巧被我自己点赞的话，岂不是自打耳光？</p>
 <p>于是我就把那款软件停用了，却苦于没有替代软件，直到朋友为我推荐了 SteemAuto。</p>
 <p>SteemAuto 提供了三种自动点赞方案：自动点赞帖子，自动点赞评论，自动跟随点赞。本教程对这三种方式逐一介绍。</p>
@@ -1131,7 +1596,7 @@ Market Bandwidth：用于转账、交易等等</p>
 <p>以上介绍了 SteemAuto 的自动点赞帖子、自动点赞评论、自动跟随点赞等方法。如有哪里说得不清楚的地方，欢迎留言探讨。</p>
 </div>
 <div id="5" class="section level2">
-<h2><span class="header-section-number">2.13</span> 延伸阅读：评论中的5点禁忌 <a href="#fn29" class="footnote-ref" id="fnref29"><sup>29</sup></a></h2>
+<h2><span class="header-section-number">2.13</span> 延伸阅读：评论中的5点禁忌 <a href="#fn30" class="footnote-ref" id="fnref30"><sup>30</sup></a></h2>
 <p>刚来到steemit的朋友们在解决了如何发帖这类基础问题后，面临的就是如何增加声誉、收益和followers。很多前辈会说，最直接的方法就是提供优质内容。虽说酒香不怕巷子深，但必要的“敲门砖”还是需要的，这里我指的就是互动。</p>
 <p>我们都知道，steemit严格意义来说应该算是社交平台，因而互动就占着很重要的地位。初期，受带宽的限制，我一天一般自己发1篇文章，赞10篇文章，留言20条（这里面还包括了回复给我的留言）。这样的限制，与入驻初期急于“广交朋友”的愿望是很矛盾的。想解决带宽问题，最直接的方法就是power up。如果你不想，那就只能合理运用自己的带宽，做最合适的事，能交到朋友吸引大鲸当然是最好，最低限度是起码不“招黑”。</p>
 <p>我们都知道，upvote（点赞）可以带给我们收益和声誉，那么downvote（踩）将让你苦心经营的一切化为乌有。</p>
@@ -1168,7 +1633,7 @@ Market Bandwidth：用于转账、交易等等</p>
 <p>不过基于steemit等级低的用户无法给等级高的用户downvote，而大鱼大鲸间保持着一定的制衡，不会为了此等小事撕破脸皮。因而这种情况下，大多数还是敢（会）怒不敢（会）言的状况。当然，CN区这种情况几乎未有出现，得到大赞的大多是言而有实的内容。对于此，SP掌握在别人自家手里，别人也没什么置喙的权力了。</p>
 </div>
 <div id="shadowsocks" class="section level2">
-<h2><span class="header-section-number">2.14</span> 延伸阅读：如何傻瓜式使用shadowsocks科学上网 <a href="#fn30" class="footnote-ref" id="fnref30"><sup>30</sup></a></h2>
+<h2><span class="header-section-number">2.14</span> 延伸阅读：如何傻瓜式使用shadowsocks科学上网 <a href="#fn31" class="footnote-ref" id="fnref31"><sup>31</sup></a></h2>
 <p>最近网络封锁升级，在目前还没有办法肉翻的情况下，掌握科学上网可谓是一项必备技能。steemit去中心化的设置，是否有天也会有Google的命运犹未可知，抱着多一门手艺总是好的技能，我开始研究了如何搭梯子。</p>
 <p>首先，你得购买好海外VPS服务器，我自己用的是<a href="https://www.vultr.com/?ref=7283331">vultr</a>。</p>
 <p>经过简单的注册以后，你就可以拥有自己的服务器啦。注意在注册前，在网上搜索一下最近的优惠码或邀请码，可以有一定的优惠。一般个人用的话，2.5/mo的足够了。</p>
@@ -1236,23 +1701,24 @@ Enjoy it!</code></pre>
 <ol start="12">
 <li id="fn12"><p>作者：@wang-peilin；小故事：@maiyude；编辑：@dapeng<a href="jbcsp-.html#fnref12" class="footnote-back">↩</a></p></li>
 <li id="fn13"><p>作者：@wang-peilin；小故事:@maiyude;编辑：@dapeng。本文部分引用自@rivalhw的文章<a href="jbcsp-.html#fnref13" class="footnote-back">↩</a></p></li>
-<li id="fn14"><p>作者：@ericet；原文链接：<a href="https://steemit.com/cn/@ericet/35f52g" class="uri">https://steemit.com/cn/@ericet/35f52g</a><a href="jbcsp-.html#fnref14" class="footnote-back">↩</a></p></li>
+<li id="fn14"><p>作者：@maiyude；校对：@meixia；更新：@miniu；原文链接：<a href="https://steemit.com/cn/@maiyude/sp-steem-power；内容更新：https://steemit.com/cn/@miniu/steem231sp-cnbywwmtop" class="uri">https://steemit.com/cn/@maiyude/sp-steem-power；内容更新：https://steemit.com/cn/@miniu/steem231sp-cnbywwmtop</a><a href="jbcsp-.html#fnref14" class="footnote-back">↩</a></p></li>
 <li id="fn15"><p>作者：@maiyude；校对：@meixia；更新：@miniu；原文链接：<a href="https://steemit.com/cn/@maiyude/sp-steem-power；内容更新：https://steemit.com/cn/@miniu/steem231sp-cnbywwmtop" class="uri">https://steemit.com/cn/@maiyude/sp-steem-power；内容更新：https://steemit.com/cn/@miniu/steem231sp-cnbywwmtop</a><a href="jbcsp-.html#fnref15" class="footnote-back">↩</a></p></li>
-<li id="fn16"><p>作者：@maiyude；校对：@meixia；更新：@miniu；原文链接：<a href="https://steemit.com/cn/@maiyude/sp-steem-power；内容更新：https://steemit.com/cn/@miniu/steem231sp-cnbywwmtop" class="uri">https://steemit.com/cn/@maiyude/sp-steem-power；内容更新：https://steemit.com/cn/@miniu/steem231sp-cnbywwmtop</a><a href="jbcsp-.html#fnref16" class="footnote-back">↩</a></p></li>
-<li id="fn17"><p>作者：@minloulou；原文链接：<a href="https://busy.org/@minloulou/sp3sp2-ogzvhsoiey" class="uri">https://busy.org/@minloulou/sp3sp2-ogzvhsoiey</a><a href="jbcsp-.html#fnref17" class="footnote-back">↩</a></p></li>
-<li id="fn18"><p>作者：@vickylin；编辑：@vickylin<a href="jbcsp-.html#fnref18" class="footnote-back">↩</a></p></li>
-<li id="fn19"><p>作者：@minloulou：原文链接：<a href="https://busy.org/@minloulou/sp3sp2-ogzvhsoiey" class="uri">https://busy.org/@minloulou/sp3sp2-ogzvhsoiey</a><a href="jbcsp-.html#fnref19" class="footnote-back">↩</a></p></li>
+<li id="fn16"><p>作者：@minloulou；原文链接：<a href="https://busy.org/@minloulou/sp3sp2-ogzvhsoiey" class="uri">https://busy.org/@minloulou/sp3sp2-ogzvhsoiey</a><a href="jbcsp-.html#fnref16" class="footnote-back">↩</a></p></li>
+<li id="fn17"><p>作者：@vickylin；编辑：@vickylin<a href="jbcsp-.html#fnref17" class="footnote-back">↩</a></p></li>
+<li id="fn18"><p>作者：@minloulou：原文链接：<a href="https://busy.org/@minloulou/sp3sp2-ogzvhsoiey" class="uri">https://busy.org/@minloulou/sp3sp2-ogzvhsoiey</a><a href="jbcsp-.html#fnref18" class="footnote-back">↩</a></p></li>
+<li id="fn19"><p>作者：@ericet；原文链接：<a href="https://steemit.com/steempress/@ericet/sp-0nzgkme8l3" class="uri">https://steemit.com/steempress/@ericet/sp-0nzgkme8l3</a><a href="jbcsp-.html#fnref19" class="footnote-back">↩</a></p></li>
 <li id="fn20"><p>作者：@vickylin；小故事：@maiyude编辑：@vickylin<a href="jbcsp-.html#fnref20" class="footnote-back">↩</a></p></li>
 <li id="fn21"><p>作者：@wang-peilin 小故事：@maiyude；校对：@meixia；本文部分引用@tumutanzi、@oflyhigh的文章<a href="jbcsp-.html#fnref21" class="footnote-back">↩</a></p></li>
-<li id="fn22"><p>作者：@vickylin；编辑：@vickylin<a href="jbcsp-.html#fnref22" class="footnote-back">↩</a></p></li>
-<li id="fn23"><p>作者：@vickylin 小故事：@maiyude 编辑：@vickylin<a href="jbcsp-.html#fnref23" class="footnote-back">↩</a></p></li>
-<li id="fn24"><p>作者:@woolfe19861008/;小故事@maiyude;校对：@meixia<a href="jbcsp-.html#fnref24" class="footnote-back">↩</a></p></li>
-<li id="fn25"><p>作者：@dapeng；小故事：@maiyude;编辑@vickylin;<a href="jbcsp-.html#fnref25" class="footnote-back">↩</a></p></li>
-<li id="fn26"><p>作者：@maiyude<a href="jbcsp-.html#fnref26" class="footnote-back">↩</a></p></li>
-<li id="fn27"><p>作者：@incrediblesnow;小故事:@maiyude;原文链接:<a href="https://steemit.com/@incrediblesnow/3lyojl-steemit" class="uri">https://steemit.com/@incrediblesnow/3lyojl-steemit</a><a href="jbcsp-.html#fnref27" class="footnote-back">↩</a></p></li>
-<li id="fn28"><p>作者：@dapeng；编辑：@vickylin;<a href="jbcsp-.html#fnref28" class="footnote-back">↩</a></p></li>
-<li id="fn29"><p>作者：@vickylin；编辑：@vickylin; 校对：@meixia<a href="jbcsp-.html#fnref29" class="footnote-back">↩</a></p></li>
-<li id="fn30"><p>作者：@vickylin；编辑：@vickylin<a href="jbcsp-.html#fnref30" class="footnote-back">↩</a></p></li>
+<li id="fn22"><p>作者：@ericet；原文链接：<a href="https://steemit.com/cn/@ericet/35f52g" class="uri">https://steemit.com/cn/@ericet/35f52g</a><a href="jbcsp-.html#fnref22" class="footnote-back">↩</a></p></li>
+<li id="fn23"><p>作者：@vickylin；编辑：@vickylin<a href="jbcsp-.html#fnref23" class="footnote-back">↩</a></p></li>
+<li id="fn24"><p>作者：@vickylin 小故事：@maiyude 编辑：@vickylin<a href="jbcsp-.html#fnref24" class="footnote-back">↩</a></p></li>
+<li id="fn25"><p>作者:@woolfe19861008/;小故事@maiyude;校对：@meixia<a href="jbcsp-.html#fnref25" class="footnote-back">↩</a></p></li>
+<li id="fn26"><p>作者：@dapeng；小故事：@maiyude;编辑@vickylin;<a href="jbcsp-.html#fnref26" class="footnote-back">↩</a></p></li>
+<li id="fn27"><p>作者：@maiyude<a href="jbcsp-.html#fnref27" class="footnote-back">↩</a></p></li>
+<li id="fn28"><p>作者：@incrediblesnow;小故事:@maiyude;原文链接:<a href="https://steemit.com/@incrediblesnow/3lyojl-steemit" class="uri">https://steemit.com/@incrediblesnow/3lyojl-steemit</a><a href="jbcsp-.html#fnref28" class="footnote-back">↩</a></p></li>
+<li id="fn29"><p>作者：@dapeng；编辑：@vickylin;<a href="jbcsp-.html#fnref29" class="footnote-back">↩</a></p></li>
+<li id="fn30"><p>作者：@vickylin；编辑：@vickylin; 校对：@meixia<a href="jbcsp-.html#fnref30" class="footnote-back">↩</a></p></li>
+<li id="fn31"><p>作者：@vickylin；编辑：@vickylin<a href="jbcsp-.html#fnref31" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
             </section>
