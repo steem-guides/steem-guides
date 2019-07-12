@@ -610,7 +610,7 @@ Steemitworldmap除了配合你的旅游帖子和美照之外，发美食应该�
 
 ![](https://cdn.steemitimages.com/DQmY547sugNtCFU6V9fQ9NAhSSPYHT1aspfzW63KcY5FCg3/snax.png)
 
-### 给社交平台用户的一盒糖果（Snax）
+<h3>给社交平台用户的一盒糖果（Snax）</h3>
 
 之前就有听Steem上的朋友说过Snax这一个区块链产品。Snax是很有意思的一个区块链项目，我把它看作是奖赏给社交平台用户的一种充满惊喜的糖果。
 
@@ -624,7 +624,7 @@ Snax目前支持Twitter和Steem，作为Steem的用户很乐意看见有区块�
 
 ![](https://cdn.steemitimages.com/DQmX4wSN5GZzjvmALhZoVzjG8B9v5LA5NDr5w49tsAFxsyF/snax2.png)
 
-### 有关Snax的体验和奖励指标。
+<h3>有关Snax的体验和奖励指标。</h3>
 
 关于Snax比较想说的一点是，它与其它产品体验的不同。
 
