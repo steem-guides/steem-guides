@@ -284,6 +284,8 @@ c. 租用多少星期, 輸入數字1 ~52. (即一星期至一年)
 <hr>
 
 個人經驗, \@minnowbooster人流會多一點, 所以會比較容易租到SP. 但\@delegationhub也不是太差的, 偶爾也會有活動可以收到他們贊助的少量SP~.
+
+
 ### 为什么帐号上的SP数量每天都在增长？^[作者：\@ericet；原文链接：https://steemit.com/steempress/@ericet/sp-0nzgkme8l3]
 你有没有发现你STEEM钱包里面SP每天一点点的增加？
 
@@ -756,6 +758,7 @@ c. 租用多少星期, 輸入數字1 ~52. (即一星期至一年)
     ![](images/2-4-05.png)
 
   所以我们可以确定，只要1SBD的实际市场价格大于1美元，我们选择50%/50%分配方案就会比100%分配方案更有优势。
+  
 ### 帖子收益的计算方式 ^[作者：\@ericet；原文链接：https://steemit.com/cn/@ericet/35f52g]{#how-to-calculate-reward}
 
 帖子计算的公式 
