@@ -606,6 +606,49 @@ Steemitworldmap除了配合你的旅游帖子和美照之外，发美食应该�
 在前两个上面分别填入你的用户名和发帖密码，然后在下面填入你愿意维持的最小的投票能量，当你的投票能量低于你设定的数值时，你就不会在进行投票，同样别人也不会给你投票。最后点击I'am sure就ok啦。
 
 
+## Snax ^[作者:\@jianan;编辑:\@jianan;原文链接:https://steemit.com/cn/@jianan/snax]
+
+![](https://cdn.steemitimages.com/DQmY547sugNtCFU6V9fQ9NAhSSPYHT1aspfzW63KcY5FCg3/snax.png)
+
+### 给社交平台用户的一盒糖果（Snax）
+
+之前就有听Steem上的朋友说过Snax这一个区块链产品。Snax是很有意思的一个区块链项目，我把它看作是奖赏给社交平台用户的一种充满惊喜的糖果。
+
+正如电影《阿甘正传》中说的”Life was like a box of chocolate ,you never know what you're gonna get.“（生活就像一盒巧克力，你永远不知道下一颗会尝到什么味道。）
+
+Snax就是这样的一盒巧克力，它给活跃在各个社交平台上的用户，为其在平台的社交行为而提供一些Snax奖励。
+
+或者简单说有些类似Likecoin的Tips意思在里面。Snax的独特之处，在于它可以让内容社交平台上的用户，在不需要离开自己喜欢的平台的情况下获得SNAX的奖励。正因为这一点，Snax因此非常受用户欢迎。
+
+Snax目前支持Twitter和Steem，作为Steem的用户很乐意看见有区块链产品一开始就支持Steem平台。Snax项目才刚刚开始，相信Snax在未来也会支持更多的互联网社区平台，毕竟Twitter都支持了，Facebook、youtube、instagram甚至中文的微博还会远嘛。
+
+![](https://cdn.steemitimages.com/DQmX4wSN5GZzjvmALhZoVzjG8B9v5LA5NDr5w49tsAFxsyF/snax2.png)
+
+### 有关Snax的体验和奖励指标。
+
+关于Snax比较想说的一点是，它与其它产品体验的不同。
+
+Snax让人感到比较好的体验是，用户甚至不需要在Snax上创建帐户就能参与进来，等到你什么时候想要领取奖励时再去注册领取。用户根本就不需要离开原来的社区就能参与进来，获得这额外的糖果。
+
+Snax对用户来说是一种惊喜的糖果，对社交平台来说，充当的则是一个搭档的角色而非竞争对手。它是一种附加的餐后糕点。这一点使得用户使用的门槛降低下来，也不会去和社交平台争夺用户的注意力和时间。
+
+这是一种很轻的体验，就是说花费很低注意力的就能参与的产品体验。
+
+奖励的SNAX可以赠送给朋友，目前可通过Twitter或者Steem账户名发送。而关于SNAX代币的的获取，除了目前注册用户领取的50枚之外，还有两个方法。
+
+- 1、一个是成为社交平台的内容作者，只要持续创作内容，获得粉丝的回复，点赞，转发等行为就能获得更多的奖励。
+
+- 2、另一个是SNAX的出块奖励。Snax使用DPoS共识。Snax链的每个块都由21个块生产者验证产出。
+
+对于普通用户来说，如果想获更多SNAX，只需要注册绑定成为作者，发布日常内容就有机会获得SNAX代币，比如成为Twitter的用户，或者Steem用户。在绑定验证之后就能参与进来。
+
+Snax是通过一个叫做Attention Rate（影响力？）的指标来进行SNAX代币的奖励发放。
+
+从目前得知的有关SNAX奖励的指标中，主要有评论数量，投票数，被关注的粉丝数等，据说跟SteemAuto的指标类似。
+
+也就是所你发的帖子越受欢迎，被越多人点赞，转发，评论就有可能获得更多的SNAX奖励。
+
+
 ## 延伸阅读：授权与安全 ^[作者:\@rileyge;\@skenan;编辑:\@maiyude;原文链接:https://steemit.com/cn/@rileyge/steemconnect-v2]
 
 - 什么是 SteemConnect
