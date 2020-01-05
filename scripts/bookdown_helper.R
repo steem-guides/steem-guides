@@ -50,7 +50,7 @@ update_image_urls <- function(img_dir = 'images') {
     # to skip the case that the image url is in a MD code block
     if (f != "04_0.Rmd" && f != "steemh.Rmd" ) {
       # read ![.*](image url) or <img ... src="image url" ... />
-      img_url_regex = "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)\\.(jpg|jpeg|png|gif|svg)"
+      img_url_regex = "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)" # \\.(jpg|jpeg|png|gif|svg) -> reduce the restriction on file extension
       # img_url_regex <- "(https?:\\/\\/.*\\.(?:png|jpe?g|gif|svg))"
       img_block_regex <- paste("!\\[.*\\]\\(", img_url_regex, "\\)", sep="")
       img_tags_regex <- paste("<img[^>]+src=\"", img_url_regex, "\"", sep="")
