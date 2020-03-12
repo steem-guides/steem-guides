@@ -294,6 +294,51 @@ Filter如圖如示, 可以直接跳到你喜愛的作者的頁面而不用search
 各位也可以follow @steempeak的page以得到最新的發展，也可以加入他們的discord: https://discord.gg/pC5bgK 發表你的意見~!
 
 
+## steempress ^[作者:\@honoru;编辑\@robertyan;原文链接:https://steempeak.com/cn/@pet.society/steempress-ke3lnzy6z7]
+
+這幾天有新加入Steem的人查詢 Steempress 的事情，故此特意寫這一帖。而這帖用小號發，而不用主戶口發帖 的原因，便是主戶口 只有 3.5% 的 Steempress 固定點贊。而小號因為在使用 Steempress 初時，每天都寫與 STEM 主題的內容，每帖都在10-30美元收入，因而被判定有 7.5% 以上的固定點贊。利字當頭，這一帖當然是用小號來發。
+
+**Steempress 是甚麼?**
+
+Steempress 是一個建基於 Wordpress 的插件，推出的目的是希望將 Steem推廣至世界各地的 Wordpress 網站站主，讓各站主的Wordpress 在發文章時，可以同步至 Steem。一個簡單的步驟，便可以將 Wordpress 網站內容上傳至區塊鏈，並且獲得 Steem 的Token 收入。
+
+**怎樣安裝?**
+
+只需在 Wordpress 的插件庫內搜索 Steempress 便可以加入。
+
+![](https://honoru.000webhostapp.com/wp-content/uploads/2020/03/image-5.png)
+
+在安裝後，設定十分簡單，只需加入自己的Steem ID 及 Posting Key 便完成。
+
+![](https://honoru.000webhostapp.com/wp-content/uploads/2020/03/image-6.png)
+
+之後，在Wordpress 發帖後，便可以同時同步至 Steem。在 Wordpress 發帖的好處，當然是編輯器十分友善，與及可以自己預定未來發帖時間。
+
+**使用Steempress 有獎勵?**  
+
+對啊！Steempress團隊為鼓勵大家多多使用。故此，所有透過 Steempress 插件發帖的帖子，每天24小時內，可以獲得一次的鼓勵點贊。不過，不同的博主，所獲得的點贊比例會不一樣。
+
+現時大約3.5% - 18% 之間。
+
+**如何獲得高額的Steempress 點贊？**  
+
+Steempress 採用「內容審查再判斷形式」來定一位博主所獲得的「固定點贊比例」，從最低3.5%開始。而判定的原則亦相當簡單，便是透過一位博主的最初幾張 Steempress帖來作判決，所以最初發的帖很重要。
+
+開始使用Steempress 時，基本Steempress 不會來點贊，大約發了 5-10帖後，Steempress團隊會判斷該段時間該博主的帖子質量及積極程度，透過這些判斷而給予不同比例級別。當有了這些級別，以後很少會再改變。
+
+故此，首段時間使用Steempress 插件要注意以下幾點：
+
+一。 開始的十帖，建議字數較多（500-1000 是必須)，另外也加入不同「自己拍攝 / 設計的圖片」，不要使用公眾或網站上搜尋下來的圖片，抄襲是必死；
+
+二。 內容主題可以很多元化，我們發覺旅遊帖較容易獲得比較高的點讚比例；
+
+三。 Steempress為鼓勵博主們持續使用，所以很喜歡看到每天持續發帖。所以在首階段的那5-10張帖子，最好是每天發一帖。不宜多，也不宜少。
+
+在CN區已有大量的博主使用 Steempress 插件同步 Wordpress 與 Steem。故此，有任何問題，可以隨時向大家發問。
+
+最後，有一點要留意。雖然透過Steempress發帖有額外的點贊，但是該帖子Steempress也有抽成。故此，不要在一些高額的帖上使用Steempress，避免抽成的金額比Steempress的點贊更多加而吃虧。而高額帖子的意思，便是該帖本身已經獲得$10 美元以上的點贊。
+
+
 ## dtube ^[作者:\@yellowbird;编辑:\@maiyude;原文链接:https://bihu.com/article/216210]
 ![](images/9-d-1.png)
 
